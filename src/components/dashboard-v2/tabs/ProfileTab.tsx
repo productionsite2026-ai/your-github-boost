@@ -8,6 +8,7 @@ import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
 import { useQueryClient } from "@tanstack/react-query";
 import avatarWalker from "@/assets/avatar-walker.jpg";
+import { Badge } from "@/components/ui/badge";
 import { mockProfile } from "@/data/demoData";
 import { Switch } from "@/components/ui/switch";
 
