@@ -144,7 +144,7 @@ export const HeroSection = () => {
           {/* Trust indicators */}
           <div className="mt-8 md:mt-12 grid grid-cols-2 md:flex md:justify-center items-center gap-4 md:gap-8 text-xs md:text-sm">
             {[
-              { icon: Shield, text: "CNI & casier vérifiés", color: "text-primary" },
+              { icon: Shield, text: "Promeneurs vérifiés", color: "text-primary" },
               { icon: Star, text: "4.9/5 (2000+ avis)", color: "text-primary" },
               { icon: Clock, text: "Réponse < 1h", color: "text-accent" },
               { icon: MapPin, text: "+50 villes", color: "text-accent" },

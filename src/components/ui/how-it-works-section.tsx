@@ -12,7 +12,7 @@ export const HowItWorksSection = () => {
       number: "1",
       icon: Search,
       title: "Trouvez",
-      description: "Consultez les profils vérifiés des promeneurs près de chez vous. CNI, casier judiciaire et assurance RC vérifiés.",
+      description: "Consultez les profils vérifiés des promeneurs près de chez vous. Profils contrôlés et avis certifiés.",
       highlight: "100% vérifiés",
       image: searchWalker
     },

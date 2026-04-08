@@ -5,7 +5,7 @@ export const FeaturesSection = () => {
     {
       icon: Shield,
       title: "Vérification triple",
-      description: "CNI, casier judiciaire vierge et assurance RC pro obligatoires. Validation manuelle par notre équipe.",
+      description: "Chaque promeneur est rigoureusement sélectionné et vérifié. Validation manuelle par notre équipe.",
       badge: "Sécurité maximale"
     },
     {
@@ -23,7 +23,7 @@ export const FeaturesSection = () => {
     {
       icon: FileCheck,
       title: "Documents certifiés",
-      description: "Assurance RC, attestation premiers secours, certificat de capacité. Qualité professionnelle garantie.",
+      description: "Attestation premiers secours, certificat de capacité. Qualité professionnelle garantie.",
       badge: "Promeneurs pros"
     },
     {
@@ -40,8 +40,8 @@ export const FeaturesSection = () => {
     },
     {
       icon: Heart,
-      title: "Assurance incluse",
-      description: "Toutes les missions sont couvertes par notre assurance responsabilité civile professionnelle.",
+      title: "Protection incluse",
+      description: "Toutes les missions bénéficient de notre garantie de protection et de suivi.",
       badge: "Couverture totale"
     },
     {

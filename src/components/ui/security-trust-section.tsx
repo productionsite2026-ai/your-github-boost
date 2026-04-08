@@ -34,13 +34,13 @@ export const SecurityTrustSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto items-stretch">
           {trustItems.map((item, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-5 md:p-6 shadow-soft border border-border hover:shadow-card transition-shadow"
+              className="bg-card rounded-2xl p-5 md:p-6 shadow-soft border border-border hover:shadow-card transition-shadow text-center flex flex-col items-center"
             >
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col items-center text-center gap-3">
                 <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary flex-shrink-0">
                   <item.icon className="h-6 w-6" />
                 </div>

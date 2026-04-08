@@ -4,15 +4,15 @@ export const DogWalkingProtect = () => {
   const protections = [
     {
       icon: Shield,
-      title: "Assurance RC Pro",
-      description: "Toutes les promenades couvertes jusqu'à 2M€. Accidents, dommages, incidents - tout est pris en charge.",
-      stat: "2M€"
+      title: "Protection garantie",
+      description: "Toutes les promenades sont couvertes. En cas de problème, notre équipe intervient immédiatement.",
+      stat: "100%"
     },
     {
       icon: FileCheck,
-      title: "Triple vérification",
-      description: "CNI, extrait de casier judiciaire vierge, assurance RC personnelle. Vérification manuelle obligatoire.",
-      stat: "3 docs"
+      title: "Vérification rigoureuse",
+      description: "Chaque promeneur est soigneusement sélectionné et vérifié par notre équipe avant d'être accepté.",
+      stat: "Sélection"
     },
     {
       icon: Lock,
