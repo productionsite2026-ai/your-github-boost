@@ -12,10 +12,9 @@ export const UserTypesSection = () => {
   const navigate = useNavigate();
 
   const ownerBenefits = [
-    { text: "Promeneurs avec CNI et casier vérifiés", icon: Shield },
+    { text: "Promeneurs rigoureusement vérifiés", icon: Shield },
     { text: "Preuves photo/vidéo obligatoires", icon: Camera },
-    { text: "Paiement sécurisé en escrow", icon: CreditCard },
-    { text: "Assurance RC incluse (2M€)", icon: Shield },
+    { text: "Paiement sécurisé", icon: CreditCard },
     { text: "Avis certifiés et badges de qualité", icon: Star },
     { text: "Support réactif 7j/7", icon: Users }
   ];
@@ -23,7 +22,6 @@ export const UserTypesSection = () => {
   const walkerBenefits = [
     { text: "Revenus complémentaires attractifs", icon: Euro },
     { text: "Emploi du temps 100% flexible", icon: Clock },
-    { text: "Assurance professionnelle fournie", icon: Shield },
     { text: "Paiements rapides et sécurisés", icon: CreditCard },
     { text: "Badges et reconnaissance", icon: Star },
     { text: "Formation aux premiers secours", icon: Heart }
@@ -173,8 +171,8 @@ export const UserTypesSection = () => {
               <CardContent className="p-6">
                 <p className="text-muted-foreground mb-6">
                   Rejoignez notre réseau de promeneurs professionnels. Fixez librement vos tarifs, 
-                  choisissez vos horaires et zones d'intervention. Bénéficiez d'une assurance 
-                  professionnelle et recevez vos paiements de manière sécurisée sous 48h.
+                  choisissez vos horaires et zones d'intervention. Recevez vos paiements 
+                  de manière sécurisée sous 48h.
                 </p>
 
                 <ul className="space-y-3 mb-6">

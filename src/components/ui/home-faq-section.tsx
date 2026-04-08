@@ -8,7 +8,7 @@ const homeFAQs = [
   },
   {
     question: "Les promeneurs sont-ils vraiment vérifiés ?",
-    answer: "Absolument. Chaque promeneur fournit une pièce d'identité valide, un extrait de casier judiciaire vierge, et une attestation d'assurance responsabilité civile. Notre équipe vérifie manuellement chaque document. Seuls 35% des candidats sont acceptés après ce processus rigoureux. Vous pouvez confier votre compagnon en toute sérénité."
+    answer: "Absolument. Chaque promeneur passe par un processus de sélection rigoureux. Notre équipe vérifie manuellement chaque profil. Seuls 35% des candidats sont acceptés. Vous pouvez confier votre compagnon en toute sérénité."
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",

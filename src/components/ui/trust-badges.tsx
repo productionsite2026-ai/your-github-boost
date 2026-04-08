@@ -36,7 +36,7 @@ export const TrustBadges = ({
       icon: <Shield className="w-6 h-6" />,
       title: "Promeneurs Vérifiés",
       description:
-        "Vérification d'identité, casier judiciaire, assurance RC obligatoire.",
+        "Chaque promeneur est rigoureusement sélectionné et vérifié par notre équipe.",
       highlight: "35% d'acceptation",
     },
     {

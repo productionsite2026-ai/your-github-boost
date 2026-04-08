@@ -29,7 +29,7 @@ export const HomeIntroSection = () => {
     {
       icon: Shield,
       title: "Promeneurs 100% Vérifiés",
-      description: "Chaque promeneur fournit une pièce d'identité, un casier judiciaire vierge et une assurance RC professionnelle. Notre équipe vérifie manuellement chaque candidature.",
+      description: "Chaque promeneur est soigneusement sélectionné et vérifié par notre équipe. Seuls les profils de confiance sont acceptés sur la plateforme.",
       highlight: "Seuls 35% des candidats acceptés",
       image: verificationBadge,
       color: "from-primary/20 to-primary/10"
