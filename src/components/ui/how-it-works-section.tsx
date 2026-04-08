@@ -36,7 +36,7 @@ export const HowItWorksSection = () => {
       number: "4",
       icon: ThumbsUp,
       title: "Validez & Payez",
-      description: "Le paiement est débloqué après réception de la preuve. Laissez un avis certifié pour aider la communauté.",
+      description: "Le paiement est débloqué après réception de la preuve et communication du code par le Propriétaire. Laissez un avis certifié pour aider la communauté.",
       highlight: "Satisfaction garantie",
       image: paiementValideApp
     }
