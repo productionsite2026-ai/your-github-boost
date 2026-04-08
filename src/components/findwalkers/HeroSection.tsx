@@ -19,7 +19,7 @@ const FindWalkersHero = () => {
     { id: "garde", label: "Garde à domicile" },
   ];
   const servicesTravail = [
-    { id: "visite", label: "Visites à domicile" },
+    { id: "visite", label: "Visites à votre domicile" },
     { id: "garderie", label: "Garderie" },
     { id: "promenade", label: "Promenade" },
   ];

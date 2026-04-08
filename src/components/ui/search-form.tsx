@@ -19,7 +19,7 @@ export const SearchForm = () => {
   ];
 
   const servicesTravail = [
-    { id: "visite_domicile", label: "Visites à domicile", icon: Heart },
+    { id: "visite_domicile", label: "Visites à votre domicile", icon: Heart },
     { id: "hebergement_jour", label: "Garderie pour chien", icon: Heart },
     { id: "promenade", label: "Promenade de chien", icon: Heart },
   ];
