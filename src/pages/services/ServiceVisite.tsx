@@ -398,7 +398,7 @@ const ServiceVisite = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Pourquoi Nos Clients Adorent les Visites à Domicile
+                  Pourquoi Nos Clients Adorent les Visites à votre Domicile
                 </h2>
                 <div className="space-y-6">
                   <div className="bg-card p-6 rounded-xl border">
@@ -498,7 +498,7 @@ const ServiceVisite = () => {
 
         {/* FAQ */}
         <SEOFAQ 
-          title="Questions Fréquentes sur les Visites à Domicile"
+          title="Questions Fréquentes sur les Visites à votre Domicile"
           subtitle="Tout ce que vous devez savoir avant de réserver"
           faqs={visiteFAQs}
           className="bg-muted/30"
