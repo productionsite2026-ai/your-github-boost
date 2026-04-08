@@ -154,8 +154,8 @@ const ProfileTab = ({ role }: { role: "owner" | "walker" }) => {
           <img src={profile?.avatar_url || avatarWalker} alt="Avatar"
             className="w-20 h-20 rounded-full object-cover ring-4 ring-primary/20 mx-auto transition-transform group-hover:scale-105" />
           {uploading ? (
-            <div className="absolute inset-0 rounded-full bg-black/40 flex items-center justify-center mx-auto w-20 h-20">
-              <RefreshCw className="w-5 h-5 text-white animate-spin" />
+            <div className="absolute inset-0 rounded-full bg-foreground/40 flex items-center justify-center mx-auto w-20 h-20">
+              <RefreshCw className="w-5 h-5 text-primary-foreground animate-spin" />
             </div>
           ) : (
             <button onClick={() => !isDemo && fileInputRef.current?.click()}
@@ -320,8 +320,8 @@ const ProfileTab = ({ role }: { role: "owner" | "walker" }) => {
           <button onClick={() => setActiveSection(activeSection === "documents" ? null : "documents")}
             className="w-full p-4 flex items-center justify-between text-left">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center">
-                <FileText className="w-4 h-4 text-amber-600" />
+              <div className="w-9 h-9 rounded-xl bg-accent/10 flex items-center justify-center">
+                <FileText className="w-4 h-4 text-accent-foreground" />
               </div>
               <div>
                 <p className="text-sm font-bold text-foreground">Mes Documents</p>
@@ -342,7 +342,7 @@ const ProfileTab = ({ role }: { role: "owner" | "walker" }) => {
                     <p className="text-xs font-bold text-foreground">{doc.label}</p>
                     <p className="text-[9px] text-muted-foreground">{doc.date}</p>
                   </div>
-                  <Badge className={doc.status === "valid" ? "bg-green-500/10 text-green-600 border-0" : "bg-amber-500/10 text-amber-600 border-0"}>
+                  <Badge className={doc.status === "valid" ? "bg-primary/10 text-primary border-0" : "bg-accent/10 text-accent-foreground border-0"}>
                     {doc.status === "valid" ? "Vérifié" : "En attente"}
                   </Badge>
                 </div>
