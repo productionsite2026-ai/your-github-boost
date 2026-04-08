@@ -136,7 +136,7 @@ export const HeroSection = () => {
                 className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 h-auto bg-white/10 border-white/30 text-white hover:bg-white/20 w-full sm:w-auto backdrop-blur-sm" 
                 onClick={() => window.location.href = '/walker/register'}
               >
-                Devenir promeneur
+                Devenez promeneur ou garde
               </Button>
             </motion.div>
           </motion.div>
