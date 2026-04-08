@@ -82,19 +82,19 @@ export const HomeIntroSection = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-16"
+          className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-16 items-stretch"
         >
           {features.map((feature, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="group relative bg-card rounded-3xl overflow-hidden border border-border/50 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="group relative bg-card rounded-3xl overflow-hidden border border-border/50 shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col"
             >
               {/* Background gradient */}
               <div className={`absolute inset-0 bg-gradient-to-br ${feature.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
               
-              <div className="relative flex flex-col">
+              <div className="relative flex flex-col flex-1">
                 {/* Image */}
                 <div className="h-48 relative overflow-hidden">
                   <motion.img
@@ -108,7 +108,7 @@ export const HomeIntroSection = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-6 flex flex-col justify-center">
+                <div className="p-6 flex flex-col justify-between flex-1">
                   <div className="flex items-center gap-3 mb-4">
                     <motion.div 
                       className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center"
