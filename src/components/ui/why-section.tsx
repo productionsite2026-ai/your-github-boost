@@ -50,7 +50,7 @@ export const WhySection = () => {
     {
       icon: Shield,
       title: "Sécurité",
-      description: "Paiement escrow sécurisé, libéré uniquement après validation de la prestation",
+      description: "Paiement sécurisé, libéré uniquement après validation de la prestation et le retour de votre animal",
       gradient: "from-primary/80 to-accent",
       bgGradient: "from-primary/10 to-accent/5"
     },
