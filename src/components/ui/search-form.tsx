@@ -3,12 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import { MapPin, Heart, Search } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 export const SearchForm = () => {
   const navigate = useNavigate();
-  const [animalType, setAnimalType] = useState("chien");
+  const [animalTypes, setAnimalTypes] = useState<string[]>(["chien"]);
   const [selectedService, setSelectedService] = useState("");
   const [address, setAddress] = useState("");
 
