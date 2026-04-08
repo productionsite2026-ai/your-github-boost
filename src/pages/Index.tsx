@@ -21,7 +21,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Promenade de Chien Partout en France | Promeneurs Vérifiés | DogWalking"
-        description="Trouvez un promeneur de chien vérifié près de chez vous. Paiement sécurisé, preuves photo obligatoires, assurance incluse jusqu'à 2M€. Service de promenade et garde dans toute la France."
+        description="Trouvez un promeneur de chien vérifié près de chez vous. Paiement sécurisé et preuves photo obligatoire. Service de promenade et garde dans toute la France."
         canonical="https://dogwalking.fr"
       />
       <Header />
