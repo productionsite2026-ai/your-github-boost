@@ -66,7 +66,6 @@ export const SearchForm = () => {
           ))}
         </div>
       </div>
-      </div>
 
       {/* Services quand absent */}
       <div className="mb-6">
