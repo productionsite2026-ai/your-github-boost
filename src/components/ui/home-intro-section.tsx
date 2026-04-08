@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, Camera, Lock, Award, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Shield, Camera, Lock, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./button";
 import { useNavigate } from "react-router-dom";
 
@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import verificationBadge from "@/assets/trust/verification-badge.jpg";
 import photoProof from "@/assets/homepage/photo-proof.jpg";
 import validationPayment from "@/assets/homepage/validation-payment.jpg";
-import familleHeureuse from "@/assets/testimonials/famille-heureuse-chien.jpg";
+
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -50,14 +50,6 @@ export const HomeIntroSection = () => {
       image: photoProof,
       color: "from-primary/15 to-accent/15"
     },
-    {
-      icon: Award,
-      title: "Assurance Premium Incluse",
-      description: "Chaque promenade est couverte par une assurance jusqu'à 2 millions d'euros. En cas d'incident, notre équipe gère toutes les démarches.",
-      highlight: "Protection 100% sans frais",
-      image: familleHeureuse,
-      color: "from-accent/20 to-primary/10"
-    }
   ];
 
   return (
@@ -90,7 +82,7 @@ export const HomeIntroSection = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-16"
+          className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-16"
         >
           {features.map((feature, index) => (
             <motion.div
@@ -102,9 +94,9 @@ export const HomeIntroSection = () => {
               {/* Background gradient */}
               <div className={`absolute inset-0 bg-gradient-to-br ${feature.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
               
-              <div className="relative flex flex-col lg:flex-row">
+              <div className="relative flex flex-col">
                 {/* Image */}
-                <div className="lg:w-2/5 h-48 lg:h-auto relative overflow-hidden">
+                <div className="h-48 relative overflow-hidden">
                   <motion.img
                     src={feature.image}
                     alt={feature.title}
@@ -112,11 +104,11 @@ export const HomeIntroSection = () => {
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.4 }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-card via-card/50 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
                 </div>
 
                 {/* Content */}
-                <div className="lg:w-3/5 p-6 lg:p-8 flex flex-col justify-center">
+                <div className="p-6 flex flex-col justify-center">
                   <div className="flex items-center gap-3 mb-4">
                     <motion.div 
                       className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center"
