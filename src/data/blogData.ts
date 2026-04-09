@@ -74,7 +74,7 @@ Un bon promeneur doit avoir une expérience démontrée avec les chiens. Recherc
 ### La vérification et l'assurance
 Assurez-vous que le promeneur :
 - Est vérifié par la plateforme (antécédents, identité)
-- Dispose d'une assurance responsabilité civile
+- Dispose d'une protection professionnelle
 - Peut fournir des références
 
 ### La compatibilité avec votre chien

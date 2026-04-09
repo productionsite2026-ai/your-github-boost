@@ -164,7 +164,7 @@ const WalkerRegister = () => {
                         <CheckCircle className="h-4 w-4 text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">Assurance RC</p>
+                        <p className="font-medium">Protection</p>
                         <p className="text-sm text-muted-foreground">Assurance habitation ou RC professionnelle</p>
                       </div>
                     </div>

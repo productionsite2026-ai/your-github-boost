@@ -109,9 +109,9 @@ export const servicesData: Record<string, ServiceData> = {
     },
     expertiseAdvantages: {
       experience: "Nos promeneurs cumulent en moyenne plus de 3 ans d'expérience avec les chiens. Beaucoup sont d'anciens éducateurs canins, vétérinaires, ou professionnels du monde animal. Cette expertise leur permet de gérer toutes les situations : chiens craintifs, réactifs, fugueurs ou simplement débordants d'énergie.",
-      insurance: "Chaque promeneur dispose d'une assurance responsabilité civile professionnelle couvrant tous les incidents potentiels. En cas d'accident, de blessure ou de dommage, vous êtes protégé. Notre système de paiement escrow garantit également que vous ne payez qu'une fois entièrement satisfait du service.",
+      insurance: "Chaque promeneur dispose d'une protection professionnelle couvrant tous les incidents potentiels. En cas d'accident, de blessure ou de dommage, vous êtes protégé. Notre système de paiement sécurisé garantit également que vous ne payez qu'une fois entièrement satisfait du service.",
       method: "Notre méthode repose sur le renforcement positif et le respect du rythme de chaque animal. Pas de colliers étrangleurs, pas de méthodes coercitives. Chaque chien est traité avec douceur et encouragements. Nous croyons fermement que la confiance se construit par la bienveillance.",
-      trust: "La confiance est le fondement de notre service. Vérification d'identité par CNI, extrait de casier judiciaire, références professionnelles : chaque promeneur passe par un processus de validation rigoureux. Les avis vérifiés des autres propriétaires vous permettent de faire un choix éclairé."
+      trust: "La confiance est le fondement de notre service. Vérification d'identité par identité vérifiée, références professionnelles : chaque promeneur passe par un processus de validation rigoureux. Les avis vérifiés des autres propriétaires vous permettent de faire un choix éclairé."
     },
     advantages: [
       "Exercice physique adapté au rythme et à l'âge de votre chien",
@@ -119,9 +119,9 @@ export const servicesData: Record<string, ServiceData> = {
       "Socialisation encadrée avec d'autres chiens lors des promenades collectives",
       "Stimulation mentale enrichissante grâce à la découverte de nouveaux parcours et environnements",
       "Preuves photo et compte-rendu détaillé envoyés après chaque sortie",
-      "Promeneurs rigoureusement vérifiés : CNI, casier judiciaire, assurance professionnelle",
+      "Promeneurs rigoureusement vérifiés : identité vérifiée",
       "Suivi GPS en temps réel pour suivre le parcours de votre chien",
-      "Paiement sécurisé avec système escrow : vous ne payez qu'après validation"
+      "Paiement sécurisé avec système de paiement sécurisé : vous ne payez qu'après validation"
     ],
     localAvailability: {
       mainCity: "Notre réseau de promeneurs couvre l'ensemble du territoire français, des grandes métropoles aux villes moyennes.",
@@ -129,10 +129,10 @@ export const servicesData: Record<string, ServiceData> = {
       coverage: "Actuellement présents dans plus de 500 communes, nous élargissons continuellement notre couverture géographique pour répondre à la demande croissante des propriétaires de chiens partout en France."
     },
     faq: [
-      { question: "Qui sont les promeneurs DogWalking ?", answer: "Nos promeneurs sont des passionnés d'animaux rigoureusement sélectionnés. Chaque candidat passe par une vérification d'identité complète (CNI), un contrôle de casier judiciaire, et doit fournir une attestation d'assurance responsabilité civile professionnelle. Nous vérifions également leurs références et leur expérience avec les chiens. Seuls 20% des candidats sont acceptés après notre processus de sélection." },
+      { question: "Qui sont les promeneurs DogWalking ?", answer: "Nos promeneurs sont des passionnés d'animaux rigoureusement sélectionnés. Chaque candidat passe par une vérification d'identité complète (CNI), un contrôle de vérification approfondie, et doit fournir une documents professionnels responsabilité civile professionnelle. Nous vérifions également leurs références et leur expérience avec les chiens. Seuls 20% des candidats sont acceptés après notre processus de sélection." },
       { question: "Puis-je choisir la durée de la promenade ?", answer: "Absolument ! Nous proposons trois durées de promenade pour s'adapter aux besoins de votre chien. La promenade de 30 minutes convient aux chiens calmes ou pour une sortie hygiénique. La promenade d'1 heure est notre format le plus populaire, offrant un bon équilibre entre exercice et stimulation. La promenade de 2 heures est idéale pour les chiens très énergiques nécessitant une dépense importante." },
       { question: "Que se passe-t-il en cas d'annulation ?", answer: "Nous comprenons que les imprévus arrivent. Vous pouvez annuler gratuitement jusqu'à 24 heures avant la promenade prévue. Les annulations entre 24h et 2h avant entraînent des frais de 50% du montant. Les annulations de dernière minute (moins de 2h) ou les absences sont facturées à 100%. En cas d'urgence médicale justifiée, contactez notre support pour un traitement au cas par cas." },
-      { question: "Mon chien est-il assuré pendant la promenade ?", answer: "Oui, votre chien est couvert pendant toute la durée de la prestation. Tous nos promeneurs disposent d'une assurance responsabilité civile professionnelle qui couvre les dommages potentiels, les blessures accidentelles et les incidents impliquant des tiers. De plus, notre système de paiement escrow vous protège financièrement : vous ne payez qu'une fois satisfait du service rendu." },
+      { question: "Mon chien est-il assuré pendant la promenade ?", answer: "Oui, votre chien est couvert pendant toute la durée de la prestation. Tous nos promeneurs disposent d'une protection professionnelle qui couvre les dommages potentiels, les blessures accidentelles et les incidents impliquant des tiers. De plus, notre système de paiement sécurisé vous protège financièrement : vous ne payez qu'une fois satisfait du service rendu." },
       { question: "Comment se passe la remise des clés ?", answer: "Plusieurs options s'offrent à vous pour la remise des clés. La solution la plus courante est une remise en main propre lors de la première rencontre avec le promeneur. Vous pouvez également utiliser une boîte à clés sécurisée à code ou un système de digicode si votre immeuble le permet. Nous recommandons fortement un premier rendez-vous de présentation pour que votre chien et le promeneur fassent connaissance." },
       { question: "Les promenades collectives sont-elles sécurisées ?", answer: "Nos promenades collectives sont limitées à un maximum de 4 chiens par promeneur pour garantir une attention suffisante à chaque animal. Avant d'intégrer une promenade collective, nous vérifions que votre chien est sociable et compatible avec le groupe existant. Les chiens réactifs ou nécessitant une attention particulière sont orientés vers des promenades individuelles." },
       { question: "Que faire si mon chien a des besoins médicaux ?", answer: "Nos promeneurs sont formés pour administrer des médicaments simples si vous fournissez des instructions claires et les médicaments. Pour les chiens sous traitement régulier, nous notons toutes les particularités dans le profil de votre animal. En cas de problème de santé pendant la promenade, le promeneur contacte immédiatement notre équipe et peut se rendre chez un vétérinaire si nécessaire." },
@@ -177,9 +177,9 @@ export const servicesData: Record<string, ServiceData> = {
     },
     expertiseAdvantages: {
       experience: "Nos visiteurs sont sélectionnés pour leur expérience avec différentes espèces animales. Ils savent lire le langage corporel des chats et des chiens, détecter les signes de mal-être et adapter leur comportement à chaque personnalité animale.",
-      insurance: "Tous nos visiteurs disposent d'une assurance responsabilité civile professionnelle. En cas d'incident à votre domicile ou concernant votre animal, vous êtes couvert. Le paiement escrow vous protège également financièrement.",
+      insurance: "Tous nos visiteurs disposent d'une protection professionnelle. En cas d'incident à votre domicile ou concernant votre animal, vous êtes couvert. Le paiement sécurisé vous protège également financièrement.",
       method: "Notre approche privilégie la douceur et le respect du rythme de l'animal. Pas de manipulation brusque, pas de stress inutile. Nous suivons vos instructions à la lettre tout en apportant notre expertise et notre bienveillance.",
-      trust: "La confiance est essentielle quand on ouvre son domicile à un tiers. C'est pourquoi chaque visiteur passe par une vérification d'identité, un contrôle de casier judiciaire et doit fournir des références vérifiables. Les avis des autres propriétaires complètent cette transparence."
+      trust: "La confiance est essentielle quand on ouvre son domicile à un tiers. C'est pourquoi chaque visiteur passe par une vérification d'identité, un contrôle de vérification approfondie et doit fournir des références vérifiables. Les avis des autres propriétaires complètent cette transparence."
     },
     advantages: [
       "Votre animal reste dans son environnement familier et rassurant",
@@ -245,9 +245,9 @@ export const servicesData: Record<string, ServiceData> = {
     },
     expertiseAdvantages: {
       experience: "Nos gardiens sont des passionnés d'animaux avec une expérience significative du pet-sitting. Ils connaissent les différentes races, leurs besoins spécifiques et leurs comportements typiques. Cette expertise leur permet de s'adapter rapidement à chaque chien.",
-      insurance: "Chaque gardien dispose d'une assurance responsabilité civile professionnelle couvrant son intervention. Votre domicile et votre animal sont protégés pendant toute la durée de la garde. Le paiement sécurisé vous offre une garantie supplémentaire.",
+      insurance: "Chaque gardien dispose d'une protection professionnelle couvrant son intervention. Votre domicile et votre animal sont protégés pendant toute la durée de la garde. Le paiement sécurisé vous offre une garantie supplémentaire.",
       method: "Notre méthode repose sur le respect, la bienveillance et l'adaptation. Le gardien s'intègre à votre foyer en suivant vos règles. Pas de changement brutal pour votre chien, mais une continuité rassurante avec une présence humaine attentive.",
-      trust: "Ouvrir son domicile demande une confiance absolue. C'est pourquoi nos gardiens passent par une vérification d'identité complète, un contrôle de casier judiciaire et doivent fournir des références. Leurs avis vérifiés témoignent de leur fiabilité."
+      trust: "Ouvrir son domicile demande une confiance absolue. C'est pourquoi nos gardiens passent par une vérification d'identité complète, un contrôle de vérification approfondie et doivent fournir des références. Leurs avis vérifiés témoignent de leur fiabilité."
     },
     advantages: [
       "Chien maintenu dans son environnement habituel et rassurant",
@@ -272,7 +272,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "Le gardien peut-il s'occuper de mes autres animaux ?", answer: "Oui, un des grands avantages de la garde à domicile est de pouvoir faire garder tous vos animaux ensemble. Chats, lapins, oiseaux peuvent être inclus dans la prestation. Précisez le nombre et les espèces lors de la réservation pour un devis adapté." },
       { question: "Que se passe-t-il en cas de problème de santé de mon chien ?", answer: "Nos gardiens sont formés pour détecter les signes de mal-être et réagir rapidement. En cas de problème, ils vous contactent immédiatement et peuvent, avec votre accord, emmener votre chien chez le vétérinaire que vous aurez indiqué. Les coordonnées vétérinaires font partie des informations à transmettre obligatoirement avant la garde." },
       { question: "Le gardien peut-il effectuer des tâches ménagères ?", answer: "La garde à domicile se concentre sur les soins de votre animal. Toutefois, certains gardiens acceptent de relever le courrier, arroser les plantes ou effectuer de petites tâches complémentaires. Discutez-en lors de la rencontre préalable et précisez-le dans votre réservation." },
-      { question: "Comment sont sélectionnés les gardiens ?", answer: "Chaque gardien passe par un processus de vérification rigoureux : vérification d'identité, contrôle de casier judiciaire, attestation d'assurance, et références vérifiées. Nous les rencontrons et évaluons leur expérience avec les animaux avant de les intégrer à notre réseau." }
+      { question: "Comment sont sélectionnés les gardiens ?", answer: "Chaque gardien passe par un processus de vérification rigoureux : vérification d'identité, contrôle de vérification approfondie, documents professionnels, et références vérifiées. Nous les rencontrons et évaluons leur expérience avec les animaux avant de les intégrer à notre réseau." }
     ]
   },
   "accompagnement-veterinaire": {
@@ -314,7 +314,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
     expertiseAdvantages: {
       experience: "Nos accompagnateurs ont l'habitude des environnements vétérinaires. Ils savent comment se comporter en salle d'attente, comment aider le vétérinaire pendant la consultation, et comment rassurer un animal stressé par les odeurs et sons de la clinique.",
-      insurance: "Chaque accompagnateur dispose d'une assurance responsabilité civile professionnelle. Votre animal est couvert pendant tout le trajet et la consultation. En cas d'incident, vous êtes protégé financièrement.",
+      insurance: "Chaque accompagnateur dispose d'une protection professionnelle. Votre animal est couvert pendant tout le trajet et la consultation. En cas d'incident, vous êtes protégé financièrement.",
       method: "Notre méthode repose sur la communication et la transparence. Avant la visite, nous recueillons toutes vos questions pour le vétérinaire. Après la visite, nous vous transmettons fidèlement les réponses et recommandations. Aucune information n'est perdue.",
       trust: "Confier son animal malade ou en besoin de soins demande une confiance totale. C'est pourquoi nos accompagnateurs passent par une vérification complète et sont formés spécifiquement pour ce service. Leurs avis attestent de leur professionnalisme."
     },
@@ -378,14 +378,14 @@ export const servicesData: Record<string, ServiceData> = {
         { title: "Restez connecté pendant le séjour", description: "Recevez des photos et nouvelles quotidiennes de votre compagnon. Le family sitter partage les moments forts : promenades, jeux, siestes. Vous pouvez échanger par messages à tout moment pour garder le lien." },
         { title: "Retrouvez un chien épanoui", description: "À votre retour, récupérez votre compagnon. Le family sitter vous fait un compte-rendu complet du séjour : appétit, comportement, moments mémorables. Votre chien a passé de vraies vacances !" }
       ],
-      safety: "La sécurité de votre chien est notre priorité absolue. Toutes les familles d'accueil sont vérifiées : identité, casier judiciaire, assurance habitation. Leur domicile est inspecté pour garantir un environnement sécurisé (jardin clôturé, absence de dangers). En cas de problème de santé, le family sitter contacte immédiatement votre vétérinaire ou une clinique de garde.",
+      safety: "La sécurité de votre chien est notre priorité absolue. Toutes les familles d'accueil sont vérifiées : identité, vérification approfondie, assurance habitation. Leur domicile est inspecté pour garantir un environnement sécurisé (jardin clôturé, absence de dangers). En cas de problème de santé, le family sitter contacte immédiatement votre vétérinaire ou une clinique de garde.",
       dogWelfare: "Le bien-être de votre animal guide chaque aspect du séjour. Le family sitter respecte ses habitudes : heures de repas, promenades préférées, rituel du coucher. Les chiens anxieux bénéficient d'une approche douce et progressive. L'environnement familial, sans stress de chenil, favorise un séjour serein et épanouissant."
     },
     expertiseAdvantages: {
       experience: "Nos family sitters sont des passionnés d'animaux avec une solide expérience. Beaucoup possèdent ou ont possédé des chiens, comprenant intimement leurs besoins. Certains sont d'anciens professionnels du monde animal : éducateurs, toiletteurs, auxiliaires vétérinaires. Cette expertise garantit des soins de qualité.",
-      insurance: "Chaque family sitter dispose d'une assurance responsabilité civile couvrant les incidents potentiels. Votre chien est protégé pendant tout son séjour. Le paiement sécurisé via notre plateforme vous garantit également une protection en cas de problème avec la prestation.",
+      insurance: "Chaque family sitter dispose d'une protection professionnelle couvrant les incidents potentiels. Votre chien est protégé pendant tout son séjour. Le paiement sécurisé via notre plateforme vous garantit également une protection en cas de problème avec la prestation.",
       method: "Notre approche privilégie l'intégration familiale plutôt que la simple garde. Votre chien devient temporairement un membre de la famille d'accueil, participant à la vie quotidienne : repas en famille, balades, moments de détente sur le canapé. Cette immersion crée une expérience positive et enrichissante.",
-      trust: "La confiance est fondamentale pour confier son compagnon à des inconnus. C'est pourquoi nous vérifions rigoureusement chaque family sitter : identité, casier judiciaire, références vérifiables. Les avis authentiques des autres propriétaires vous aident à choisir en toute sérénité."
+      trust: "La confiance est fondamentale pour confier son compagnon à des inconnus. C'est pourquoi nous vérifions rigoureusement chaque family sitter : identité, vérification approfondie, références vérifiables. Les avis authentiques des autres propriétaires vous aident à choisir en toute sérénité."
     },
     advantages: [
       "Accueil chaleureux dans un véritable foyer familial",
@@ -403,7 +403,7 @@ export const servicesData: Record<string, ServiceData> = {
       coverage: "Avec des centaines de familles d'accueil actives, vous trouverez forcément l'hébergement idéal pour votre compagnon. Entrez votre localisation pour découvrir les options disponibles."
     },
     faq: [
-      { question: "Comment sont sélectionnés les family sitters ?", answer: "Chaque family sitter passe par un processus de vérification rigoureux : contrôle d'identité, extrait de casier judiciaire, visite du domicile pour vérifier la sécurité (jardin clôturé, environnement adapté). Nous vérifions également leurs références et leur expérience avec les chiens. Seuls les candidats répondant à tous nos critères sont acceptés." },
+      { question: "Comment sont sélectionnés les family sitters ?", answer: "Chaque family sitter passe par un processus de vérification rigoureux : contrôle d'identité, vérification approfondie, visite du domicile pour vérifier la sécurité (jardin clôturé, environnement adapté). Nous vérifions également leurs références et leur expérience avec les chiens. Seuls les candidats répondant à tous nos critères sont acceptés." },
       { question: "Mon chien peut-il garder ses habitudes alimentaires ?", answer: "Absolument ! Vous fournissez la nourriture habituelle de votre chien et toutes les instructions concernant son régime : quantités, horaires, friandises autorisées, aliments interdits. Le family sitter suit scrupuleusement vos consignes pour maintenir la routine alimentaire de votre compagnon." },
       { question: "Que se passe-t-il si mon chien a un problème de santé ?", answer: "Nos family sitters sont formés pour détecter les signes de mal-être. En cas de problème, ils vous contactent immédiatement et peuvent, avec votre accord, emmener votre chien chez le vétérinaire que vous aurez indiqué ou dans une clinique de garde. Les coordonnées vétérinaires font partie des informations obligatoires avant le séjour." },
       { question: "La famille d'accueil a-t-elle d'autres animaux ?", answer: "Chaque profil indique clairement si le foyer compte d'autres animaux et leurs caractéristiques. Vous pouvez filtrer les recherches selon vos préférences : famille sans autres animaux, avec chien(s), avec chat(s). La rencontre préalable permet de vérifier la compatibilité avec les éventuels résidents." },

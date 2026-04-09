@@ -56,7 +56,7 @@ const ServicePromenade = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Promenade de Chien Professionnelle",
-    "description": "Service de promenade de chien par des promeneurs professionnels vérifiés. Promenades individuelles ou en petit groupe, avec preuves photo obligatoires et assurance incluse.",
+    "description": "Service de promenade de chien par des promeneurs professionnels vérifiés. Promenades individuelles ou en petit groupe, avec preuves photo obligatoires et protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -96,7 +96,7 @@ const ServicePromenade = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Promenade de Chien | Promeneurs Professionnels Vérifiés | DogWalking"
-        description="Service de promenade de chien par des professionnels vérifiés partout en France. Preuves photo obligatoires, assurance incluse, paiement sécurisé. Réservez dès 8€."
+        description="Service de promenade de chien par des professionnels vérifiés partout en France. Preuves photo obligatoires, protection incluse, paiement sécurisé. Réservez dès 8€."
         keywords="promenade chien, dog walking, promeneur canin, balade chien, sortie chien, promeneur professionnel, dog walker france"
         canonicalUrl="https://dogwalking.fr/services/promenade"
         structuredData={serviceJsonLd}
@@ -189,7 +189,7 @@ const ServicePromenade = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Promeneurs 100% Vérifiés</h3>
                   <p className="text-muted-foreground">
-                    Chaque promeneur fournit une pièce d'identité, un casier judiciaire vierge et une assurance responsabilité civile. 
+                    Chaque promeneur fournit une pièce d'identité, un vérification approfondie vierge et une protection professionnelle. 
                     Notre équipe vérifie manuellement chaque candidature avant validation.
                   </p>
                 </CardContent>
@@ -213,7 +213,7 @@ const ServicePromenade = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                     <Zap className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Paiement Escrow Sécurisé</h3>
+                  <h3 className="text-xl font-bold mb-2">Paiement Sécurisé</h3>
                   <p className="text-muted-foreground">
                     Votre paiement est bloqué jusqu'à réception des preuves photo. Sans validation, vous êtes automatiquement remboursé. 
                     Une sécurité unique sur le marché français.
@@ -252,10 +252,9 @@ const ServicePromenade = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                     <Award className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Assurance Premium Incluse</h3>
+                  <h3 className="text-xl font-bold mb-2">Protection Complète</h3>
                   <p className="text-muted-foreground">
-                    Couverture jusqu'à 2 millions d'euros pour chaque promenade. En cas d'incident, notre équipe 
-                    gère toutes les démarches avec l'assureur pour vous.
+                    Chaque mission est protégée et suivie de bout en bout. En cas d'incident, notre équipe gère toutes les démarches pour vous.
                   </p>
                 </CardContent>
               </Card>

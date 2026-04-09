@@ -35,7 +35,7 @@ const gardeFAQs = [
   },
   {
     question: "Que se passe-t-il en cas d'urgence médicale pendant la garde ?",
-    answer: "Chaque pet-sitter dispose de vos coordonnées et celles de votre vétérinaire. En cas d'urgence, il contacte immédiatement les services vétérinaires et vous prévient. Les frais d'urgence sont à votre charge, mais notre assurance couvre les dommages jusqu'à 2 millions d'euros."
+    answer: "Chaque pet-sitter dispose de vos coordonnées et celles de votre vétérinaire. En cas d'urgence, il contacte immédiatement les services vétérinaires et vous prévient. Les frais d'urgence sont à votre charge, mais notre équipe intervient immédiatement pour vous accompagner."
   },
   {
     question: "Puis-je avoir des nouvelles de mon chien pendant la garde ?",
@@ -54,7 +54,7 @@ const ServiceGarde = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Garde de Chien à Domicile et Hébergement",
-    "description": "Service de garde de chien par des pet-sitters professionnels vérifiés. Garde à domicile, hébergement de jour et de nuit. Preuves photo quotidiennes et assurance incluse.",
+    "description": "Service de garde de chien par des pet-sitters professionnels vérifiés. Garde à domicile, hébergement de jour et de nuit. Preuves photo quotidiennes et protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -94,7 +94,7 @@ const ServiceGarde = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Garde de Chien | Pet-Sitters Vérifiés | Hébergement & Domicile | DogWalking"
-        description="Faites garder votre chien par des pet-sitters vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, assurance incluse. Dès 10€/nuit."
+        description="Faites garder votre chien par des pet-sitters vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, protection incluse. Dès 10€/nuit."
         keywords="garde chien, pet sitting, hébergement chien, pension chien, dog sitting, gardien chien, pension canine france"
         canonicalUrl="https://dogwalking.fr/services/garde"
         structuredData={serviceJsonLd}
@@ -363,7 +363,7 @@ const ServiceGarde = () => {
                   <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="font-bold mb-2">Gardiens Vérifiés</h3>
                   <p className="text-sm text-muted-foreground">
-                    Identité, casier judiciaire et assurance contrôlés avant validation
+                    Identité, vérification approfondie et assurance contrôlés avant validation
                   </p>
                 </CardContent>
               </Card>

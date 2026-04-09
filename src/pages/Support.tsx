@@ -32,7 +32,7 @@ const faqCategories = {
     icon: Dog,
     faqs: [
       { question: "Comment fonctionne DogWalking pour trouver un promeneur ?", answer: "Entrez votre adresse, choisissez le type de service, et découvrez les promeneurs vérifiés disponibles. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé jusqu'à réception des preuves photo." },
-      { question: "Les promeneurs sont-ils vraiment vérifiés ?", answer: "Absolument. Chaque promeneur fournit CNI, casier judiciaire vierge et attestation d'assurance RC. Seuls 35% des candidats sont acceptés." },
+      { question: "Les promeneurs sont-ils vraiment vérifiés ?", answer: "Absolument. Chaque promeneur fournit identité vérifiée vierge et attestation d'protection. Seuls 35% des candidats sont acceptés." },
       { question: "Que se passe-t-il si je ne suis pas satisfait ?", answer: "Grâce au paiement sécurisé, votre argent reste bloqué jusqu'à validation. Vous pouvez contester et être remboursé. Notre support intervient sous 24h." },
       { question: "Puis-je annuler une réservation ?", answer: "Annulation gratuite jusqu'à 24h avant avec remboursement intégral. Des frais peuvent s'appliquer après ce délai." },
       { question: "Comment ajouter mon chien ?", answer: "Depuis votre tableau de bord, cliquez 'Ajouter un chien'. Remplissez nom, race, âge, poids, tempérament et ajoutez une photo." },
@@ -43,8 +43,8 @@ const faqCategories = {
     title: "Promeneurs",
     icon: Briefcase,
     faqs: [
-      { question: "Comment devenir promeneur ?", answer: "Inscrivez-vous, complétez votre profil, soumettez vos documents (CNI, casier, assurance RC). Vérification sous 48h." },
-      { question: "Quels documents sont nécessaires ?", answer: "CNI ou passeport, casier judiciaire (bulletin n°3), attestation d'assurance RC et photo professionnelle." },
+      { question: "Comment devenir promeneur ?", answer: "Inscrivez-vous, complétez votre profil, soumettez vos documents (CNI, casier, protection). Vérification sous 48h." },
+      { question: "Quels documents sont nécessaires ?", answer: "CNI ou passeport, vérification approfondie (bulletin n°3), attestation d'protection et photo professionnelle." },
       { question: "Comment fixer mes tarifs ?", answer: "Vous êtes libre au-dessus des minimums (8€ promenade, 10€ garde). Adaptez selon votre expérience et zone." },
       { question: "Comment suis-je payé ?", answer: "Le paiement est libéré après envoi des preuves et validation. Vous recevez l'intégralité du montant de la prestation. L'assurance et le support sont inclus." },
       { question: "Combien puis-je gagner ?", answer: "En moyenne 500-1500€/mois. Les promeneurs à temps plein dans les grandes villes dépassent 2000€/mois." },
@@ -55,7 +55,7 @@ const faqCategories = {
     icon: CreditCard,
     faqs: [
       { question: "Comment fonctionne le paiement sécurisé ?", answer: "Le paiement est bloqué à la réservation. Il est libéré au promeneur après validation des preuves photo/vidéo." },
-      { question: "Que comprennent les frais de service ?", answer: "Assurance RC jusqu'à 2M€, support 7j/7, messagerie sécurisée et système de paiement sécurisé." },
+      { question: "Que comprennent les frais de service ?", answer: "Protection jusqu'à 2M€, support 7j/7, messagerie sécurisée et système de paiement sécurisé." },
       { question: "Puis-je donner un pourboire ?", answer: "Oui, 100% reversé au promeneur." },
       { question: "Et si la prestation n'est pas effectuée ?", answer: "Remboursement automatique si aucune preuve n'est envoyée." },
     ],
@@ -64,8 +64,8 @@ const faqCategories = {
     title: "Sécurité",
     icon: Shield,
     faqs: [
-      { question: "Comment sont vérifiés les promeneurs ?", answer: "Vérification d'identité, casier judiciaire, assurance RC et entretien. Seuls 35% sont acceptés." },
-      { question: "Quelle assurance couvre les prestations ?", answer: "Assurance RC jusqu'à 2 millions d'euros par prestation." },
+      { question: "Comment sont vérifiés les promeneurs ?", answer: "Vérification d'identité, vérification approfondie, protection et entretien. Seuls 35% sont acceptés." },
+      { question: "Quelle assurance couvre les prestations ?", answer: "Protection jusqu'à 2 millions d'euros par prestation." },
       { question: "Comment signaler un problème ?", answer: "Via la messagerie intégrée, email contact@dogwalking.fr, ou téléphone 01 23 45 67 89. Ligne prioritaire pendant les missions." },
       { question: "Les preuves photo sont-elles obligatoires ?", answer: "Oui. Sans preuve, le paiement n'est pas libéré." },
     ],
@@ -315,7 +315,7 @@ const Support = () => {
                           chaque paiement sécurisé. Zéro inquiétude.
                         </p>
                         <div className="space-y-3">
-                          {["Vérification d'identité et casier judiciaire", "Assurance RC obligatoire", "Preuves photo/vidéo à chaque mission", "Paiement escrow 100% sécurisé"].map((item, i) => (
+                          {["Vérification d'identité approfondie", "Preuves photo/vidéo obligatoires", "Preuves photo/vidéo à chaque mission", "Paiement sécurisé, bloqué jusqu'à validation"].map((item, i) => (
                             <div key={i} className="flex items-center gap-3">
                               <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
                               <span>{item}</span>

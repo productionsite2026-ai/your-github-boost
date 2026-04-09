@@ -166,7 +166,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 3 - Inscription et Compte</h2>
                 <p className="text-muted-foreground">
                   L'inscription est ouverte à toute personne majeure (18 ans minimum). Les promeneurs doivent 
-                  fournir des documents justificatifs (CNI, casier judiciaire, attestation d'assurance) vérifiés 
+                  fournir des documents justificatifs (identité vérifiée, documents professionnels) vérifiés 
                   par nos équipes.
                 </p>
               </section>
@@ -200,7 +200,7 @@ const RessourcesLegales = () => {
                     <h3 className="text-lg font-medium mb-2">Promeneur</h3>
                     <ul className="list-disc list-inside text-muted-foreground space-y-1 text-sm">
                       <li>Qualifications nécessaires</li>
-                      <li>Assurance RC professionnelle</li>
+                      <li>Protection professionnelle</li>
                       <li>Preuves de chaque prestation</li>
                       <li>Bienveillance envers les animaux</li>
                     </ul>
@@ -211,7 +211,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 6 - Responsabilité</h2>
                 <p className="text-muted-foreground">
-                  DogWalking agit en qualité d'intermédiaire technique. L'assurance RC couvre les prestations 
+                  DogWalking agit en qualité d'intermédiaire technique. L'protection couvre les prestations 
                   réalisées via la plateforme.
                 </p>
               </section>

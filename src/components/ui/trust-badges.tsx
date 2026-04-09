@@ -16,7 +16,7 @@ interface TrustBadgesProps {
 
 /**
  * Composant pour afficher les preuves d'E-E-A-T (Expérience, Expertise, Autorité, Confiance)
- * Utilise les fonctionnalités clés du README : Escrow, Vérification, Preuves photo
+ * Utilise les fonctionnalités clés du README : paiement sécurisé, Vérification, Preuves photo
  */
 export const TrustBadges = ({
   items,
@@ -27,7 +27,7 @@ export const TrustBadges = ({
   const defaultItems: TrustBadgeItem[] = [
     {
       icon: <Lock className="w-6 h-6" />,
-      title: "Paiement Escrow Sécurisé",
+      title: "Paiement Sécurisé",
       description:
         "Votre argent est bloqué jusqu'à la validation du service. Zéro risque.",
       highlight: "100% sécurisé",
@@ -48,8 +48,8 @@ export const TrustBadges = ({
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Assurance Incluse",
-      description: "Couverture jusqu'à 2M€ en responsabilité civile.",
+      title: "Protection Incluse",
+      description: "Chaque mission est protégée et suivie de bout en bout.",
       highlight: "Protection maximale",
     },
   ];

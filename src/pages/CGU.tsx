@@ -79,7 +79,7 @@ const CGU = () => {
             <h3 className="text-xl font-medium mb-2 mt-4">3.3 Vérification des Promeneurs</h3>
             <p className="text-muted-foreground">
               Les Promeneurs doivent fournir des documents justificatifs (pièce d'identité, 
-              extrait de casier judiciaire, attestation d'assurance) qui seront vérifiés par 
+              vérification approfondie, documents professionnels) qui seront vérifiés par 
               nos équipes avant activation complète de leur profil.
             </p>
           </section>
@@ -144,7 +144,7 @@ const CGU = () => {
             <h3 className="text-xl font-medium mb-2 mt-4">6.2 Obligations du Promeneur</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Disposer des qualifications et de l'expérience nécessaires</li>
-              <li>Être titulaire d'une assurance responsabilité civile professionnelle</li>
+              <li>Être titulaire d'une protection professionnelle</li>
               <li>Fournir les preuves de chaque Prestation</li>
               <li>Traiter les animaux avec bienveillance et professionnalisme</li>
               <li>Informer le Propriétaire de tout incident</li>
@@ -156,7 +156,7 @@ const CGU = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Article 7 - Assurance</h2>
             <p className="text-muted-foreground">
-              DogWalking inclut une assurance responsabilité civile pour les Prestations réalisées 
+              DogWalking inclut une protection professionnelle pour les Prestations réalisées 
               via la Plateforme. Cette assurance couvre les dommages causés aux tiers pendant 
               l'exécution de la Prestation, dans les limites et conditions définies dans le 
               contrat d'assurance.

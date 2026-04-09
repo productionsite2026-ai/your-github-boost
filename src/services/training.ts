@@ -149,7 +149,7 @@ export const DEFAULT_QUIZ_QUESTIONS: QuizQuestion[] = [
       'Assurance maladie',
     ],
     correctAnswer: 1,
-    explanation: 'L\'assurance responsabilité civile est essentielle pour couvrir les dommages potentiels.',
+    explanation: 'L\'protection professionnelle est essentielle pour couvrir les dommages potentiels.',
   },
 ];
 

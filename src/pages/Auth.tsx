@@ -165,7 +165,7 @@ const Auth = () => {
 
   const benefits = [
     { icon: Shield, text: "Promeneurs 100% vérifiés" },
-    { icon: CheckCircle, text: "Paiement sécurisé escrow" },
+    { icon: CheckCircle, text: "Paiement sécurisé paiement sécurisé" },
     { icon: Star, text: "Preuves photo obligatoires" },
   ];
 

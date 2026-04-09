@@ -70,7 +70,7 @@ const Tarifs = () => {
   ];
 
   const guarantees = [
-    { icon: Shield, title: "Promeneurs 100% vérifiés", description: "CNI, casier judiciaire et assurance RC vérifiés manuellement", variant: "primary" as const },
+    { icon: Shield, title: "Promeneurs 100% vérifiés", description: "identité vérifiée et protection vérifiés manuellement", variant: "primary" as const },
     { icon: Lock, title: "Paiement sécurisé", description: "Argent bloqué jusqu'à validation de la preuve", variant: "accent" as const },
     { icon: Camera, title: "Preuves obligatoires", description: "Photo/vidéo + message pendant chaque mission", variant: "success" as const },
     { icon: CreditCard, title: "Tarifs transparents", description: "Tout inclus : assurance, support, plateforme", variant: "warning" as const }
@@ -83,7 +83,7 @@ const Tarifs = () => {
     },
     {
       question: "Que comprennent les tarifs affichés ?",
-      answer: "Les tarifs DogWalking incluent l'assurance responsabilité civile jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé qui protège votre argent, et la gestion automatisée des preuves photo/vidéo. C'est un service complet sans frais cachés."
+      answer: "Les tarifs DogWalking incluent l'protection professionnelle jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé qui protège votre argent, et la gestion automatisée des preuves photo/vidéo. C'est un service complet sans frais cachés."
     },
     {
       question: "Puis-je donner un pourboire au promeneur ?",
@@ -289,7 +289,7 @@ const Tarifs = () => {
                     "Médiation gratuite en cas de litige",
                     "Historique des preuves conservé 90 jours",
                     "Support disponible 7j/7 par chat et email",
-                    "Assurance RC 2M€ incluse"
+                    "Protection 2M€ incluse"
                   ].map((item, i) => (
                     <motion.li 
                       key={i} 

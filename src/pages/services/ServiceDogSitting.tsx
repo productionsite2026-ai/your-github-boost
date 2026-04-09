@@ -55,7 +55,7 @@ const dogSittingFAQs = [
   },
   {
     question: "Comment sont sélectionnés les dog sitters DogWalking ?",
-    answer: "Chaque dog sitter passe par un processus de vérification rigoureux : pièce d'identité, casier judiciaire vierge, attestation d'assurance RC professionnelle, références vérifiées. Nous évaluons également leur expérience avec les chiens, leur passion pour les animaux et leur capacité à gérer différentes situations. Seuls 25% des candidats sont acceptés."
+    answer: "Chaque dog sitter passe par un processus de vérification rigoureux : pièce d'identité, vérification approfondie vierge, attestation d'protection professionnelle, références vérifiées. Nous évaluons également leur expérience avec les chiens, leur passion pour les animaux et leur capacité à gérer différentes situations. Seuls 25% des candidats sont acceptés."
   },
   {
     question: "Que se passe-t-il en cas de problème de santé pendant le dog sitting ?",
@@ -70,7 +70,7 @@ const ServiceDogSitting = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Dog Sitting Professionnel en France",
-    "description": "Service de dog sitting par des professionnels vérifiés. Présence humaine continue, attention personnalisée, jeux et câlins pour votre chien. Preuves photo et assurance incluses.",
+    "description": "Service de dog sitting par des professionnels vérifiés. Présence humaine continue, attention personnalisée, jeux et câlins pour votre chien. Preuves photo et protection incluses.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -120,7 +120,7 @@ const ServiceDogSitting = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Garde à Votre Domicile | Présence Humaine & Attention Personnalisée | DogWalking"
-        description="Garde à votre domicile par des professionnels vérifiés partout en France. Présence continue, jeux, câlins et promenades pour votre chien. Preuves photo, assurance incluse."
+        description="Garde à votre domicile par des professionnels vérifiés partout en France. Présence continue, jeux, câlins et promenades pour votre chien. Preuves photo, protection incluse."
         keywords="garde domicile chien, présence chien, garde personnalisée chien, dog sitter france, compagnie chien"
         canonicalUrl="https://dogwalking.fr/services/dog-sitting"
         structuredData={serviceJsonLd}
@@ -482,7 +482,7 @@ const ServiceDogSitting = () => {
                         <Shield className="h-6 w-6 text-primary" />
                         <div>
                           <h3 className="font-bold">Vérification complète</h3>
-                          <p className="text-sm text-muted-foreground">CNI, casier judiciaire, assurance RC pro</p>
+                          <p className="text-sm text-muted-foreground">identité vérifiée, protection pro</p>
                         </div>
                       </div>
                     </CardContent>

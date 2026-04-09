@@ -70,7 +70,7 @@ const ServicePetSitting = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Pet Sitting Multi-Animaux en France",
-    "description": "Service de pet sitting pour tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés, preuves photo, assurance incluse.",
+    "description": "Service de pet sitting pour tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés, preuves photo, protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -131,7 +131,7 @@ const ServicePetSitting = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tout Animal | Garde Multi-Animaux | Chiens, Chats, Oiseaux, NAC | DogWalking"
-        description="Garde de tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés partout en France. Preuves photo, assurance incluse."
+        description="Garde de tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés partout en France. Preuves photo, protection incluse."
         keywords="garde animaux, cat sitting, garde chat, garde rongeur, garde oiseau, garde multi-animaux, NAC, pet sitter france"
         canonicalUrl="https://dogwalking.fr/services/pet-sitting"
         structuredData={serviceJsonLd}

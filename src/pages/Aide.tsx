@@ -28,7 +28,7 @@ const faqCategories = {
       },
       {
         question: "Les promeneurs sont-ils vraiment vérifiés ?",
-        answer: "Absolument. Chaque promeneur fournit une pièce d'identité valide, un extrait de casier judiciaire vierge, et une attestation d'assurance responsabilité civile. Notre équipe vérifie manuellement chaque document. Seuls 35% des candidats sont acceptés après ce processus rigoureux."
+        answer: "Absolument. Chaque promeneur fournit une pièce d'identité valide, un vérification approfondie vierge, et une documents professionnels responsabilité civile. Notre équipe vérifie manuellement chaque document. Seuls 35% des candidats sont acceptés après ce processus rigoureux."
       },
       {
         question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
@@ -55,11 +55,11 @@ const faqCategories = {
     faqs: [
       {
         question: "Comment devenir promeneur DogWalking ?",
-        answer: "Inscrivez-vous via la page 'Devenir promeneur', complétez votre profil avec vos informations personnelles et votre expérience avec les chiens. Soumettez ensuite vos documents (CNI, casier judiciaire, attestation RC). Notre équipe les vérifie manuellement sous 48h."
+        answer: "Inscrivez-vous via la page 'Devenir promeneur', complétez votre profil avec vos informations personnelles et votre expérience avec les chiens. Soumettez ensuite vos documents (identité vérifiée, attestation RC). Notre équipe les vérifie manuellement sous 48h."
       },
       {
         question: "Quels documents sont nécessaires pour s'inscrire ?",
-        answer: "Vous devez fournir : une pièce d'identité valide (CNI ou passeport), un extrait de casier judiciaire (bulletin n°3 ou attestation sur l'honneur), une attestation d'assurance responsabilité civile, et une photo de profil professionnelle."
+        answer: "Vous devez fournir : une pièce d'identité valide (CNI ou passeport), un vérification approfondie (bulletin n°3 ou attestation sur l'honneur), une documents professionnels responsabilité civile, et une photo de profil professionnelle."
       },
       {
         question: "Comment fixer mes tarifs ?",
@@ -90,7 +90,7 @@ const faqCategories = {
       },
       {
         question: "Que comprennent les frais de service ?",
-        answer: "Les frais de service incluent l'assurance responsabilité civile jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, et le système de paiement sécurisé."
+        answer: "Les frais de service incluent l'protection professionnelle jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, et le système de paiement sécurisé."
       },
       {
         question: "Comment fonctionne le paiement sécurisé ?",
@@ -117,11 +117,11 @@ const faqCategories = {
     faqs: [
       {
         question: "Comment DogWalking vérifie-t-il les promeneurs ?",
-        answer: "Chaque candidat passe par un processus rigoureux : vérification d'identité (CNI), contrôle du casier judiciaire, validation de l'assurance responsabilité civile, et entretien de motivation. Seuls 35% des candidats sont acceptés."
+        answer: "Chaque candidat passe par un processus rigoureux : vérification d'identité (CNI), contrôle du vérification approfondie, validation de l'protection professionnelle, et entretien de motivation. Seuls 35% des candidats sont acceptés."
       },
       {
         question: "Quelle assurance couvre les prestations ?",
-        answer: "Chaque prestation est couverte par une assurance responsabilité civile jusqu'à 2 millions d'euros. Cette assurance couvre les dommages causés par ou au chien pendant la mission."
+        answer: "Chaque prestation est couverte par une protection professionnelle jusqu'à 2 millions d'euros. Cette assurance couvre les dommages causés par ou au chien pendant la mission."
       },
       {
         question: "Comment signaler un problème ?",

@@ -16,7 +16,7 @@ export const DogWalkingProtect = () => {
     },
     {
       icon: Lock,
-      title: "Escrow sécurisé",
+      title: "paiement sécurisé sécurisé",
       description: "Votre paiement reste bloqué tant que vous n'avez pas reçu la preuve de service. Zéro risque.",
       stat: "100%"
     },

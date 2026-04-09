@@ -273,7 +273,7 @@ const BookWalk = () => {
                       <ul className="text-sm text-muted-foreground space-y-2">
                         <li className="flex items-center gap-2">
                           <Shield className="h-4 w-4 text-primary" />
-                          Assurance RC incluse
+                          Protection incluse
                         </li>
                         <li className="flex items-center gap-2">
                           <Camera className="h-4 w-4 text-primary" />
