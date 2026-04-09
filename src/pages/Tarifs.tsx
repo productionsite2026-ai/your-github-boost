@@ -178,8 +178,7 @@ const Tarifs = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             Chez DogWalking, nous croyons que chaque chien mérite des soins de qualité à un prix juste. 
             Nos tarifs minimums garantissent une rémunération équitable pour nos promeneurs professionnels 
-            tout en restant accessibles pour les propriétaires. Chaque prestation inclut l'assurance 
-            responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
+            tout en restant accessibles pour les propriétaires. Chaque prestation inclut la protection complète,             responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
             et un support client disponible 7 jours sur 7.
           </p>
         </motion.div>

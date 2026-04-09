@@ -555,7 +555,7 @@ const ServicePage = () => {
               <AnimatedGridItem>
                 <AnimatedCard className="text-center p-6" hover glow>
                   <AnimatedIcon icon={Shield} size="lg" variant="accent" className="mx-auto mb-4" pulse />
-                  <h3 className="font-bold text-lg mb-2">Assurance</h3>
+                  <h3 className="font-bold text-lg mb-2">Protection</h3>
                   <p className="text-sm text-muted-foreground">{service.expertiseAdvantages.insurance}</p>
                 </AnimatedCard>
               </AnimatedGridItem>
