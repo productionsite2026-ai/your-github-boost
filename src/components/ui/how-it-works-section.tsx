@@ -49,7 +49,7 @@ export const HowItWorksSection = () => {
           <span className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
             Simple & Sécurisé
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Comment Réserver un Promeneur de Chien ?</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Comment réserver un service pour vos animaux ?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             En 4 étapes simples : trouvez, réservez, suivez la promenade en photos, payez après validation.
           </p>
