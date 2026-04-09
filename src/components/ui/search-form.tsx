@@ -144,7 +144,7 @@ export const SearchForm = () => {
         onClick={handleSearch}
       >
         <Search className="h-5 w-5 mr-2" />
-        Rechercher un promeneur
+        Rechercher Le Compagnon
       </Button>
     </div>
   );
