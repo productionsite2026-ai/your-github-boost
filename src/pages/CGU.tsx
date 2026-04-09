@@ -154,7 +154,7 @@ const CGU = () => {
 
           {/* Article 7 */}
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Article 7 - Assurance</h2>
+            <h2 className="text-2xl font-semibold mb-4">Article 7 - Protection & Sécurité</h2>
             <p className="text-muted-foreground">
               DogWalking inclut une protection professionnelle pour les Prestations réalisées 
               via la Plateforme. Cette assurance couvre les dommages causés aux tiers pendant 
