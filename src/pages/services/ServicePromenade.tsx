@@ -134,7 +134,7 @@ const ServicePromenade = () => {
                 <div className="flex items-center gap-6 mt-8 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <Shield className="h-4 w-4 text-primary" />
-                    <span>Assurance incluse</span>
+                    <span>Protection incluse</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Camera className="h-4 w-4 text-primary" />
@@ -189,7 +189,7 @@ const ServicePromenade = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Promeneurs 100% Vérifiés</h3>
                   <p className="text-muted-foreground">
-                    Chaque promeneur fournit une pièce d'identité, un vérification approfondie vierge et une protection professionnelle. 
+                    Chaque promeneur fournit une pièce d'identité, une vérification approfondie et une protection professionnelle. 
                     Notre équipe vérifie manuellement chaque candidature avant validation.
                   </p>
                 </CardContent>

@@ -89,7 +89,7 @@ const NousSommesPresents = () => {
                 <Clock className="h-4 w-4" /> Réponse sous 24h
               </Badge>
               <Badge variant="secondary" className="flex items-center gap-1.5 px-3 py-1.5">
-                <Award className="h-4 w-4" /> Assurance incluse
+                <Award className="h-4 w-4" /> Protection incluse
               </Badge>
             </motion.div>
           </div>

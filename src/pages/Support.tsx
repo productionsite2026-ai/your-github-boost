@@ -46,7 +46,7 @@ const faqCategories = {
       { question: "Comment devenir promeneur ?", answer: "Inscrivez-vous, complétez votre profil, soumettez vos documents (CNI, casier, protection). Vérification sous 48h." },
       { question: "Quels documents sont nécessaires ?", answer: "CNI ou passeport, vérification approfondie (bulletin n°3), attestation d'protection et photo professionnelle." },
       { question: "Comment fixer mes tarifs ?", answer: "Vous êtes libre au-dessus des minimums (8€ promenade, 10€ garde). Adaptez selon votre expérience et zone." },
-      { question: "Comment suis-je payé ?", answer: "Le paiement est libéré après envoi des preuves et validation. Vous recevez l'intégralité du montant de la prestation. L'assurance et le support sont inclus." },
+      { question: "Comment suis-je payé ?", answer: "Le paiement est libéré après envoi des preuves et validation. Vous recevez l'intégralité du montant de la prestation. Le support est inclus." },
       { question: "Combien puis-je gagner ?", answer: "En moyenne 500-1500€/mois. Les promeneurs à temps plein dans les grandes villes dépassent 2000€/mois." },
     ],
   },
@@ -65,7 +65,7 @@ const faqCategories = {
     icon: Shield,
     faqs: [
       { question: "Comment sont vérifiés les promeneurs ?", answer: "Vérification d'identité, vérification approfondie, protection et entretien. Seuls 35% sont acceptés." },
-      { question: "Quelle assurance couvre les prestations ?", answer: "Protection jusqu'à 2 millions d'euros par prestation." },
+      { question: "Quelle protection couvre les prestations ?", answer: "Protection complète pour chaque prestation." },
       { question: "Comment signaler un problème ?", answer: "Via la messagerie intégrée, email contact@dogwalking.fr, ou téléphone 01 23 45 67 89. Ligne prioritaire pendant les missions." },
       { question: "Les preuves photo sont-elles obligatoires ?", answer: "Oui. Sans preuve, le paiement n'est pas libéré." },
     ],
@@ -134,7 +134,7 @@ const Support = () => {
   ];
 
   const values = [
-    { icon: Shield, title: "Sécurité Absolue", description: "Vérifications rigoureuses, paiement sécurisé, assurance premium." },
+    { icon: Shield, title: "Sécurité Absolue", description: "Vérifications rigoureuses, paiement sécurisé, paiement sécurisé." },
     { icon: Heart, title: "Passion Animale", description: "Des promeneurs passionnés et bienveillants." },
     { icon: Eye, title: "Transparence Totale", description: "Preuves photo, tarifs affichés, avis authentiques." },
     { icon: Zap, title: "Innovation Continue", description: "Technologie au service du bien-être animal." },

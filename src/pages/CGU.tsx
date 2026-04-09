@@ -111,7 +111,7 @@ const CGU = () => {
             <h3 className="text-xl font-medium mb-2">5.1 Tarification</h3>
             <p className="text-muted-foreground">
               Les tarifs sont librement fixés par les Promeneurs dans le respect des tarifs 
-              minimums indiqués sur la Plateforme. L'assurance et le support sont inclus dans chaque Prestation réalisée.
+              minimums indiqués sur la Plateforme. Le support est inclus dans chaque Prestation réalisée.
             </p>
             
             <h3 className="text-xl font-medium mb-2 mt-4">5.2 Paiement sécurisé</h3>
@@ -157,12 +157,12 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 7 - Protection & Sécurité</h2>
             <p className="text-muted-foreground">
               DogWalking inclut une protection professionnelle pour les Prestations réalisées 
-              via la Plateforme. Cette assurance couvre les dommages causés aux tiers pendant 
+              via la Plateforme. Cette équipe intervient en cas de dommages aux tiers pendant 
               l'exécution de la Prestation, dans les limites et conditions définies dans le 
-              contrat d'assurance.
+              contrat d'protection.
             </p>
             <p className="text-muted-foreground mt-4">
-              Les Promeneurs doivent également disposer de leur propre assurance responsabilité 
+              Les Accompagnateurs s'engagent à respecter les règles de sécurité définies par 
               civile professionnelle.
             </p>
           </section>

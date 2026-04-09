@@ -96,7 +96,7 @@ const DemandesSection = () => {
                   <p className="text-primary-foreground/70 text-sm font-medium">Devenez accompagnateur et profitez de moments uniques.</p>
                 </div>
                 <div className="space-y-2.5">
-                  {["Inscription 100% gratuite", "Paiements garantis", "Assurance responsabilité civile", "Flexibilité totale"].map(item => (
+                  {["Inscription 100% gratuite", "Paiements garantis", "Protection professionnelle", "Flexibilité totale"].map(item => (
                     <div key={item} className="flex items-center gap-2.5 text-xs font-semibold text-primary-foreground/90">
                       <CheckCircle className="h-3.5 w-3.5 text-primary-foreground shrink-0" /> {item}
                     </div>

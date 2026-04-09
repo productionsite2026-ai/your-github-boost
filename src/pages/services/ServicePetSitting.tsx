@@ -183,7 +183,7 @@ const ServicePetSitting = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <Shield className="h-4 w-4 text-primary" />
-                    <span>Assurance incluse</span>
+                    <span>Protection incluse</span>
                   </div>
                 </div>
               </div>
@@ -411,7 +411,7 @@ const ServicePetSitting = () => {
                       <Shield className="h-8 w-8 text-primary mb-4" />
                       <h3 className="font-bold mb-2">Confiance totale</h3>
                       <p className="text-sm text-muted-foreground">
-                        Pet sitters vérifiés avec assurance et preuves photo
+                        Pet sitters vérifiés avec preuves photo obligatoires
                       </p>
                     </CardContent>
                   </Card>

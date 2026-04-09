@@ -197,7 +197,7 @@ const Auth = () => {
       features: [
         { icon: Wallet, text: "Gagnez jusqu'à 25€/h" },
         { icon: Calendar, text: "Gérez vos disponibilités" },
-        { icon: Shield, text: "Assurance incluse" },
+        { icon: Shield, text: "Protection incluse" },
         { icon: Star, text: "Construisez votre réputation" },
       ],
       gradient: "from-stat-green/20 via-stat-green/10 to-stat-green/5",

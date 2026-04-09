@@ -284,7 +284,7 @@ const RessourcesLegales = () => {
                   </div>
                   <div className="bg-muted/50 p-4 rounded-lg">
                     <h3 className="font-medium mb-2">Promeneurs</h3>
-                    <p className="text-sm text-muted-foreground">CNI, casier, assurance, coordonnées bancaires</p>
+                    <p className="text-sm text-muted-foreground">Identité, coordonnées bancaires</p>
                   </div>
                   <div className="bg-muted/50 p-4 rounded-lg">
                     <h3 className="font-medium mb-2">Navigation</h3>

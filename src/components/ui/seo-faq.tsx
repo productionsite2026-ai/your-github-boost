@@ -85,7 +85,7 @@ export const SEOFAQ = ({
 export const tarifsFAQs: FAQItem[] = [
   {
     question: "Comment sont calculés les tarifs des promenades de chien ?",
-    answer: "Les tarifs sont fixés librement par chaque promeneur, avec un minimum garanti par DogWalking (8€ pour une promenade). Le prix final dépend de la durée, du nombre de chiens, et des services additionnels. La commission de 13% couvre l'assurance, le support client et la plateforme sécurisée."
+    answer: "Les tarifs sont fixés librement par chaque promeneur, avec un minimum garanti par DogWalking (8€ pour une promenade). Le prix final dépend de la durée, du nombre de chiens, et des services additionnels. La commission de 13% couvre la protection, le support client et la plateforme sécurisée."
   },
   {
     question: "Qu'est-ce que le paiement sécurisé et comment ça fonctionne ?",
@@ -93,7 +93,7 @@ export const tarifsFAQs: FAQItem[] = [
   },
   {
     question: "La commission de 13% est-elle justifiée ?",
-    answer: "La commission de 13% inclut : l'protection professionnelle jusqu'à 2 millions d'euros, la vérification complète des promeneurs (CNI, casier, assurance), le système de paiement sécurisé paiement sécurisé, le support client disponible, et la plateforme technologique. C'est un package tout compris pour votre tranquillité."
+    answer: "La commission de 13% inclut : l'protection complète, la vérification complète des promeneurs (Identité vérifiée), le système de paiement sécurisé, le support client disponible, et la plateforme technologique. C'est un package tout compris pour votre tranquillité."
   },
   {
     question: "Puis-je laisser un pourboire au promeneur ?",
@@ -116,7 +116,7 @@ export const securiteFAQs: FAQItem[] = [
   },
   {
     question: "Que se passe-t-il si mon chien est blessé pendant une promenade ?",
-    answer: "Tous nos promeneurs disposent d'une protection professionnelle couvrant les incidents jusqu'à 2 millions d'euros. En cas de problème, contactez immédiatement notre support. Nous déclenchons la procédure d'assurance et vous assistons dans toutes les démarches. Le paiement reste bloqué jusqu'à résolution."
+    answer: "Tous nos promeneurs disposent d'une protection complète. En cas de problème, contactez immédiatement notre support. Nous déclenchons la procédure de résolution et vous assistons dans toutes les démarches. Le paiement reste bloqué jusqu'à résolution."
   },
   {
     question: "Comment fonctionne le système de preuves obligatoires ?",
@@ -186,6 +186,6 @@ export const deveniPromeneurFAQs: FAQItem[] = [
   },
   {
     question: "Que se passe-t-il si un incident survient pendant une promenade ?",
-    answer: "En cas d'incident, contactez immédiatement notre support et les services d'urgence si nécessaire. Votre protection couvre les dommages causés. Documentez l'incident avec photos et témoignages. DogWalking vous accompagne dans les démarches et la déclaration à l'assurance."
+    answer: "En cas d'incident, contactez immédiatement notre support et les services d'urgence si nécessaire. Votre protection couvre les dommages causés. Documentez l'incident avec photos et témoignages. DogWalking vous accompagne dans les démarches et la résolution du litige."
   }
 ];

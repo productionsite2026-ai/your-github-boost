@@ -118,7 +118,7 @@ const ServiceGarde = () => {
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   Confiez votre compagnon à des gardiens passionnés et certifiés. Garde à domicile ou hébergement 
-                  en environnement familial, avec suivi quotidien et assurance complète.
+                  en environnement familial, avec suivi quotidien et protection complète.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button size="lg" onClick={() => navigate("/walkers?service=garde")}>
@@ -363,7 +363,7 @@ const ServiceGarde = () => {
                   <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="font-bold mb-2">Gardiens Vérifiés</h3>
                   <p className="text-sm text-muted-foreground">
-                    Identité, vérification approfondie et assurance contrôlés avant validation
+                    Identité vérifiée et profil contrôlé avant validation
                   </p>
                 </CardContent>
               </Card>
@@ -381,7 +381,7 @@ const ServiceGarde = () => {
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="font-bold mb-2">Assurance 2M€</h3>
+                  <h3 className="font-bold mb-2">Protection complète</h3>
                   <p className="text-sm text-muted-foreground">
                     Couverture complète en cas d'incident pendant la garde
                   </p>

@@ -59,7 +59,7 @@ const dogSittingFAQs = [
   },
   {
     question: "Que se passe-t-il en cas de problème de santé pendant le dog sitting ?",
-    answer: "Le dog sitter dispose des coordonnées de votre vétérinaire et des numéros d'urgence. En cas de problème, il vous contacte immédiatement et peut se rendre chez le vétérinaire si nécessaire. Notre assurance couvre les incidents jusqu'à 2 millions d'euros. Vous êtes informé en temps réel de toute situation inhabituelle."
+    answer: "Le dog sitter dispose des coordonnées de votre vétérinaire et des numéros d'urgence. En cas de problème, il vous contacte immédiatement et peut se rendre chez le vétérinaire si nécessaire. Notre équipe intervient immédiatement en cas d'incident. Vous êtes informé en temps réel de toute situation inhabituelle."
   }
 ];
 
@@ -172,7 +172,7 @@ const ServiceDogSitting = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <Shield className="h-4 w-4 text-primary" />
-                    <span>Assurance 2M€</span>
+                    <span>Protection complète</span>
                   </div>
                 </div>
               </div>
