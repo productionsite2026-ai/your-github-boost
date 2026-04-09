@@ -69,7 +69,7 @@ export const ServicesSection = () => {
       id: "garde_domicile",
       slug: "garde-domicile",
       title: "Garde à domicile",
-      description: "Le promeneur reste chez vous la nuit pour garder votre chien dans son environnement habituel.",
+      description: "L'Accompagnateur reste chez vous pour garder vos chiens, chats et autres animaux dans leur environnement.",
       minPrice: 12,
       duration: "Nuit chez vous",
       image: gardeDomicile,
