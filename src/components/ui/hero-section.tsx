@@ -104,10 +104,11 @@ export const HeroSection = () => {
 
           <motion.p 
             variants={itemVariants}
-            className="text-lg md:text-2xl mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto"
+            className="text-lg md:text-2xl mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto text-center"
           >
-            Trouvez un promeneur de chien vérifié près de chez vous. 
-            Paiement sécurisé et preuves photo obligatoire.
+            Trouvez le Compagnon idéal pour votre chien, chat et autres animaux près de chez vous.<br />
+            Annonce libre ou choisissez votre accompagnateur.<br />
+            Paiement sécurisé et preuves photo obligatoires.
           </motion.p>
 
           <motion.div 
