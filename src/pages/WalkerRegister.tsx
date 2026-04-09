@@ -155,7 +155,7 @@ const WalkerRegister = () => {
                         <CheckCircle className="h-4 w-4 text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">Casier judiciaire</p>
+                        <p className="font-medium">Vérification approfondie</p>
                         <p className="text-sm text-muted-foreground">Bulletin n°3 ou attestation sur l'honneur</p>
                       </div>
                     </div>
@@ -164,8 +164,8 @@ const WalkerRegister = () => {
                         <CheckCircle className="h-4 w-4 text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">Assurance RC</p>
-                        <p className="text-sm text-muted-foreground">Assurance habitation ou RC professionnelle</p>
+                        <p className="font-medium">Protection</p>
+                        <p className="text-sm text-muted-foreground">Justificatif professionnel</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">

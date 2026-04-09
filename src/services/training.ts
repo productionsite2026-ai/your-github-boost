@@ -85,7 +85,7 @@ export const DEFAULT_TRAINING_MODULES: TrainingModule[] = [
       <h2>Responsabilités légales</h2>
       <p>Informations essentielles sur vos responsabilités légales:</p>
       <ul>
-        <li>Assurance responsabilité civile</li>
+        <li>Protection professionnelle</li>
         <li>Obligations légales</li>
         <li>Gestion des incidents</li>
         <li>Confidentialité et données personnelles</li>
@@ -141,15 +141,15 @@ export const DEFAULT_QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 'q4',
     moduleId: 'module-3',
-    question: 'Quelle assurance est essentielle pour un promeneur?',
+    question: 'Quelle protection est essentielle pour un accompagnateur ?',
     options: [
-      'Assurance automobile',
-      'Assurance responsabilité civile',
-      'Assurance habitation',
-      'Assurance maladie',
+      'Protection automobile',
+      'Protection professionnelle',
+      'Justificatif professionnel',
+      'Protection santé',
     ],
     correctAnswer: 1,
-    explanation: 'L\'assurance responsabilité civile est essentielle pour couvrir les dommages potentiels.',
+    explanation: 'L\'protection professionnelle est essentielle pour couvrir les dommages potentiels.',
   },
 ];
 

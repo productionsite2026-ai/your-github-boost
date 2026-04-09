@@ -7,7 +7,7 @@ const CGU = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Conditions Générales d'Utilisation | DogWalking"
-        description="CGU de DogWalking : règles et obligations pour les propriétaires de chiens et promeneurs professionnels sur notre plateforme."
+        description="CGU de DogWalking : règles et obligations pour les propriétaires de chiens et accompagnateurs professionnels sur notre plateforme."
         canonical="https://dogwalking.fr/cgu"
         noindex
       />
@@ -39,7 +39,7 @@ const CGU = () => {
               <li><strong>"Plateforme"</strong> : désigne le site internet DogWalking et l'ensemble de ses fonctionnalités</li>
               <li><strong>"Utilisateur"</strong> : désigne toute personne physique ou morale utilisant la Plateforme</li>
               <li><strong>"Propriétaire"</strong> : désigne l'utilisateur inscrit en qualité de propriétaire de chien</li>
-              <li><strong>"Promeneur"</strong> : désigne l'utilisateur inscrit en qualité de prestataire de services</li>
+              <li><strong>"Accompagnateur"</strong> : désigne l'utilisateur inscrit en qualité de prestataire de services</li>
               <li><strong>"Prestation"</strong> : désigne tout service réservé via la Plateforme (promenade, garde, etc.)</li>
               <li><strong>"Compte"</strong> : désigne l'espace personnel de l'Utilisateur sur la Plateforme</li>
             </ul>
@@ -50,14 +50,14 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 2 - Objet de la Plateforme</h2>
             <p className="text-muted-foreground">
               DogWalking est une plateforme de mise en relation entre Propriétaires de chiens et 
-              Promeneurs professionnels. La Plateforme permet :
+              Accompagnateurs professionnels. La Plateforme permet :
             </p>
             <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-2">
-              <li>La recherche et consultation de profils de Promeneurs</li>
+              <li>La recherche et consultation de profils de Accompagnateurs</li>
               <li>La réservation et paiement de Prestations</li>
-              <li>La communication entre Propriétaires et Promeneurs</li>
+              <li>La communication entre Propriétaires et Accompagnateurs</li>
               <li>Le suivi des Prestations avec preuves photo/vidéo</li>
-              <li>L'évaluation des Promeneurs après chaque Prestation</li>
+              <li>L'évaluation des Accompagnateurs après chaque Prestation</li>
             </ul>
           </section>
 
@@ -76,10 +76,10 @@ const CGU = () => {
               avec des informations fausses ou frauduleuses pourra être supprimé sans préavis.
             </p>
             
-            <h3 className="text-xl font-medium mb-2 mt-4">3.3 Vérification des Promeneurs</h3>
+            <h3 className="text-xl font-medium mb-2 mt-4">3.3 Vérification des Accompagnateurs</h3>
             <p className="text-muted-foreground">
-              Les Promeneurs doivent fournir des documents justificatifs (pièce d'identité, 
-              extrait de casier judiciaire, attestation d'assurance) qui seront vérifiés par 
+              Les Accompagnateurs doivent fournir des documents justificatifs (pièce d'identité, 
+              vérification approfondie, documents professionnels) qui seront vérifiés par 
               nos équipes avant activation complète de leur profil.
             </p>
           </section>
@@ -91,16 +91,16 @@ const CGU = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>Promenade</strong> : balade du chien en extérieur</li>
               <li><strong>Visite à domicile</strong> : passage au domicile du Propriétaire</li>
-              <li><strong>Hébergement de nuit</strong> : garde du chien la nuit chez le Promeneur</li>
-              <li><strong>Garderie de jour</strong> : garde du chien la journée chez le Promeneur</li>
-              <li><strong>Garde à domicile</strong> : le Promeneur reste au domicile du Propriétaire</li>
+              <li><strong>Hébergement de nuit</strong> : garde du chien la nuit chez le Accompagnateur</li>
+              <li><strong>Garderie de jour</strong> : garde du chien la journée chez le Accompagnateur</li>
+              <li><strong>Garde à domicile</strong> : le Accompagnateur reste au domicile du Propriétaire</li>
               <li><strong>Visite sanitaire</strong> : soins et hygiène du chien</li>
               <li><strong>Accompagnement vétérinaire</strong> : transport et assistance aux rendez-vous</li>
             </ul>
             
             <h3 className="text-xl font-medium mb-2 mt-4">4.2 Preuves de prestation</h3>
             <p className="text-muted-foreground">
-              Le Promeneur s'engage à fournir des preuves photo et/ou vidéo de chaque Prestation. 
+              Le Accompagnateur s'engage à fournir des preuves photo et/ou vidéo de chaque Prestation. 
               Ces preuves sont obligatoires pour le déblocage du paiement.
             </p>
           </section>
@@ -110,13 +110,13 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 5 - Tarifs et Paiement</h2>
             <h3 className="text-xl font-medium mb-2">5.1 Tarification</h3>
             <p className="text-muted-foreground">
-              Les tarifs sont librement fixés par les Promeneurs dans le respect des tarifs 
-              minimums indiqués sur la Plateforme. L'assurance et le support sont inclus dans chaque Prestation réalisée.
+              Les tarifs sont librement fixés par les Accompagnateurs dans le respect des tarifs 
+              minimums indiqués sur la Plateforme. Le support est inclus dans chaque Prestation réalisée.
             </p>
             
             <h3 className="text-xl font-medium mb-2 mt-4">5.2 Paiement sécurisé</h3>
             <p className="text-muted-foreground">
-              Le paiement est bloqué lors de la réservation et n'est débloqué au Promeneur 
+              Le paiement est bloqué lors de la réservation et n'est débloqué au Accompagnateur 
               qu'après validation de la Prestation par le Propriétaire ou automatiquement 
               48h après réception des preuves en l'absence de contestation.
             </p>
@@ -136,15 +136,15 @@ const CGU = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Fournir des informations exactes sur son chien (santé, comportement, besoins)</li>
               <li>S'assurer que le chien est à jour de ses vaccinations</li>
-              <li>Informer le Promeneur de tout problème de santé ou comportemental</li>
+              <li>Informer le Accompagnateur de tout problème de santé ou comportemental</li>
               <li>Respecter les horaires convenus</li>
               <li>Payer les Prestations réservées</li>
             </ul>
             
-            <h3 className="text-xl font-medium mb-2 mt-4">6.2 Obligations du Promeneur</h3>
+            <h3 className="text-xl font-medium mb-2 mt-4">6.2 Obligations du Accompagnateur</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Disposer des qualifications et de l'expérience nécessaires</li>
-              <li>Être titulaire d'une assurance responsabilité civile professionnelle</li>
+              <li>Être titulaire d'une protection professionnelle</li>
               <li>Fournir les preuves de chaque Prestation</li>
               <li>Traiter les animaux avec bienveillance et professionnalisme</li>
               <li>Informer le Propriétaire de tout incident</li>
@@ -154,15 +154,15 @@ const CGU = () => {
 
           {/* Article 7 */}
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Article 7 - Assurance</h2>
+            <h2 className="text-2xl font-semibold mb-4">Article 7 - Protection & Sécurité</h2>
             <p className="text-muted-foreground">
-              DogWalking inclut une assurance responsabilité civile pour les Prestations réalisées 
-              via la Plateforme. Cette assurance couvre les dommages causés aux tiers pendant 
+              DogWalking inclut une protection professionnelle pour les Prestations réalisées 
+              via la Plateforme. Cette équipe intervient en cas de dommages aux tiers pendant 
               l'exécution de la Prestation, dans les limites et conditions définies dans le 
-              contrat d'assurance.
+              contrat d'protection.
             </p>
             <p className="text-muted-foreground mt-4">
-              Les Promeneurs doivent également disposer de leur propre assurance responsabilité 
+              Les Accompagnateurs s'engagent à respecter les règles de sécurité définies par 
               civile professionnelle.
             </p>
           </section>
@@ -172,14 +172,14 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 8 - Responsabilité</h2>
             <p className="text-muted-foreground">
               DogWalking agit en qualité d'intermédiaire technique et n'est pas partie au 
-              contrat conclu entre le Propriétaire et le Promeneur. À ce titre, DogWalking 
+              contrat conclu entre le Propriétaire et le Accompagnateur. À ce titre, DogWalking 
               ne saurait être tenue responsable :
             </p>
             <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-2">
               <li>De l'exécution ou de la non-exécution des Prestations</li>
               <li>Des dommages causés par ou au chien pendant la Prestation</li>
               <li>Des informations inexactes fournies par les Utilisateurs</li>
-              <li>Des litiges entre Propriétaires et Promeneurs</li>
+              <li>Des litiges entre Propriétaires et Accompagnateurs</li>
             </ul>
           </section>
 

@@ -168,7 +168,7 @@ const DashboardPreview = () => {
                   </li>
                   <li className="flex items-center gap-3 text-muted-foreground">
                     <Shield className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span>Assurance incluse</span>
+                    <span>Protection incluse</span>
                   </li>
                   <li className="flex items-center gap-3 text-muted-foreground">
                     <Star className="h-5 w-5 text-accent flex-shrink-0" />
@@ -202,7 +202,7 @@ const DashboardPreview = () => {
                 <Shield className="h-7 w-7 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground">100% Vérifié</h3>
-              <p className="text-sm text-muted-foreground">Casier judiciaire et identité vérifiés</p>
+              <p className="text-sm text-muted-foreground">Identité vérifiée</p>
             </div>
             <div className="flex flex-col items-center gap-3">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">

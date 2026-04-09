@@ -17,7 +17,7 @@ export const TrustSection = () => {
     "Promeneurs rigoureusement vérifiés",
     "Protection complète incluse",
     "Preuves photo obligatoires",
-    "Paiement escrow sécurisé",
+    "Paiement Sécurisé",
     "Support 7j/7",
     "Remboursement garanti"
   ];

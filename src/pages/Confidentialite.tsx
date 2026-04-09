@@ -89,8 +89,8 @@ const Confidentialite = () => {
             <h3 className="text-xl font-medium mb-2 mt-4">2.3 Données des promeneurs</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Pièce d'identité</li>
-              <li>Extrait de casier judiciaire (bulletin n°3)</li>
-              <li>Attestation d'assurance RC professionnelle</li>
+              <li>Vérification d'identité approfondie</li>
+              <li>Attestation d'protection professionnelle</li>
               <li>Coordonnées bancaires (pour les paiements)</li>
               <li>Qualifications et expériences</li>
             </ul>

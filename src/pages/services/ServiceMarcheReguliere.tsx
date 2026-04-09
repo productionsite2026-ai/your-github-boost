@@ -59,7 +59,7 @@ const marcheReguliereFAQs = [
   },
   {
     question: "Mon chien est-il assuré à chaque promenade régulière ?",
-    answer: "Oui, chaque promenade est couverte par notre assurance jusqu'à 2 millions d'euros, que ce soit une promenade ponctuelle ou régulière. Le système de paiement sécurisé s'applique également : vous ne payez qu'après réception des preuves photo de chaque sortie."
+    answer: "Oui, chaque promenade est protégée, que ce soit une promenade ponctuelle ou régulière. Le système de paiement sécurisé s'applique : vous ne payez qu'après réception des preuves photo et validation du code de fin de mission."
   }
 ];
 

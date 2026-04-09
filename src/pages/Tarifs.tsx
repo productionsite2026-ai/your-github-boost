@@ -70,10 +70,10 @@ const Tarifs = () => {
   ];
 
   const guarantees = [
-    { icon: Shield, title: "Promeneurs 100% vérifiés", description: "CNI, casier judiciaire et assurance RC vérifiés manuellement", variant: "primary" as const },
+    { icon: Shield, title: "Promeneurs 100% vérifiés", description: "identité vérifiée et protection vérifiés manuellement", variant: "primary" as const },
     { icon: Lock, title: "Paiement sécurisé", description: "Argent bloqué jusqu'à validation de la preuve", variant: "accent" as const },
     { icon: Camera, title: "Preuves obligatoires", description: "Photo/vidéo + message pendant chaque mission", variant: "success" as const },
-    { icon: CreditCard, title: "Tarifs transparents", description: "Tout inclus : assurance, support, plateforme", variant: "warning" as const }
+    { icon: CreditCard, title: "Tarifs transparents", description: "Tout inclus : protection, support, plateforme", variant: "warning" as const }
   ];
 
   const faqItems = [
@@ -83,7 +83,7 @@ const Tarifs = () => {
     },
     {
       question: "Que comprennent les tarifs affichés ?",
-      answer: "Les tarifs DogWalking incluent l'assurance responsabilité civile jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé qui protège votre argent, et la gestion automatisée des preuves photo/vidéo. C'est un service complet sans frais cachés."
+      answer: "Les tarifs DogWalking incluent la protection jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé qui protège votre argent, et la gestion automatisée des preuves photo/vidéo. C'est un service complet sans frais cachés."
     },
     {
       question: "Puis-je donner un pourboire au promeneur ?",
@@ -103,7 +103,7 @@ const Tarifs = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tarifs DogWalking | Prix Promenade Chien, Garde, Visite à Domicile"
-        description="Découvrez nos tarifs transparents : promenade dès 8€, garde dès 10€, visite à domicile dès 8€. Tout inclus avec assurance 2M€ et paiement sécurisé."
+        description="Découvrez nos tarifs transparents : promenade dès 8€, garde dès 10€, visite à domicile dès 8€. Tout inclus avec protection complète et paiement sécurisé."
         canonical="https://dogwalking.fr/tarifs"
       />
       <Header />
@@ -147,7 +147,7 @@ const Tarifs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Tarifs minimums garantis. Tout inclus (assurance + support).
+              Tarifs minimums garantis. Tout inclus (protection + support).
             </motion.p>
           </div>
         </motion.div>
@@ -178,8 +178,7 @@ const Tarifs = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             Chez DogWalking, nous croyons que chaque chien mérite des soins de qualité à un prix juste. 
             Nos tarifs minimums garantissent une rémunération équitable pour nos promeneurs professionnels 
-            tout en restant accessibles pour les propriétaires. Chaque prestation inclut l'assurance 
-            responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
+            tout en restant accessibles pour les propriétaires. Chaque prestation inclut la protection complète,             responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
             et un support client disponible 7 jours sur 7.
           </p>
         </motion.div>
@@ -289,7 +288,7 @@ const Tarifs = () => {
                     "Médiation gratuite en cas de litige",
                     "Historique des preuves conservé 90 jours",
                     "Support disponible 7j/7 par chat et email",
-                    "Assurance RC 2M€ incluse"
+                    "Protection 2M€ incluse"
                   ].map((item, i) => (
                     <motion.li 
                       key={i} 

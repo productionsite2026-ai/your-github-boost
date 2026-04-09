@@ -23,7 +23,7 @@ const quiSommesNousFAQs = [
   },
   {
     question: "Comment DogWalking sélectionne-t-il ses promeneurs ?",
-    answer: "Chaque candidat promeneur passe par un processus de vérification rigoureux : vérification d'identité (CNI), contrôle du casier judiciaire, validation de l'assurance responsabilité civile, et entretien de motivation. Seuls 35% des candidats sont acceptés. Nous privilégions la qualité à la quantité pour garantir votre tranquillité."
+    answer: "Chaque candidat promeneur passe par un processus de vérification rigoureux : vérification d'identité (CNI), contrôle du vérification approfondie, validation de la protection, et entretien de motivation. Seuls 35% des candidats sont acceptés. Nous privilégions la qualité à la quantité pour garantir votre tranquillité."
   },
   {
     question: "DogWalking est-il disponible dans ma ville ?",
@@ -53,7 +53,7 @@ const QuiSommesNous = () => {
     {
       icon: Shield,
       title: "Sécurité Absolue",
-      description: "La protection de votre animal et de vos données est notre priorité. Vérifications rigoureuses, paiement sécurisé, assurance premium incluse."
+      description: "La protection de votre animal et de vos données est notre priorité. Vérifications rigoureuses, paiement sécurisé, paiement sécurisé inclus."
     },
     {
       icon: Heart,
@@ -186,8 +186,8 @@ const QuiSommesNous = () => {
                 </p>
                 <div className="space-y-3">
                   {[
-                    "Vérification d'identité et casier judiciaire",
-                    "Assurance responsabilité civile obligatoire",
+                    "Vérification d'identité approfondie",
+                    "Vérification d'identité obligatoire",
                     "Preuves photo/vidéo à chaque mission",
                     "Paiement 100% sécurisé"
                   ].map((item, i) => (

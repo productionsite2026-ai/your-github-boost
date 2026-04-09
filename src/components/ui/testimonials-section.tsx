@@ -19,7 +19,7 @@ export const TestimonialsSection = () => {
       name: "Thomas B.",
       city: "Lyon 6e",
       rating: 5,
-      comment: "Enfin une plateforme sérieuse. Le paiement en escrow et la vérification du casier judiciaire, c'est ce qui m'a convaincu.",
+      comment: "Enfin une plateforme sérieuse. Le paiement en paiement sécurisé et la vérification du vérification approfondie, c'est ce qui m'a convaincu.",
       dog: "Luna, Berger Australien",
       verified: true,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Thomas"

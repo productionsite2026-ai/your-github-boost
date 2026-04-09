@@ -33,7 +33,7 @@ const NousSommesPresents = () => {
 
   const faqs = [
     { question: "Où êtes-vous disponibles ?", answer: "DogWalking est actuellement disponible à Paris (20 arrondissements) et dans toute l'Île-de-France. Nous couvrons les départements 75, 77, 78, 91, 92, 93, 94 et 95 avec des promeneurs vérifiés." },
-    { question: "Comment sont sélectionnés les promeneurs ?", answer: "Chaque promeneur passe un processus de vérification complet : vérification d'identité, casier judiciaire, entretien, test pratique avec un chien et formation aux premiers secours canins." },
+    { question: "Comment sont sélectionnés les promeneurs ?", answer: "Chaque promeneur passe un processus de vérification complet : vérification d'identité, vérification approfondie, entretien, test pratique avec un chien et formation aux premiers secours canins." },
     { question: "Puis-je avoir un promeneur dans ma ville rapidement ?", answer: "À Paris : réponse sous 24h. En Île-de-France : sous 48h. Si votre zone n'est pas encore couverte, inscrivez-vous sur notre liste d'attente et nous vous préviendrons dès l'ouverture." },
     { question: "Quels services proposez-vous ?", answer: "Promenade quotidienne, garde à domicile, visite à domicile, dog-sitting, marche régulière. Tous nos services sont disponibles dans les zones couvertes." },
     { question: "Comment demander un service dans ma zone ?", answer: "Utilisez le formulaire ci-dessous, ou inscrivez-vous directement sur la plateforme. Nous vous mettons en relation avec le promeneur le plus proche et le mieux adapté à votre chien." },
@@ -89,7 +89,7 @@ const NousSommesPresents = () => {
                 <Clock className="h-4 w-4" /> Réponse sous 24h
               </Badge>
               <Badge variant="secondary" className="flex items-center gap-1.5 px-3 py-1.5">
-                <Award className="h-4 w-4" /> Assurance incluse
+                <Award className="h-4 w-4" /> Protection incluse
               </Badge>
             </motion.div>
           </div>

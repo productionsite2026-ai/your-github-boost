@@ -16,7 +16,7 @@ export const FeaturesSection = () => {
     },
     {
       icon: Lock,
-      title: "Paiement escrow",
+      title: "Paiement sécurisé",
       description: "Votre argent reste bloqué jusqu'à preuve de service validée. Commission 13% tout inclus.",
       badge: "Protection 100%"
     },
@@ -70,7 +70,7 @@ export const FeaturesSection = () => {
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
             La seule plateforme française avec preuves photo/vidéo obligatoires, 
-            paiement escrow et vérification triple des promeneurs.
+            paiement sécurisé et vérification triple des promeneurs.
           </p>
         </div>
 

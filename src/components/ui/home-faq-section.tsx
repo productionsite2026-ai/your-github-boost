@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const homeFAQs = [
   {
     question: "Comment fonctionne DogWalking pour trouver un promeneur ?",
-    answer: "C'est simple : entrez votre adresse, choisissez le type de service souhaité (promenade, garde, visite), et découvrez les promeneurs vérifiés disponibles près de chez vous. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé en escrow jusqu'à réception des preuves photo de la prestation."
+    answer: "C'est simple : entrez votre adresse, choisissez le type de service souhaité (promenade, garde, visite), et découvrez les promeneurs vérifiés disponibles près de chez vous. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé en paiement sécurisé jusqu'à réception des preuves photo de la prestation."
   },
   {
     question: "Les promeneurs sont-ils vraiment vérifiés ?",
@@ -12,7 +12,7 @@ const homeFAQs = [
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
-    answer: "Grâce à notre système de paiement escrow, votre argent reste bloqué jusqu'à validation de la prestation. Si le promeneur n'envoie pas de preuve photo/vidéo, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester et être remboursé. Notre équipe support intervient sous 24h pour tout litige."
+    answer: "Grâce à notre système de paiement sécurisé, votre argent reste bloqué jusqu'à validation de la prestation. Si le promeneur n'envoie pas de preuve photo/vidéo, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester et être remboursé. Notre équipe support intervient sous 24h pour tout litige."
   },
   {
     question: "Quels types de services propose DogWalking ?",

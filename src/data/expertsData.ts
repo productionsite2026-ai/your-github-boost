@@ -57,7 +57,7 @@ export const experts: ExpertProfile[] = [
       "Vérification et sécurité",
       "Protocoles de confiance",
       "Gestion des risques",
-      "Assurance qualité",
+      "Garantie qualité",
     ],
     bio: "Sophie gère l'ensemble du processus de vérification des promeneurs. Avec 10 ans d'expérience en gestion de la confiance et de la sécurité, elle a mis en place les protocoles rigoureux qui font la réputation de DogWalking. Chaque promeneur validé a passé par son processus exigeant.",
     certifications: [

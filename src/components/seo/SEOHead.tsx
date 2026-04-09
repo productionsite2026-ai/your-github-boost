@@ -24,7 +24,7 @@ export const SEOHead = ({
     "name": "DogWalking",
     "url": "https://dogwalking.fr",
     "logo": "https://dogwalking.fr/logo.png",
-    "description": "Plateforme n°1 de promenade et garde de chiens en France. Promeneurs 100% vérifiés, paiement sécurisé, preuves photo obligatoires, assurance incluse jusqu'à 2M€.",
+    "description": "Plateforme n°1 de promenade et garde de chiens en France. Promeneurs 100% vérifiés, paiement sécurisé, preuves photo obligatoires, protection incluse jusqu'à 2M€.",
     "foundingDate": "2023",
     "areaServed": {
       "@type": "Country",

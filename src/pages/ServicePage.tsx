@@ -196,7 +196,7 @@ const ServicePage = () => {
                   <Star className="h-4 w-4 mr-2" />Dès {service.minPrice}€
                 </Badge>
                 <Badge className="bg-emerald-500/15 text-emerald-600 border-0 text-base py-2 px-4 backdrop-blur-sm">
-                  <Shield className="h-4 w-4 mr-2" />Assurance 2M€
+                  <Shield className="h-4 w-4 mr-2" />Protection complète
                 </Badge>
               </motion.div>
 
@@ -511,7 +511,7 @@ const ServicePage = () => {
                   <p className="text-muted-foreground leading-relaxed">{service.howItWorks.safety}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <Badge variant="outline" className="text-primary border-primary/30">GPS temps réel</Badge>
-                    <Badge variant="outline" className="text-primary border-primary/30">Assurance 2M€</Badge>
+                    <Badge variant="outline" className="text-primary border-primary/30">Protection complète</Badge>
                     <Badge variant="outline" className="text-primary border-primary/30">Support 7j/7</Badge>
                   </div>
                 </AnimatedCard>
@@ -555,7 +555,7 @@ const ServicePage = () => {
               <AnimatedGridItem>
                 <AnimatedCard className="text-center p-6" hover glow>
                   <AnimatedIcon icon={Shield} size="lg" variant="accent" className="mx-auto mb-4" pulse />
-                  <h3 className="font-bold text-lg mb-2">Assurance</h3>
+                  <h3 className="font-bold text-lg mb-2">Protection</h3>
                   <p className="text-sm text-muted-foreground">{service.expertiseAdvantages.insurance}</p>
                 </AnimatedCard>
               </AnimatedGridItem>

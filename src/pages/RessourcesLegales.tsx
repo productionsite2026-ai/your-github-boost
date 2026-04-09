@@ -166,7 +166,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 3 - Inscription et Compte</h2>
                 <p className="text-muted-foreground">
                   L'inscription est ouverte à toute personne majeure (18 ans minimum). Les promeneurs doivent 
-                  fournir des documents justificatifs (CNI, casier judiciaire, attestation d'assurance) vérifiés 
+                  fournir des documents justificatifs (identité vérifiée, documents professionnels) vérifiés 
                   par nos équipes.
                 </p>
               </section>
@@ -174,7 +174,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 4 - Tarifs et Paiement</h2>
                 <p className="text-muted-foreground mb-4">
-                  Les tarifs sont librement fixés par les promeneurs. Le paiement est bloqué lors de la réservation et libéré après validation de la prestation. L'assurance et le support sont inclus dans le service.
+                  Les tarifs sont librement fixés par les promeneurs. Le paiement est bloqué lors de la réservation et libéré après validation de la prestation. Le support est inclus dans le service.
                 </p>
                 <h3 className="text-xl font-medium mb-2">Annulation</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -200,7 +200,7 @@ const RessourcesLegales = () => {
                     <h3 className="text-lg font-medium mb-2">Promeneur</h3>
                     <ul className="list-disc list-inside text-muted-foreground space-y-1 text-sm">
                       <li>Qualifications nécessaires</li>
-                      <li>Assurance RC professionnelle</li>
+                      <li>Protection professionnelle</li>
                       <li>Preuves de chaque prestation</li>
                       <li>Bienveillance envers les animaux</li>
                     </ul>
@@ -211,7 +211,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 6 - Responsabilité</h2>
                 <p className="text-muted-foreground">
-                  DogWalking agit en qualité d'intermédiaire technique. L'assurance RC couvre les prestations 
+                  DogWalking agit en qualité d'intermédiaire technique. L'protection couvre les prestations 
                   réalisées via la plateforme.
                 </p>
               </section>
@@ -284,7 +284,7 @@ const RessourcesLegales = () => {
                   </div>
                   <div className="bg-muted/50 p-4 rounded-lg">
                     <h3 className="font-medium mb-2">Promeneurs</h3>
-                    <p className="text-sm text-muted-foreground">CNI, casier, assurance, coordonnées bancaires</p>
+                    <p className="text-sm text-muted-foreground">Identité, coordonnées bancaires</p>
                   </div>
                   <div className="bg-muted/50 p-4 rounded-lg">
                     <h3 className="font-medium mb-2">Navigation</h3>
