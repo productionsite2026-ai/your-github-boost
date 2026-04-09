@@ -189,7 +189,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Soins personnalisés selon vos instructions précises",
       "Surveillance de votre domicile incluse à chaque passage",
       "Photos et compte-rendu envoyés après chaque visite",
-      "Visiteurs vérifiés et assurés pour votre tranquillité"
+      "Visiteurs vérifiés pour votre tranquillité"
     ],
     localAvailability: {
       mainCity: "Notre réseau de visiteurs couvre les principales agglomérations françaises et leurs périphéries.",
