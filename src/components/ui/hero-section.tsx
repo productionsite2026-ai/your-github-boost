@@ -104,10 +104,10 @@ export const HeroSection = () => {
 
           <motion.p 
             variants={itemVariants}
-            className="text-lg md:text-2xl mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto text-center whitespace-pre-line"
+            className="text-lg md:text-2xl mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto text-center"
           >
-            Trouvez le Compagnon idéal pour votre chien, chat et autres animaux près de chez vous.
-            Annonce libre ou choisissez votre accompagnateur.
+            Trouvez le Compagnon idéal pour votre chien, chat et autres animaux près de chez vous.<br />
+            Annonce libre ou choisissez votre accompagnateur.<br />
             Paiement sécurisé et preuves photo obligatoires.
           </motion.p>
 
