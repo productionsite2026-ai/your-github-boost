@@ -153,7 +153,7 @@ export const HomeIntroSection = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <div className="text-4xl lg:text-5xl font-bold mb-2">50 000+</div>
+              <div className="text-4xl lg:text-5xl font-bold mb-2">5000+</div>
               <div className="text-primary-foreground/80">Promenades réalisées</div>
             </motion.div>
             <motion.div
@@ -171,14 +171,14 @@ export const HomeIntroSection = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
             >
-              <div className="text-4xl lg:text-5xl font-bold mb-2">2 000+</div>
-              <div className="text-primary-foreground/80">Promeneurs vérifiés</div>
+              <div className="text-4xl lg:text-5xl font-bold mb-2">1 500+</div>
+              <div className="text-primary-foreground/80">Accompagnateur vérifiés</div>
             </motion.div>
           </div>
           
           <div className="relative text-center">
             <p className="text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
-              Rejoignez les milliers de propriétaires qui nous font confiance et offrez à votre chien l'attention qu'il mérite.
+              Rejoignez les milliers de propriétaires qui nous font confiance et offrez à vos animaux l’attention qu’ils méritent.
             </p>
             <Button 
               size="lg" 
