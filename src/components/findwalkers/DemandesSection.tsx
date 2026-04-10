@@ -26,9 +26,9 @@ const DemandesSection = () => {
             <Search className="h-3.5 w-3.5" />
             Pour les accompagnateurs
           </div>
-          <h2 className="text-2xl font-extrabold text-foreground mb-2">Demandes des propriétaires</h2>
+          <h2 className="text-2xl font-extrabold text-foreground mb-2">Demandes des Propriétaires</h2>
           <p className="text-sm text-foreground/60 max-w-xl mx-auto font-medium leading-relaxed">
-            Parcourez les demandes des propriétaires et postulez à celles qui vous intéressent.
+            Parcourez les demandes des Propriétaires et postulez à celles qui vous intéressent.
           </p>
         </motion.div>
 

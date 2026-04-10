@@ -147,7 +147,7 @@ const BookWalk = () => {
 
       // Get owner name
       const { data: ownerProfile } = await supabase.from('profiles').select('first_name').eq('id', userId).single();
-      const ownerName = ownerProfile?.first_name || 'Un propriétaire';
+      const ownerName = ownerProfile?.first_name || 'Un Propriétaire';
 
       // Notify the walker
       await supabase.from('notifications').insert({

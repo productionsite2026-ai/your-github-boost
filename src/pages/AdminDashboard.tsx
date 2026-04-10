@@ -309,7 +309,7 @@ const AdminDashboard = () => {
             <CardContent>
               <div className="text-2xl font-bold">{stats.totalUsers}</div>
               <p className="text-xs text-muted-foreground">
-                {stats.totalOwners} propriétaires • {stats.totalWalkers} promeneurs
+                {stats.totalOwners} Propriétaires • {stats.totalWalkers} promeneurs
               </p>
             </CardContent>
           </Card>

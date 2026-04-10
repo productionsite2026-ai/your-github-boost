@@ -76,7 +76,7 @@ const QuiSommesNous = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Qui Sommes-Nous | L'Équipe DogWalking | Promeneurs Vérifiés France"
-        description="Découvrez l'équipe DogWalking, la plateforme n°1 de promenade de chiens en France. Notre mission : connecter les propriétaires avec des promeneurs passionnés et vérifiés."
+        description="Découvrez l'équipe DogWalking, la plateforme n°1 de promenade de chiens en France. Notre mission : connecter les Propriétaires avec des promeneurs passionnés et vérifiés."
         canonical="https://dogwalking.fr/qui-sommes-nous"
         image={teamImage}
       />
@@ -175,7 +175,7 @@ const QuiSommesNous = () => {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                   Avant DogWalking, trouver un promeneur de confiance relevait du parcours du combattant. 
-                  Annonces douteuses, absence de vérifications, paiements hasardeux... Les propriétaires 
+                  Annonces douteuses, absence de vérifications, paiements hasardeux... Les Propriétaires 
                   de chiens méritaient mieux. Nous avons créé la solution.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -343,7 +343,7 @@ const QuiSommesNous = () => {
                   Rejoignez la Communauté DogWalking
                 </h2>
                 <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-                  Que vous soyez propriétaire de chien ou passionné souhaitant devenir promeneur, 
+                  Que vous soyez Propriétaire de chien ou passionné souhaitant devenir promeneur, 
                   faites partie de l'aventure DogWalking dès aujourd'hui.
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center">

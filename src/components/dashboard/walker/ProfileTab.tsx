@@ -204,14 +204,14 @@ const WalkerProfileTab = ({ profile, walkerProfile }: ProfileTabProps) => {
                   <FileText className="h-5 w-5 text-primary" />
                   Présentation
                 </CardTitle>
-                <CardDescription>Cette description sera visible par les propriétaires</CardDescription>
+                <CardDescription>Cette description sera visible par les Propriétaires</CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <Textarea 
                   value={profileData.bio}
                   onChange={(e) => setProfileData({...profileData, bio: e.target.value})}
                   rows={8}
-                  placeholder="Présentez-vous aux propriétaires...
+                  placeholder="Présentez-vous aux Propriétaires...
 
 Par exemple:
 - Votre expérience avec les chiens

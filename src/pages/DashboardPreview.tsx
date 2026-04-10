@@ -11,7 +11,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 
 /**
  * Page de redirection automatique selon le type d'utilisateur
- * - Si connecté en tant que propriétaire → /dashboard-proprietaire
+ * - Si connecté en tant que Propriétaire → /dashboard-proprietaire
  * - Si connecté en tant que promeneur → /dashboard-promeneur
  * - Si non connecté → affiche les options d'inscription
  */
@@ -44,7 +44,7 @@ const DashboardPreview = () => {
           navigate('/dashboard-proprietaire', { replace: true });
           return;
         } else if (profile?.user_type === 'both') {
-          // Si l'utilisateur a les deux rôles, rediriger vers propriétaire par défaut
+          // Si l'utilisateur a les deux rôles, rediriger vers Propriétaire par défaut
           navigate('/dashboard-proprietaire', { replace: true });
           return;
         }
@@ -73,7 +73,7 @@ const DashboardPreview = () => {
     <div className="min-h-screen bg-background">
       <SEOHead 
         title="Choisir mon espace | DogWalking"
-        description="Accédez à votre espace propriétaire ou promeneur sur DogWalking"
+        description="Accédez à votre espace Propriétaire ou promeneur sur DogWalking"
       />
       <Header />
       
@@ -88,7 +88,7 @@ const DashboardPreview = () => {
             Bienvenue sur <span className="text-primary">DogWalking</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            La plateforme qui connecte les propriétaires de chiens avec des promeneurs certifiés et de confiance.
+            La plateforme qui connecte les Propriétaires de chiens avec des promeneurs certifiés et de confiance.
           </p>
         </motion.div>
 
@@ -134,7 +134,7 @@ const DashboardPreview = () => {
                   className="w-full gap-2 mt-6"
                   size="lg"
                 >
-                  Je suis propriétaire <ArrowRight className="h-4 w-4" />
+                  Je suis Propriétaire <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>

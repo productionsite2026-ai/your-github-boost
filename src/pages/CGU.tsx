@@ -7,7 +7,7 @@ const CGU = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Conditions Générales d'Utilisation | DogWalking"
-        description="CGU de DogWalking : règles et obligations pour les propriétaires de chiens et accompagnateurs professionnels sur notre plateforme."
+        description="CGU de DogWalking : règles et obligations pour les Propriétaires de chiens et accompagnateurs professionnels sur notre plateforme."
         canonical="https://dogwalking.fr/cgu"
         noindex
       />
@@ -38,7 +38,7 @@ const CGU = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>"Plateforme"</strong> : désigne le site internet DogWalking et l'ensemble de ses fonctionnalités</li>
               <li><strong>"Utilisateur"</strong> : désigne toute personne physique ou morale utilisant la Plateforme</li>
-              <li><strong>"Propriétaire"</strong> : désigne l'utilisateur inscrit en qualité de propriétaire de chien</li>
+              <li><strong>"Propriétaire"</strong> : désigne l'utilisateur inscrit en qualité de Propriétaire de chien</li>
               <li><strong>"Accompagnateur"</strong> : désigne l'utilisateur inscrit en qualité de prestataire de services</li>
               <li><strong>"Prestation"</strong> : désigne tout service réservé via la Plateforme (promenade, garde, etc.)</li>
               <li><strong>"Compte"</strong> : désigne l'espace personnel de l'Utilisateur sur la Plateforme</li>

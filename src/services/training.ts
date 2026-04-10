@@ -61,11 +61,11 @@ export const DEFAULT_TRAINING_MODULES: TrainingModule[] = [
   },
   {
     id: 'module-2',
-    title: 'Communication avec les propriétaires',
-    description: 'Maîtrisez la communication professionnelle avec les propriétaires',
+    title: 'Communication avec les Propriétaires',
+    description: 'Maîtrisez la communication professionnelle avec les Propriétaires',
     content: `
-      <h2>Communication avec les propriétaires</h2>
-      <p>Apprenez à communiquer efficacement avec les propriétaires:</p>
+      <h2>Communication avec les Propriétaires</h2>
+      <p>Apprenez à communiquer efficacement avec les Propriétaires:</p>
       <ul>
         <li>Rapports de mission clairs et détaillés</li>
         <li>Gestion des attentes</li>
@@ -118,12 +118,12 @@ export const DEFAULT_QUIZ_QUESTIONS: QuizQuestion[] = [
     question: 'Que faire en cas d\'urgence médicale pendant une promenade?',
     options: [
       'Continuer la promenade',
-      'Contacter immédiatement le propriétaire et un vétérinaire',
+      'Contacter immédiatement le Propriétaire et un vétérinaire',
       'Attendre que le chien se sente mieux',
       'Rentrer à la maison',
     ],
     correctAnswer: 1,
-    explanation: 'Il est crucial de contacter immédiatement le propriétaire et un vétérinaire en cas d\'urgence.',
+    explanation: 'Il est crucial de contacter immédiatement le Propriétaire et un vétérinaire en cas d\'urgence.',
   },
   {
     id: 'q3',
@@ -132,7 +132,7 @@ export const DEFAULT_QUIZ_QUESTIONS: QuizQuestion[] = [
     options: [
       'Votre opinion personnelle',
       'Détails objectifs sur le comportement et l\'activité du chien',
-      'Critiques du propriétaire',
+      'Critiques du Propriétaire',
       'Demande de pourboire',
     ],
     correctAnswer: 1,

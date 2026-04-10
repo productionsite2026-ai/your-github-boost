@@ -37,7 +37,7 @@ export const HomeIntroSection = () => {
     {
       icon: Lock,
       title: "Paiement Sécurisé",
-      description: "Le paiement est sécurisé et bloqué jusqu’à votre validation à la fin du service. Le propriétaire transmet un code unique, sinon le paiement est remboursé.",
+      description: "Le paiement est sécurisé et bloqué jusqu’à votre validation à la fin du service. Le Propriétaire transmet un code unique, sinon le paiement est remboursé.",
       highlight: "Innovation unique en France",
       image: validationPayment,
       color: "from-accent/20 to-accent/10"
@@ -70,7 +70,7 @@ export const HomeIntroSection = () => {
             Pourquoi choisir DogWalking pour la garde et la promenade vos chiens, chats et autres animaux ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            DogWalking connecte les propriétaires de chiens avec des <strong className="text-foreground">promeneurs vérifiés</strong> dans 
+            DogWalking connecte les Propriétaires de chiens avec des <strong className="text-foreground">promeneurs vérifiés</strong> dans 
             toute la France. De Paris à Lyon, de Marseille à Bordeaux : 
             trouvez un professionnel de confiance près de chez vous.
           </p>
@@ -178,7 +178,7 @@ export const HomeIntroSection = () => {
           
           <div className="relative text-center">
             <p className="text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
-              Rejoignez les milliers de propriétaires qui nous font confiance et offrez à vos animaux l’attention qu’ils méritent.
+              Rejoignez les milliers de Propriétaires qui nous font confiance et offrez à vos animaux l’attention qu’ils méritent.
             </p>
             <Button 
               size="lg" 
@@ -186,7 +186,7 @@ export const HomeIntroSection = () => {
               onClick={() => navigate("/find-walkers#annonces")}
               className="group"
             >
-              Voir les offres propriétaire libres
+              Voir les offres Propriétaire libres
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>

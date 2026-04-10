@@ -361,7 +361,7 @@ const ServicePetSitting = () => {
           </div>
         </section>
 
-        {/* Avantages propriétaire */}
+        {/* Avantages Propriétaire */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <motion.div 

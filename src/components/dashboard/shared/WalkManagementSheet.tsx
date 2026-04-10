@@ -209,7 +209,7 @@ const WalkManagementSheet = ({ open, onOpenChange, activeMission }: WalkManageme
     }
 
     setPhase('completed');
-    toast({ title: "🎉 Mission terminée !", description: `Code de fin : ${endCode}. Le propriétaire sera notifié.` });
+    toast({ title: "🎉 Mission terminée !", description: `Code de fin : ${endCode}. Le Propriétaire sera notifié.` });
   };
 
   const handleReset = () => {
@@ -448,7 +448,7 @@ const WalkManagementSheet = ({ open, onOpenChange, activeMission }: WalkManageme
                   </motion.div>
                   <div>
                     <h3 className="text-lg font-bold text-foreground">Code de fin de mission</h3>
-                    <p className="text-sm text-muted-foreground">Communiquez ce code au propriétaire pour valider</p>
+                    <p className="text-sm text-muted-foreground">Communiquez ce code au Propriétaire pour valider</p>
                   </div>
                   <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="bg-primary/5 border-2 border-primary/20 rounded-2xl p-6">
                     <p className="text-4xl font-mono font-bold tracking-[0.3em] text-primary">{endCode}</p>
@@ -477,7 +477,7 @@ const WalkManagementSheet = ({ open, onOpenChange, activeMission }: WalkManageme
                   </motion.div>
                   <div className="text-center">
                     <h3 className="text-xl font-bold mb-1 text-foreground">Mission terminée ! 🎉</h3>
-                    <p className="text-sm text-muted-foreground mb-2">Le propriétaire a été notifié.</p>
+                    <p className="text-sm text-muted-foreground mb-2">Le Propriétaire a été notifié.</p>
                     <p className="text-xs text-muted-foreground">Le paiement sera crédité sous 48h après validation.</p>
                   </div>
                   <div className="bg-primary/5 rounded-xl p-3 text-center">

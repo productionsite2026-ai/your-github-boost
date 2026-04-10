@@ -113,7 +113,7 @@ const Confidentialite = () => {
             <p className="text-muted-foreground mb-4">Vos données sont collectées pour :</p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>Gestion de votre compte</strong> : création, authentification, modification</li>
-              <li><strong>Mise en relation</strong> : entre propriétaires et promeneurs</li>
+              <li><strong>Mise en relation</strong> : entre Propriétaires et promeneurs</li>
               <li><strong>Réservation et paiement</strong> : traitement des transactions</li>
               <li><strong>Communication</strong> : notifications, messages, assistance</li>
               <li><strong>Sécurité</strong> : vérification des promeneurs, prévention de la fraude</li>

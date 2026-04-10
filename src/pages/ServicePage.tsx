@@ -394,7 +394,7 @@ const ServicePage = () => {
                     </li>
                     <li className="flex items-center gap-3">
                       <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                      <span>Nouveaux propriétaires de chiots</span>
+                      <span>Nouveaux Propriétaires de chiots</span>
                     </li>
                   </ul>
                 </AnimatedCard>
