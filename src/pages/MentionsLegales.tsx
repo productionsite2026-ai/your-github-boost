@@ -7,7 +7,7 @@ const MentionsLegales = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Mentions Légales | DogWalking"
-        description="Mentions légales de DogWalking SAS, plateforme de mise en relation entre propriétaires de chiens et promeneurs professionnels en France."
+        description="Mentions légales de DogWalking SAS, plateforme de mise en relation entre Propriétaires de chiens et promeneurs professionnels en France."
         canonical="https://dogwalking.fr/mentions-legales"
         noindex
       />
@@ -49,7 +49,7 @@ const MentionsLegales = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">3. Activité</h2>
             <p className="text-muted-foreground">
-              DogWalking est une plateforme de mise en relation entre propriétaires de chiens 
+              DogWalking est une plateforme de mise en relation entre Propriétaires de chiens 
               et promeneurs professionnels. Notre service permet de réserver des prestations 
               de promenade, garde, et autres services animaliers en toute confiance.
             </p>
@@ -113,7 +113,7 @@ const MentionsLegales = () => {
             </p>
             <p className="text-muted-foreground mt-4">
               En qualité de plateforme de mise en relation, DogWalking n'est pas partie aux 
-              contrats conclus entre les utilisateurs (propriétaires et promeneurs) et n'assume 
+              contrats conclus entre les utilisateurs (Propriétaires et promeneurs) et n'assume 
               aucune responsabilité quant à l'exécution des prestations.
             </p>
           </section>

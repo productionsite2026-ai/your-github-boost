@@ -61,7 +61,7 @@ const BookingsTab = ({ role }: { role: "owner" | "walker" }) => {
       const booking = bookings.find((b: any) => b.id === bookingId) as any;
       if (booking) {
         const targetId = role === "walker" ? booking.owner_id : booking.walker_id;
-        const senderName = role === "walker" ? "Le promeneur" : "Le propriétaire";
+        const senderName = role === "walker" ? "Le promeneur" : "Le Propriétaire";
         if (targetId) {
           await supabase.from("notifications").insert({
             user_id: targetId,

@@ -570,7 +570,7 @@ const ServiceDogSitting = () => {
               </motion.div>
               <motion.img
                 src={gardeCommunication}
-                alt="Dog sitter envoyant une photo de chien heureux au propriétaire"
+                alt="Dog sitter envoyant une photo de chien heureux au Propriétaire"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}

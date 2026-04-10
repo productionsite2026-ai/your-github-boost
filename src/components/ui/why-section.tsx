@@ -95,7 +95,7 @@ export const WhySection = () => {
             <br className="hidden sm:block" /> dans Toute la France
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
-            Partout en France, nous connectons les propriétaires d'animaux avec des professionnels de confiance pour des services adaptés à chaque besoin.
+            Partout en France, nous connectons les Propriétaires d'animaux avec des professionnels de confiance pour des services adaptés à chaque besoin.
           </p>
         </motion.div>
 

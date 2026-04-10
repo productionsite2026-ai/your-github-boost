@@ -18,7 +18,7 @@ export interface InvoiceData {
   walkerPhone: string;
   walkerAddress: string;
   
-  // Informations du propriétaire (client)
+  // Informations du Propriétaire (client)
   ownerName: string;
   ownerEmail: string;
   ownerAddress: string;
@@ -76,7 +76,7 @@ export async function generateInvoicePDF(invoice: InvoiceData): Promise<Blob> {
   yPosition += 4;
   doc.text(invoice.walkerAddress, margin, yPosition);
 
-  // Informations du propriétaire (À droite)
+  // Informations du Propriétaire (À droite)
   const rightColumnX = pageWidth / 2 + margin;
   yPosition = margin + 10;
   doc.setFontSize(11);

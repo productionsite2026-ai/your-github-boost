@@ -29,7 +29,7 @@ export const FeaturesSection = () => {
     {
       icon: Star,
       title: "Avis certifiés",
-      description: "Seuls les propriétaires ayant réservé peuvent noter. Impossible de truquer les avis.",
+      description: "Seuls les Propriétaires ayant réservé peuvent noter. Impossible de truquer les avis.",
       badge: "Avis vérifiés"
     },
     {

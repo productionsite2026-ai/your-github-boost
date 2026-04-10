@@ -511,7 +511,7 @@ const ServicePromenade = () => {
               Prêt à Offrir des Promenades de Qualité à Votre Chien ?
             </h2>
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-              Rejoignez les milliers de propriétaires qui font confiance à DogWalking pour le bien-être de leur compagnon.
+              Rejoignez les milliers de Propriétaires qui font confiance à DogWalking pour le bien-être de leur compagnon.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button 

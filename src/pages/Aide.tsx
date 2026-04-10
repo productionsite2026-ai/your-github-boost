@@ -67,7 +67,7 @@ const faqCategories = {
       },
       {
         question: "Comment suis-je payé ?",
-        answer: "Le paiement est libéré automatiquement après envoi de la preuve de prestation (photo/vidéo obligatoire) et validation par le propriétaire. Vous recevez l'intégralité du montant de la prestation. Le support est inclus."
+        answer: "Le paiement est libéré automatiquement après envoi de la preuve de prestation (photo/vidéo obligatoire) et validation par le Propriétaire. Vous recevez l'intégralité du montant de la prestation. Le support est inclus."
       },
       {
         question: "L'abonnement PRO est-il obligatoire ?",
@@ -106,7 +106,7 @@ const faqCategories = {
       },
       {
         question: "Quand suis-je débité pour une réservation ?",
-        answer: "Le débit intervient au moment de la confirmation de réservation. L'argent reste bloqué jusqu'à validation de la prestation par le propriétaire."
+        answer: "Le débit intervient au moment de la confirmation de réservation. L'argent reste bloqué jusqu'à validation de la prestation par le Propriétaire."
       }
     ]
   },
@@ -129,7 +129,7 @@ const faqCategories = {
       },
       {
         question: "Les preuves photo sont-elles obligatoires ?",
-        answer: "Oui, chaque promeneur doit envoyer au minimum une preuve photo ou vidéo pendant la prestation. Sans preuve, le paiement n'est pas libéré et le propriétaire peut demander un remboursement."
+        answer: "Oui, chaque promeneur doit envoyer au minimum une preuve photo ou vidéo pendant la prestation. Sans preuve, le paiement n'est pas libéré et le Propriétaire peut demander un remboursement."
       },
       {
         question: "Comment DogWalking protège-t-il mes données ?",

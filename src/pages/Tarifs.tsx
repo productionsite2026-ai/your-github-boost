@@ -57,7 +57,7 @@ const Tarifs = () => {
       name: "Visite sanitaire",
       minPrice: "16€",
       description: "Entretien + soins",
-      features: ["Brossage et soins du pelage", "Produits du propriétaire utilisés", "Hygiène quotidienne assurée", "Photos avant/après incluses"],
+      features: ["Brossage et soins du pelage", "Produits du Propriétaire utilisés", "Hygiène quotidienne assurée", "Photos avant/après incluses"],
       icon: "🧴"
     },
     {
@@ -178,7 +178,7 @@ const Tarifs = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             Chez DogWalking, nous croyons que chaque chien mérite des soins de qualité à un prix juste. 
             Nos tarifs minimums garantissent une rémunération équitable pour nos promeneurs professionnels 
-            tout en restant accessibles pour les propriétaires. Chaque prestation inclut la protection complète,             responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
+            tout en restant accessibles pour les Propriétaires. Chaque prestation inclut la protection complète,             responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
             et un support client disponible 7 jours sur 7.
           </p>
         </motion.div>
@@ -238,7 +238,7 @@ const Tarifs = () => {
         <div className="max-w-4xl mx-auto space-y-6">
           <SectionHeader
             title="Comment fonctionne le paiement ?"
-            subtitle="Un système sécurisé qui protège à la fois les propriétaires et les promeneurs"
+            subtitle="Un système sécurisé qui protège à la fois les Propriétaires et les promeneurs"
             icon={Lock}
             iconVariant="accent"
             badge="Paiement sécurisé"

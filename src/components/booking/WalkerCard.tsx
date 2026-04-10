@@ -156,7 +156,7 @@ export const WalkerCard = ({
                 {recurringClients > 0 && (
                   <span className="text-sm text-muted-foreground flex items-center gap-1">
                     <Repeat className="h-3 w-3" />
-                    {recurringClients} propriétaires récurrents
+                    {recurringClients} Propriétaires récurrents
                   </span>
                 )}
               </div>

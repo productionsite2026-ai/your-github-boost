@@ -311,7 +311,7 @@ www.dogwalking.fr
           <div className="text-sm">
             <p className="font-semibold mb-1">Comprendre vos factures</p>
             <ul className="text-muted-foreground space-y-1">
-              <li>• <strong>Montant brut</strong> : Prix payé par le propriétaire</li>
+              <li>• <strong>Montant brut</strong> : Prix payé par le Propriétaire</li>
               <li>• <strong>Commission (13%)</strong> : Frais de service DogWalking</li>
               <li>• <strong>Net</strong> : Ce que vous percevez réellement</li>
             </ul>

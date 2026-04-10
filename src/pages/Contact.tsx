@@ -293,7 +293,7 @@ const Contact = () => {
                 <div className="mt-8 space-y-4">
                   <Card className="bg-primary text-primary-foreground">
                     <CardContent className="pt-6">
-                      <h3 className="font-semibold mb-2">Vous êtes propriétaire ?</h3>
+                      <h3 className="font-semibold mb-2">Vous êtes Propriétaire ?</h3>
                       <p className="text-sm opacity-90 mb-4">
                         Trouvez un promeneur vérifié près de chez vous en quelques clics.
                       </p>

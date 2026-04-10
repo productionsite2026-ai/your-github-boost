@@ -83,7 +83,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">3. Activité</h2>
                 <p className="text-muted-foreground">
-                  DogWalking est une plateforme de mise en relation entre propriétaires de chiens 
+                  DogWalking est une plateforme de mise en relation entre Propriétaires de chiens 
                   et promeneurs professionnels. Notre service permet de réserver des prestations 
                   de promenade, garde, et autres services animaliers en toute confiance.
                 </p>
@@ -148,7 +148,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 1 - Définitions</h2>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li><strong>"Plateforme"</strong> : le site internet DogWalking et ses fonctionnalités</li>
-                  <li><strong>"Propriétaire"</strong> : utilisateur inscrit en qualité de propriétaire de chien</li>
+                  <li><strong>"Propriétaire"</strong> : utilisateur inscrit en qualité de Propriétaire de chien</li>
                   <li><strong>"Promeneur"</strong> : utilisateur inscrit en qualité de prestataire de services</li>
                   <li><strong>"Prestation"</strong> : tout service réservé via la Plateforme</li>
                 </ul>

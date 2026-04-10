@@ -101,7 +101,7 @@ export const tarifsFAQs: FAQItem[] = [
   },
   {
     question: "Y a-t-il des frais cachés ou des abonnements obligatoires ?",
-    answer: "Non, il n'y a aucun frais caché ni abonnement obligatoire pour les propriétaires. Vous payez uniquement le service réservé. Les promeneurs peuvent souscrire à un abonnement PRO optionnel (6-12€/mois) pour des avantages supplémentaires, mais ce n'est pas requis."
+    answer: "Non, il n'y a aucun frais caché ni abonnement obligatoire pour les Propriétaires. Vous payez uniquement le service réservé. Les promeneurs peuvent souscrire à un abonnement PRO optionnel (6-12€/mois) pour des avantages supplémentaires, mais ce n'est pas requis."
   },
   {
     question: "Comment sont protégés mes paiements ?",

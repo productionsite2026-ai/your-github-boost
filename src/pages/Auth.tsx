@@ -142,7 +142,7 @@ const Auth = () => {
       toast({ title: "Erreur d'inscription", description: error.message.includes("already registered") ? "Cet email est déjà utilisé." : error.message, variant: "destructive" });
       setLoading(false);
     } else {
-      toast({ title: "Inscription réussie !", description: `Bienvenue en tant que ${selectedUserType === 'owner' ? 'propriétaire' : 'promeneur'} !` });
+      toast({ title: "Inscription réussie !", description: `Bienvenue en tant que ${selectedUserType === 'owner' ? 'Propriétaire' : 'promeneur'} !` });
       navigate(selectedUserType === 'walker' ? '/walker/dashboard' : '/dashboard');
     }
   };
@@ -221,7 +221,7 @@ const Auth = () => {
               <Badge className="mb-4 bg-white/20 text-white border-white/30">Plateforme #1 en France</Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Rejoignez la communauté DogWalking</h1>
               <p className="text-lg text-white/80 mb-8 max-w-md">
-                Des milliers de propriétaires font confiance à nos promeneurs vérifiés.
+                Des milliers de Propriétaires font confiance à nos promeneurs vérifiés.
               </p>
               <div className="space-y-4">
                 {benefits.map((b, i) => (
