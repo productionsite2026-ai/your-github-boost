@@ -14,13 +14,13 @@ export const SearchForm = () => {
   const [address, setAddress] = useState("");
 
   const servicesAbsent = [
-    { id: "hebergement_nuit", label: "Hébergement", icon: Heart },
-    { id: "garde_domicile", label: "Garde à domicile", icon: Heart },
+    { id: "hebergement_nuit", label: "Hébergement chez l'Accompagnateur", icon: Heart },
+    { id: "garde_domicile", label: "Garde au domicile du Propriétaire", icon: Heart },
   ];
 
   const servicesTravail = [
-    { id: "visite_domicile", label: "Visites à votre domicile", icon: Heart },
-    { id: "hebergement_jour", label: "Garderie pour chien", icon: Heart },
+    { id: "visite_domicile", label: "Visites au domicile du Propriétaire", icon: Heart },
+    { id: "hebergement_jour", label: "Garderie chez l'Accompagnateur", icon: Heart },
     { id: "promenade", label: "Promenade de chien", icon: Heart },
   ];
 
@@ -86,7 +86,7 @@ export const SearchForm = () => {
               onClick={() => setSelectedService(service.id)}
             >
               <RadioGroupItem value={service.id} id={service.id} className="border-primary" />
-              <Heart className="h-5 w-5 text-heart fill-heart-light" />
+              <Heart className="h-5 w-5 text-heart fill-heart" />
               <Label htmlFor={service.id} className="cursor-pointer flex-1 text-base font-medium">
                 {service.label}
               </Label>
@@ -114,7 +114,7 @@ export const SearchForm = () => {
               onClick={() => setSelectedService(service.id)}
             >
               <RadioGroupItem value={service.id} id={service.id} className="border-primary" />
-              <Heart className="h-5 w-5 text-heart fill-heart-light" />
+              <Heart className="h-5 w-5 text-heart fill-heart" />
               <Label htmlFor={service.id} className="cursor-pointer flex-1 text-base font-medium">
                 {service.label}
               </Label>
