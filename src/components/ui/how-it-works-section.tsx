@@ -12,7 +12,7 @@ export const HowItWorksSection = () => {
       number: "1",
       icon: Search,
       title: "Trouvez",
-      description: "Déposez une annonce ou consultez les profils vérifiés des Accompagnateurs près de chez vous. Profils contrôlés et avis certifiés.",
+      description: "Déposez une annonce ou consultez les profils vérifiés des Accompagnateurs et Propriétaires près de chez vous. Profils contrôlés et avis certifiés.",
       highlight: "100% vérifiés",
       image: searchWalker
     },
