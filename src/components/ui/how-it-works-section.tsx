@@ -12,7 +12,7 @@ export const HowItWorksSection = () => {
       number: "1",
       icon: Search,
       title: "Trouvez",
-      description: "Consultez les profils vérifiés des promeneurs près de chez vous. Profils contrôlés et avis certifiés.",
+      description: "Déposez une annonce ou consultez les profils vérifiés des Accompagnateurs près de chez vous. Profils contrôlés et avis certifiés.",
       highlight: "100% vérifiés",
       image: searchWalker
     },
@@ -20,7 +20,7 @@ export const HowItWorksSection = () => {
       number: "2",
       icon: Calendar,
       title: "Réservez",
-      description: "Sélectionnez le service, la date et l'heure. Votre paiement est bloqué en toute sécurité jusqu'à validation.",
+      description: "Déposez une annonce spécifique ou choisissez le service, la date et l’heure. Votre paiement est sécurisé et bloqué jusqu’à votre validation lors du retour de votre animal.",
       highlight: "Paiement bloqué",
       image: bookingReservation
     },
@@ -36,7 +36,7 @@ export const HowItWorksSection = () => {
       number: "4",
       icon: ThumbsUp,
       title: "Validez & Payez",
-      description: "Le paiement est débloqué après réception de la preuve et communication du code par le Propriétaire. Laissez un avis certifié pour aider la communauté.",
+      description: "Le paiement est débloqué lorsque vous communiquez le code unique lors de la rencontre finale aprés service, au retour de votre animal. Laissez un avis certifié pour aider la communauté.",
       highlight: "Satisfaction garantie",
       image: paiementValideApp
     }
@@ -51,7 +51,7 @@ export const HowItWorksSection = () => {
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Comment réserver un service pour vos animaux ?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            En 4 étapes simples : trouvez, réservez, suivez la promenade en photos, payez après validation.
+            Déposez une annonce ou choisissez un Accompagnateur, réservez, suivez la promenade en photos, puis validez le paiement au retour de votre animal grâce au code unique.
           </p>
         </div>
 

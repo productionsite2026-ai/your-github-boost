@@ -28,8 +28,8 @@ export const HomeIntroSection = () => {
   const features = [
     {
       icon: Shield,
-      title: "Promeneurs 100% Vérifiés",
-      description: "Chaque promeneur est soigneusement sélectionné et vérifié par notre équipe. Seuls les profils de confiance sont acceptés sur la plateforme.",
+      title: "Accompagnateur 100% Vérifiés",
+      description: "Chaque Accompagnateur est soigneusement sélectionné et vérifié par notre équipe. Seuls les profils de confiance sont acceptés sur la plateforme.",
       highlight: "Seuls 35% des candidats acceptés",
       image: verificationBadge,
       color: "from-primary/20 to-primary/10"
@@ -37,7 +37,7 @@ export const HomeIntroSection = () => {
     {
       icon: Lock,
       title: "Paiement Sécurisé",
-      description: "Votre argent reste bloqué en toute sécurité jusqu'à réception des preuves photo/vidéo de la prestation. Sans validation, vous êtes automatiquement remboursé.",
+      description: "Le paiement est sécurisé et bloqué jusqu’à votre validation à la fin du service. Le propriétaire transmet un code unique, sinon le paiement est remboursé.",
       highlight: "Innovation unique en France",
       image: validationPayment,
       color: "from-accent/20 to-accent/10"
@@ -45,7 +45,7 @@ export const HomeIntroSection = () => {
     {
       icon: Camera,
       title: "Preuves Photo Obligatoires",
-      description: "À chaque mission, le promeneur envoie des photos et vidéos de votre chien via notre plateforme sécurisée. Suivez les aventures de votre compagnon.",
+      description: "À chaque mission, nos collaborateur envoie des photos et vidéos de votre animal via notre plateforme. Suivez les aventures de votre compagnon.",
       highlight: "Transparence totale",
       image: photoProof,
       color: "from-primary/15 to-accent/15"
@@ -67,7 +67,7 @@ export const HomeIntroSection = () => {
             Pourquoi nous choisir
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground to-primary bg-clip-text">
-            Pourquoi Choisir DogWalking pour Promener Votre Chien ?
+            Pourquoi choisir DogWalking pour la garde et la promenade vos chiens, chats et autres animaux ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             DogWalking connecte les propriétaires de chiens avec des <strong className="text-foreground">promeneurs vérifiés</strong> dans 
