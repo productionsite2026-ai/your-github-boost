@@ -24,7 +24,7 @@ const faqCategories = {
     faqs: [
       {
         question: "Comment fonctionne DogWalking pour trouver un promeneur ?",
-        answer: "C'est simple : entrez votre adresse, choisissez le type de service souhaité (promenade, garde, visite), et découvrez les promeneurs vérifiés disponibles près de chez vous. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé jusqu'à réception des preuves photo de la prestation."
+        answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs disponibles près de chez vous. Le paiement est sécurisé et bloqué jusqu’à la fin de la prestation, après validation via un code à usage unique. Choisissez ensuite le type de service (Promenade, Garde, Visite, ...), entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget et vos conditions ; vous recevrez plusieurs propositions de prestataires et pourrez choisir le profil le plus adapté."
       },
       {
         question: "Les promeneurs sont-ils vraiment vérifiés ?",
