@@ -32,7 +32,7 @@ const faqCategories = {
       },
       {
         question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
-        answer: "Grâce à notre système de paiement sécurisé, votre argent reste bloqué jusqu'à validation de la prestation. Si le promeneur n'envoie pas de preuve photo/vidéo, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester et être remboursé. Notre équipe support intervient sous 24h."
+        answer: "Grâce à notre système de paiement sécurisé, votre argent reste bloqué jusqu’à validation de la prestation. Seul le Propriétaire détient un code à usage unique, qu’il communique à l’Accompagnateur à la fin du service pour débloquer le paiement. Si le Prestataire n’envoie pas de preuve photo/vidéo et un commentaire, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester et être remboursé. Notre équipe support intervient sous 48 h en cas de litige."
       },
       {
         question: "Puis-je annuler une réservation et être remboursé ?",
@@ -137,7 +137,7 @@ const faqCategories = {
       },
       {
         question: "Que faire en cas de litige ?",
-        answer: "Contactez notre service médiation via le formulaire de contact. Nous intervenons sous 24h pour trouver une solution équitable. En cas de non-résolution, un remboursement peut être effectué."
+        answer: "Contactez notre service médiation via le formulaire de contact. Nous intervenons sous 48 h pour trouver une solution équitable. En cas de non-résolution, un remboursement peut être effectué."
       }
     ]
   },
