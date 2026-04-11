@@ -9,7 +9,7 @@ const homeFAQs = [
   },
   {
     question: "Les promeneurs sont-ils vraiment vérifiés ?",
-    answer: "Absolument. Chaque promeneur passe par un processus de sélection rigoureux, avec une vérification manuelle de chaque profil par notre équipe. Cela inclut la validation des informations personnelles, de la pièce d’identité, des formations et autres éléments de vérification. Seuls 35 % des candidats sont acceptés. Vous pouvez confier votre compagnon en toute sérénité."
+    answer: "Absolument. Chaque Collaborateur passe par un processus de sélection rigoureux, avec une vérification manuelle de chaque profil par notre équipe. Cela inclut la validation des informations personnelles, de la pièce d’identité, des formations et autres éléments de vérification. Seuls 35 % des candidats sont acceptés. Vous pouvez confier votre compagnon en toute sérénité."
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
