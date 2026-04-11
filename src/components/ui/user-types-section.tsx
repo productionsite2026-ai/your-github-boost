@@ -224,10 +224,10 @@ export const UserTypesSection = () => {
             Des questions ? Notre équipe est là pour vous accompagner.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Button variant="outline" size="sm" onClick={() => navigate('/aide')}>
+            <Button size="sm" onClick={() => navigate('/aide')}>
               Consulter l'aide
             </Button>
-            <Button variant="ghost" size="sm" onClick={() => navigate('/contact')}>
+            <Button variant="secondary" size="sm" className="border border-primary/30" onClick={() => navigate('/contact')}>
               Nous contacter
             </Button>
           </div>
