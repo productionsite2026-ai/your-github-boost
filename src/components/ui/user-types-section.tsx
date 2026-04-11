@@ -56,7 +56,7 @@ export const UserTypesSection = () => {
             Choisissez votre profil
           </h2>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto">
-            Que vous soyez Propriétaire de chien ou passionné souhaitant devenir promeneur, 
+            Que vous soyez propriétaire d’animal ou passionné souhaitant devenir collaborateur, 
             DogWalking vous offre une expérience unique, sécurisée et transparente.
           </p>
         </motion.div>
