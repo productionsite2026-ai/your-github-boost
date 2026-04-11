@@ -24,19 +24,19 @@ export const UserTypesSection = () => {
     { text: "Emploi du temps 100% flexible", icon: Clock },
     { text: "Paiements rapides et sécurisés", icon: CreditCard },
     { text: "Badges et reconnaissance", icon: Star },
-    { text: "Formation aux premiers secours", icon: Heart }
+    { text: "Formation ", icon: Heart }
   ];
 
   const ownerStats = [
-    { value: "2 500+", label: "Promeneurs actifs" },
+    { value: "2 500+", label: "Professionnels actifs" },
     { value: "4.9/5", label: "Note moyenne" },
     { value: "< 24h", label: "Temps de réponse" }
   ];
 
   const walkerStats = [
     { value: "500-1500€", label: "Revenus moyens/mois" },
-    { value: "87%", label: "Reversé au promeneur" },
-    { value: "48h", label: "Validation profil" }
+    { value: "85%", label: "Reversé aux Accompagnateurs" },
+    { value: "48h", label: "Profil validé une fois complété" }
   ];
 
   return (
@@ -77,7 +77,7 @@ export const UserTypesSection = () => {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold">Propriétaires</h3>
-                    <p className="text-white/80">Trouvez le promeneur idéal pour votre compagnon</p>
+                    <p className="text-white/80">Trouvez l'Accompagnateur Idéal pour vos Animaux </p>
                   </div>
                 </div>
               </div>
@@ -94,9 +94,7 @@ export const UserTypesSection = () => {
 
               <CardContent className="p-6">
                 <p className="text-muted-foreground mb-6">
-                  Confiez votre chien à des professionnels vérifiés. Notre processus de sélection 
-                  rigoureux garantit que seuls les meilleurs promeneurs rejoignent notre réseau. 
-                  Recevez des preuves photo à chaque promenade et payez en toute sécurité.
+                  Confiez vos animaux à des professionnels vérifiés. Notre processus de sélection rigoureux garantit que seuls les meilleurs promeneurs rejoignent notre réseau. Payez en toute sécurité. 
                 </p>
 
                 <ul className="space-y-3 mb-6">
@@ -152,8 +150,8 @@ export const UserTypesSection = () => {
                     <Briefcase className="h-7 w-7" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold">Promeneurs</h3>
-                    <p className="text-white/80">Gagnez en faisant ce que vous aimez</p>
+                    <h3 className="text-2xl font-bold">Accompagnateurs </h3>
+                    <p className="text-white/80">Gagnez de l’Argent en Faisant ce que vous Aimez, à votre Rythme</p>
                   </div>
                 </div>
               </div>
@@ -170,9 +168,7 @@ export const UserTypesSection = () => {
 
               <CardContent className="p-6">
                 <p className="text-muted-foreground mb-6">
-                  Rejoignez notre réseau de promeneurs professionnels. Fixez librement vos tarifs, 
-                  choisissez vos horaires et zones d'intervention. Recevez vos paiements 
-                  de manière sécurisée sous 48h.
+                  Rejoignez notre réseau de professionnels passionnés. Fixez vos tarifs, choisissez vos horaires et vos zones d’intervention en toute liberté. Recevez vos paiements rapidement et en toute sécurité.
                 </p>
 
                 <ul className="space-y-3 mb-6">
