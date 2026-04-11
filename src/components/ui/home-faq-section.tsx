@@ -21,7 +21,7 @@ const homeFAQs = [
   },
   {
     question: "DogWalking est-il disponible dans ma ville ?",
-    answer: "DogWalking couvre l'ensemble du territoire français avec une présence renforcée en Île-de-France et dans les grandes métropoles (Lyon, Marseille, Bordeaux, Toulouse, Nantes, Lille). Entrez votre adresse sur notre plateforme pour découvrir les promeneurs disponibles autour de vous. Notre réseau s'étend chaque jour."
+    answer: "DogWalking couvre l’ensemble du territoire français, avec une présence renforcée en Île-de-France et dans les grandes métropoles (Lyon, Marseille, Bordeaux, Toulouse, Nantes, Lille). Entrez votre adresse sur notre plateforme pour découvrir les Accompagnateurs disponibles autour de vous. Notre réseau s’étend chaque jour grâce à vous : ce qui nous réunit, c’est l’amour des animaux. La plateforme est libre d’utilisation, dans le respect de chacun."
   }
 ];
 
