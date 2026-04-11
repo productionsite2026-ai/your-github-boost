@@ -153,7 +153,7 @@ export const HomeIntroSection = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <div className="text-4xl lg:text-5xl font-bold mb-2">5000+</div>
+              <div className="text-4xl lg:text-5xl font-bold mb-2">2657+</div>
               <div className="text-primary-foreground/80">Promenades réalisées</div>
             </motion.div>
             <motion.div
