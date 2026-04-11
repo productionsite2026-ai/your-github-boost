@@ -38,8 +38,8 @@ export const HomeFAQSection = () => {
             Questions Fréquentes
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tout ce que vous devez savoir sur DogWalking, la plateforme n°1 
-            de promenade de chiens en France.
+            Tout ce que vous devez savoir sur DogWalking, la plateforme bientôt n°1 
+            de promenade, de garde et d’accompagnement de chiens, chats et de tous les animaux
           </p>
         </motion.div>
         <div className="max-w-3xl mx-auto">
