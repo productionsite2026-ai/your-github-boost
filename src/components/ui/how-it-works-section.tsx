@@ -51,7 +51,7 @@ export const HowItWorksSection = () => {
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Comment réserver un service pour vos animaux ?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Déposez une annonce ou choisissez un Accompagnateur, réservez, suivez la promenade en photos, puis validez le paiement au retour de votre animal grâce au code unique.
+            Déposez une annonce ou choisissez un Accompagnateur, réservez, suivez la promenade en photos, puis validez le paiement au retour de votre animal grâce à un code unique.
           </p>
         </div>
 
