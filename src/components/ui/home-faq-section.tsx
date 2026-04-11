@@ -1,5 +1,6 @@
 import { SEOFAQ } from "./seo-faq";
 import { motion } from "framer-motion";
+import { HelpCircle } from "lucide-react";
 
 const homeFAQs = [
   {
@@ -34,6 +35,10 @@ export const HomeFAQSection = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
+          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <HelpCircle className="w-4 h-4" />
+            FAQ
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Questions Fréquentes
           </h2>

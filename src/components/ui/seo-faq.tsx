@@ -48,16 +48,6 @@ export const SEOFAQ = ({
       
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
-              <HelpCircle className="w-4 h-4" />
-              FAQ
-            </div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-2">{title}</h2>
-            {subtitle && (
-              <p className="text-muted-foreground">{subtitle}</p>
-            )}
-          </div>
 
           <Accordion type="single" collapsible className="space-y-3">
             {faqs.map((faq, index) => (
