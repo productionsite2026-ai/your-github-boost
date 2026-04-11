@@ -142,7 +142,7 @@ export const ServicesSection = () => {
                 )}
                 <div className="absolute top-3 right-3">
                   <Badge className="bg-white/95 text-foreground font-bold text-sm shadow-md px-3 py-1">
-                    dès {service.minPrice}€
+                    À partir de {service.minPrice}€
                   </Badge>
                 </div>
                 <div className="absolute bottom-3 left-3">
