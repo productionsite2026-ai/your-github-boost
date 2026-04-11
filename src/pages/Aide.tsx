@@ -137,7 +137,7 @@ const faqCategories = {
       },
       {
         question: "Que faire en cas de litige ?",
-        answer: "Contactez notre service médiation via le formulaire de contact. Nous intervenons sous 24h pour trouver une solution équitable. En cas de non-résolution, un remboursement peut être effectué."
+        answer: "Contactez notre service médiation via le formulaire de contact. Nous intervenons sous 48 h pour trouver une solution équitable. En cas de non-résolution, un remboursement peut être effectué."
       }
     ]
   },
