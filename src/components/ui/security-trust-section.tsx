@@ -4,18 +4,18 @@ export const SecurityTrustSection = () => {
   const trustItems = [
     {
       icon: Award,
-      title: "Formation Promeneurs certifiés",
-      description: "Formation aux premiers secours canins, expérience vérifiée et références contrôlées"
+      title: "Formation Accompagnateur",
+      description: "Formation, Expérience Vérifiée et Références Contrôlées"
     },
     {
       icon: Star,
-      title: "Avis certifiés",
-      description: "Seuls les clients ayant réservé peuvent laisser un avis vérifié"
+      title: "Avis Certifiés Authentiques et Fiables",
+      description: "Seuls les Clients ayant Réservé Peuvent laisser un Avis Vérifié"
     },
     {
       icon: FileCheck,
-      title: "Garantie satisfaction",
-      description: "En cas de problème, notre équipe intervient pour vous accompagner"
+      title: "Satisfaction Garantie Simple et Transparente",
+      description: "En cas de Problème, notre équipe Intervient pour vous Aider"
     }
   ];
 
