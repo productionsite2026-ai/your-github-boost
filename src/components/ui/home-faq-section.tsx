@@ -17,7 +17,7 @@ const homeFAQs = [
   },
   {
     question: "Quels types de services propose DogWalking ?",
-    answer: "Nous proposons une Gamme Complète : Promenade, Visite à votre domicile, Garde (garderie), hébergement chez le promeneur ou le Propriétaire, visite sanitaire (toilettage léger), gestion multi-animaux et accompagnement vétérinaire. La durée de chaque service est librement définie d’un commun accord entre le Propriétaire et l’Accompagnateur (minutes, heures, jours, nuits…). Vous avez également la possibilité de déposer des annonces particulières, détaillées selon vos besoins. Chaque service est adapté aux besoins spécifiques de votre animal."
+    answer: "Nous proposons une Gamme Complète : Promenade, Visite à votre domicile, Garde (garderie), hébergement chez le promeneur ou le Propriétaire, visite sanitaire (toilettage léger), gestion multi-animaux et accompagnement vétérinaire. La durée de chaque service est librement définie d’un commun accord entre le Propriétaire et l’Accompagnateur (minutes, heures, jours, nuits, prix…). Vous avez également la possibilité de déposer des annonces particulières, détaillées selon vos besoins. Chaque service est adapté aux besoins spécifiques de votre animal."
   },
   {
     question: "DogWalking est-il disponible dans ma ville ?",
