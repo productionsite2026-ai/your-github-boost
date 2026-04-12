@@ -48,7 +48,7 @@ const faqCategories = {
       }
     ]
   },
-  promeneurs: {
+  Accompagnateurs: {
     title: "Accompagnateurs",
     icon: Briefcase,
     description: "Devenir Accompagnateur et gérer son activité",
@@ -94,7 +94,7 @@ const faqCategories = {
       },
       {
         question: "Comment fonctionne le paiement sécurisé ?",
-        answer: "Le paiement est effectué au moment de la réservation mais reste bloqué en compte séquestre sécurisé. Il n'est libéré à l'Accompagnateur qu'après réception et validation de la preuve de prestation (photo/vidéo obligatoire)."
+        answer: "Le paiement est effectué au moment de la réservation mais reste bloqué en compte séquestre sécurisé. Seul le Propriétaire détient un code à usage unique, qu'il communique à l'Accompagnateur à la fin de la prestation pour débloquer le paiement."
       },
       {
         question: "Puis-je donner un pourboire à l'Accompagnateur ?",

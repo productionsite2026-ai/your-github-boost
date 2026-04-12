@@ -295,7 +295,7 @@ const Contact = () => {
                     <CardContent className="pt-6">
                       <h3 className="font-semibold mb-2">Vous êtes Propriétaire ?</h3>
                       <p className="text-sm opacity-90 mb-4">
-                        Trouvez un promeneur vérifié près de chez vous en quelques clics.
+                        Trouvez un Accompagnateur vérifié près de chez vous en quelques clics.
                       </p>
                       <Button variant="secondary" asChild>
                         <a href="/find-walkers">Trouver un Accompagnateur</a>

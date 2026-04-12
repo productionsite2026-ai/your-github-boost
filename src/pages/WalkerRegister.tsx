@@ -11,7 +11,7 @@ import { Briefcase, Euro, Clock, Shield, CheckCircle, Users } from 'lucide-react
 import { SEOHead } from "@/components/seo/SEOHead";
 import { FloatingContact } from "@/components/ui/floating-contact";
 import { motion } from "framer-motion";
-import heroImage from "@/assets/pages/devenir-promeneur-hero.jpg";
+import heroImage from "@/assets/pages/devenir-Accompagnateur-hero.jpg";
 
 const containerVariants = {
   hidden: { opacity: 0 },

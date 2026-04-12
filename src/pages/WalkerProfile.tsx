@@ -332,7 +332,7 @@ const WalkerProfilePage = () => {
                         </div>
                         <div className="flex items-center gap-2 text-muted-foreground">
                           <Route className="h-4 w-4" />
-                          <span>{walker.total_walks || 0} promenades</span>
+                          <span>{walker.total_walks || 0} prestations</span>
                         </div>
                         {walker.experience_years && (
                           <div className="flex items-center gap-2 text-muted-foreground">

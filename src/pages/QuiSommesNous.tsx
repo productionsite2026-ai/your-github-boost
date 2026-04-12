@@ -12,7 +12,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import teamImage from "@/assets/pages/equipe-dogwalking.jpg";
-import missionImage from "@/assets/trust/promeneur-verifie-badge.jpg";
+import missionImage from "@/assets/trust/Accompagnateur-verifie-badge.jpg";
 import { ExpertBio } from "@/components/ui/expert-bio";
 import { experts } from "@/data/expertsData";
 
