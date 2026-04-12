@@ -31,15 +31,15 @@ const caseStudies = getCaseStudiesByService("marche-reguliere");
 const marcheReguliereFAQs = [
   {
     question: "Quelle est la différence entre marche régulière et promenade ponctuelle ?",
-    answer: "La marche régulière est un engagement sur le long terme avec le même promeneur, généralement plusieurs fois par semaine. Cela permet de créer un lien fort entre le promeneur et votre chien, d'établir une routine stable et d'observer l'évolution comportementale de votre animal. La promenade ponctuelle est idéale pour des besoins occasionnels."
+    answer: "La marche régulière est un engagement sur le long terme avec le même promeneur, généralement plusieurs fois par semaine. Cela permet de créer un lien fort entre l'Accompagnateur et votre chien, d'établir une routine stable et d'observer l'évolution comportementale de votre animal. La promenade ponctuelle est idéale pour des besoins occasionnels."
   },
   {
     question: "Combien de promenades par semaine sont recommandées ?",
-    answer: "Cela dépend de l'énergie et des besoins de votre chien. Pour un chien adulte en appartement, 3 à 5 promenades par semaine avec un promeneur sont idéales en complément de vos propres sorties. Les races très énergiques (Border Collie, Berger Australien) peuvent nécessiter une sortie quotidienne. Nous adaptons la fréquence à chaque chien."
+    answer: "Cela dépend de l'énergie et des besoins de votre chien. Pour un chien adulte en appartement, 3 à 5 promenades par semaine avec un Accompagnateur sont idéales en complément de vos propres sorties. Les races très énergiques (Border Collie, Berger Australien) peuvent nécessiter une sortie quotidienne. Nous adaptons la fréquence à chaque chien."
   },
   {
     question: "Le même promeneur viendra-t-il à chaque fois ?",
-    answer: "Oui, c'est le principe fondamental de la marche régulière. Le même promeneur s'occupe de votre chien à chaque sortie, ce qui crée une relation de confiance et une stabilité émotionnelle pour votre animal. En cas d'absence exceptionnelle du promeneur, nous vous proposons un remplaçant vérifié que vous pouvez approuver."
+    answer: "Oui, c'est le principe fondamental de la marche régulière. Le même promeneur s'occupe de votre chien à chaque sortie, ce qui crée une relation de confiance et une stabilité émotionnelle pour votre animal. En cas d'absence exceptionnelle de l'Accompagnateur, nous vous proposons un remplaçant vérifié que vous pouvez approuver."
   },
   {
     question: "Quels sont les bénéfices comportementaux de la marche régulière ?",
@@ -47,7 +47,7 @@ const marcheReguliereFAQs = [
   },
   {
     question: "Comment se passe la mise en place d'un programme régulier ?",
-    answer: "Après avoir choisi votre promeneur, vous définissez ensemble les jours et horaires de promenade. Une première rencontre permet d'établir la confiance. Le promeneur apprend les habitudes de votre chien, ses commandes, ses besoins spécifiques. Après quelques sorties, une routine s'installe naturellement."
+    answer: "Après avoir choisi votre promeneur, vous définissez ensemble les jours et horaires de promenade. Une première rencontre permet d'établir la confiance. L'Accompagnateur apprend les habitudes de votre chien, ses commandes, ses besoins spécifiques. Après quelques sorties, une routine s'installe naturellement."
   },
   {
     question: "Puis-je modifier le planning en cours de route ?",
@@ -171,7 +171,7 @@ const ServiceMarcheReguliere = () => {
                   Marche Régulière : <span className="text-primary">Routine & Bien-être</span> pour Votre Chien
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Offrez à votre compagnon la stabilité d'un promeneur attitré. La marche régulière crée 
+                  Offrez à votre compagnon la stabilité d'un Accompagnateur attitré. La marche régulière crée 
                   une routine rassurante, renforce le lien de confiance et améliore significativement 
                   le comportement de votre chien sur le long terme.
                 </p>
@@ -454,7 +454,7 @@ const ServiceMarcheReguliere = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <motion.img
                 src={marcheLien}
-                alt="Lien fort entre un promeneur et un chien qui le regarde avec affection"
+                alt="Lien fort entre un Accompagnateur et un chien qui le regarde avec affection"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -477,7 +477,7 @@ const ServiceMarcheReguliere = () => {
                 <ul className="space-y-4">
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-primary" />
-                    <span>Reconnaissance et joie à l'arrivée du promeneur</span>
+                    <span>Reconnaissance et joie à l'arrivée de l'Accompagnateur</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-primary" />

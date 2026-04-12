@@ -26,24 +26,24 @@ const visiteFAQs = [
     answer: "Une visite standard de 30 minutes comprend : le nourrissage avec la nourriture que vous fournissez, le renouvellement de l'eau fraîche, une sortie hygiénique dans le jardin ou à proximité, des câlins et du temps de jeu, et l'envoi de photos/vidéos comme preuve. Vous pouvez personnaliser le contenu selon vos besoins."
   },
   {
-    question: "Le pet-sitter peut-il administrer des médicaments à mon chien ?",
-    answer: "Oui, la plupart de nos pet-sitters peuvent administrer des médicaments simples (comprimés, gouttes) selon vos instructions. Précisez les besoins médicaux lors de la réservation et discutez-en avec le visiteur avant la première visite. Pour les traitements complexes, choisissez un visiteur avec expérience médicale."
+    question: "Le Accompagnateur peut-il administrer des médicaments à mon chien ?",
+    answer: "Oui, la plupart de nos Accompagnateurs peuvent administrer des médicaments simples (comprimés, gouttes) selon vos instructions. Précisez les besoins médicaux lors de la réservation et discutez-en avec l'Accompagnateur avant la première visite. Pour les traitements complexes, choisissez un visiteur avec expérience médicale."
   },
   {
-    question: "Combien de fois par jour puis-je faire venir le pet-sitter ?",
+    question: "Combien de fois par jour puis-je faire venir le Accompagnateur ?",
     answer: "Vous pouvez réserver autant de visites que nécessaire : 1, 2, 3 visites par jour ou plus. L'idéal pour un chien adulte est 2 à 3 visites espacées dans la journée. Pour un chiot, prévoyez des visites plus rapprochées toutes les 3-4 heures."
   },
   {
-    question: "Le pet-sitter peut-il s'occuper aussi de mes chats ou autres animaux ?",
+    question: "Le Accompagnateur peut-il s'occuper aussi de mes chats ou autres animaux ?",
     answer: "Absolument ! De nombreux visiteurs s'occupent également des chats, oiseaux, poissons, rongeurs et reptiles. Indiquez tous vos animaux lors de la réservation. Le tarif peut être légèrement ajusté si plusieurs animaux nécessitent des soins spécifiques."
   },
   {
-    question: "Comment le pet-sitter entre-t-il chez moi ?",
-    answer: "Plusieurs options : vous pouvez laisser un double de clés au visiteur, utiliser un boîtier à code à l'extérieur de chez vous, ou donner un code de digicode/serrure connectée. La remise des clés se fait généralement lors d'une rencontre préalable."
+    question: "Comment le Accompagnateur entre-t-il chez moi ?",
+    answer: "Plusieurs options : vous pouvez laisser un double de clés à l'Accompagnateur, utiliser un boîtier à code à l'extérieur de chez vous, ou donner un code de digicode/serrure connectée. La remise des clés se fait généralement lors d'une rencontre préalable."
   },
   {
-    question: "Que se passe-t-il si le pet-sitter constate un problème chez moi ?",
-    answer: "Le visiteur vous contacte immédiatement en cas de problème : fuite d'eau, porte mal fermée, animal qui semble malade. C'est un service de surveillance bonus de votre domicile. Nos visiteurs sont formés pour être vigilants et réactifs."
+    question: "Que se passe-t-il si le Accompagnateur constate un problème chez moi ?",
+    answer: "L'Accompagnateur vous contacte immédiatement en cas de problème : fuite d'eau, porte mal fermée, animal qui semble malade. C'est un service de surveillance bonus de votre domicile. Nos visiteurs sont formés pour être vigilants et réactifs."
   }
 ];
 
@@ -54,7 +54,7 @@ const ServiceVisite = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Visite à Domicile pour Chien et Animaux",
-    "description": "Service de visite à domicile par des pet-sitters professionnels vérifiés. Nourriture, eau, câlins et sortie hygiénique pour votre chien pendant votre absence.",
+    "description": "Service de visite à domicile par des Accompagnateurs professionnels vérifiés. Nourriture, eau, câlins et sortie hygiénique pour votre chien pendant votre absence.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -87,9 +87,9 @@ const ServiceVisite = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Visite à Domicile Chien | Pet-Sitters Vérifiés | DogWalking"
-        description="Faites nourrir et câliner votre chien chez vous par un pet-sitter vérifié. Visite à domicile, soins quotidiens, preuves photo. Service dès 8€ la visite."
-        keywords="visite domicile chien, pet sitting maison, nourriture chien, soins animal domicile, cat sitting, visite chat, garde animaux maison"
+        title="Visite à Domicile Chien | Accompagnateurs Vérifiés | DogWalking"
+        description="Faites nourrir et câliner votre chien chez vous par un Accompagnateur vérifié. Visite à domicile, soins quotidiens, preuves photo. Service dès 8€ la visite."
+        keywords="visite domicile chien, garde multi-animaux maison, nourriture chien, soins animal domicile, cat sitting, visite chat, garde animaux maison"
         canonicalUrl="https://dogwalking.fr/services/visite"
         structuredData={serviceJsonLd}
         ogImage={serviceVisiteImg}
@@ -111,7 +111,7 @@ const ServiceVisite = () => {
                   Visite à Domicile pour <span className="text-primary">Votre Chien</span>
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Votre compagnon reste dans son environnement familier pendant que nos pet-sitters vérifiés 
+                  Votre compagnon reste dans son environnement familier pendant que nos Accompagnateurs vérifiés 
                   assurent nourriture, eau fraîche, câlins et sortie hygiénique. La solution idéale pour 
                   les journées chargées.
                 </p>
@@ -246,7 +246,7 @@ const ServiceVisite = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Administration Médicaments</h3>
                   <p className="text-muted-foreground">
-                    Sur demande, le visiteur peut administrer les médicaments prescrits 
+                    Sur demande, l'Accompagnateur peut administrer les médicaments prescrits 
                     selon vos instructions précises et le protocole établi.
                   </p>
                 </CardContent>
@@ -457,7 +457,7 @@ const ServiceVisite = () => {
                     <CheckCircle className="h-6 w-6 text-primary shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold">Surveillance de votre domicile</p>
-                      <p className="text-sm text-muted-foreground">Le visiteur vérifie que tout va bien chez vous</p>
+                      <p className="text-sm text-muted-foreground">L'Accompagnateur vérifie que tout va bien chez vous</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
@@ -512,7 +512,7 @@ const ServiceVisite = () => {
             </h2>
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
               Réservez une visite à domicile et partez l'esprit tranquille. 
-              Nos pet-sitters vérifiés prendront soin de votre compagnon.
+              Nos Accompagnateurs vérifiés prendront soin de votre compagnon.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button 
@@ -529,7 +529,7 @@ const ServiceVisite = () => {
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 onClick={() => navigate("/walker/register")}
               >
-                Devenir pet-sitter
+                Devenir Accompagnateur
               </Button>
             </div>
           </div>
