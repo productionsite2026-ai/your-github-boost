@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-// Images uniques pour Pet Sitting
+// Images uniques pour Garde Multi-Animaux
 import petSittingHero from "@/assets/services/pet-sitting-hero.jpg";
 import petSittingMulti from "@/assets/services/pet-sitting-multi-animaux.jpg";
 import petSittingOrganisation from "@/assets/services/pet-sitting-organisation.jpg";
@@ -30,36 +30,36 @@ const caseStudies = getCaseStudiesByService("pet-sitting");
 
 const petSittingFAQs = [
   {
-    question: "Quels types d'animaux sont pris en charge par le pet sitting ?",
-    answer: "Notre service de pet sitting s'adresse à tous les animaux de compagnie : chiens, chats, oiseaux, rongeurs (hamsters, cochons d'Inde, lapins), reptiles, poissons et NAC (Nouveaux Animaux de Compagnie). Chaque pet sitter indique sur son profil les animaux qu'il peut gérer. Vous trouverez facilement un professionnel adapté à votre ménagerie."
+    question: "Quels types d'animaux sont pris en charge par le garde multi-animaux ?",
+    answer: "Notre service de garde multi-animaux s'adresse à tous les animaux de compagnie : chiens, chats, oiseaux, rongeurs (hamsters, cochons d'Inde, lapins), reptiles, poissons et NAC (Nouveaux Animaux de Compagnie). Chaque Accompagnateur indique sur son profil les animaux qu'il peut gérer. Vous trouverez facilement un professionnel adapté à votre ménagerie."
   },
   {
-    question: "Comment le pet sitter s'occupe-t-il de plusieurs animaux différents ?",
-    answer: "Nos pet sitters expérimentés savent gérer des foyers multi-animaux. Ils établissent un planning précis pour chaque animal : heures de repas, sorties, soins spécifiques. Les besoins de chaque espèce sont respectés. Vous fournissez les instructions détaillées et le pet sitter les suit rigoureusement. Les tarifs peuvent être ajustés selon le nombre et le type d'animaux."
+    question: "Comment le Accompagnateur s'occupe-t-il de plusieurs animaux différents ?",
+    answer: "Nos Accompagnateurs expérimentés savent gérer des foyers multi-animaux. Ils établissent un planning précis pour chaque animal : heures de repas, sorties, soins spécifiques. Les besoins de chaque espèce sont respectés. Vous fournissez les instructions détaillées et le Accompagnateur les suit rigoureusement. Les tarifs peuvent être ajustés selon le nombre et le type d'animaux."
   },
   {
-    question: "Le pet sitting inclut-il le nettoyage des cages et litières ?",
-    answer: "Oui, le pet sitting comprend l'entretien de base : nettoyage des litières pour chats, changement de l'eau des gamelles et aquariums, nettoyage léger des cages pour rongeurs et oiseaux. Pour un entretien plus approfondi, vous pouvez opter pour notre formule visite sanitaire qui inclut des soins plus complets."
+    question: "Le garde multi-animaux inclut-il le nettoyage des cages et litières ?",
+    answer: "Oui, le garde multi-animaux comprend l'entretien de base : nettoyage des litières pour chats, changement de l'eau des gamelles et aquariums, nettoyage léger des cages pour rongeurs et oiseaux. Pour un entretien plus approfondi, vous pouvez opter pour notre formule visite sanitaire qui inclut des soins plus complets."
   },
   {
     question: "Puis-je faire garder mon chat seul à la maison avec des visites ?",
-    answer: "Absolument ! C'est même la solution idéale pour les chats, animaux très territoriaux qui n'aiment pas changer d'environnement. Le pet sitter vient chez vous 1 à 3 fois par jour selon vos besoins : nourriture, eau fraîche, changement de litière, câlins et jeux. Votre chat reste dans son territoire familier, ce qui réduit considérablement le stress."
+    answer: "Absolument ! C'est même la solution idéale pour les chats, animaux très territoriaux qui n'aiment pas changer d'environnement. Le Accompagnateur vient chez vous 1 à 3 fois par jour selon vos besoins : nourriture, eau fraîche, changement de litière, câlins et jeux. Votre chat reste dans son territoire familier, ce qui réduit considérablement le stress."
   },
   {
     question: "Que faire si mon animal a des besoins médicaux particuliers ?",
-    answer: "Indiquez tous les besoins médicaux lors de la réservation. Nos pet sitters peuvent administrer des médicaments oraux, des gouttes, et surveiller l'état de santé de votre animal. Pour les soins plus complexes (injections, pansements), nous orientons vers des pet sitters ayant une formation vétérinaire. Les coordonnées de votre vétérinaire sont toujours à disposition."
+    answer: "Indiquez tous les besoins médicaux lors de la réservation. Nos Accompagnateurs peuvent administrer des médicaments oraux, des gouttes, et surveiller l'état de santé de votre animal. Pour les soins plus complexes (injections, pansements), nous orientons vers des Accompagnateurs ayant une formation vétérinaire. Les coordonnées de votre vétérinaire sont toujours à disposition."
   },
   {
-    question: "Comment fonctionne le pet sitting pour les poissons et reptiles ?",
-    answer: "Pour les poissons : nourrissage selon vos instructions, vérification de la température et du fonctionnement des filtres, surveillance de l'état général. Pour les reptiles : nourrissage adapté, maintien de la température et de l'humidité du terrarium, nettoyage léger. Nos pet sitters spécialisés connaissent les besoins spécifiques de ces animaux."
+    question: "Comment fonctionne le garde multi-animaux pour les poissons et reptiles ?",
+    answer: "Pour les poissons : nourrissage selon vos instructions, vérification de la température et du fonctionnement des filtres, surveillance de l'état général. Pour les reptiles : nourrissage adapté, maintien de la température et de l'humidité du terrarium, nettoyage léger. Nos Accompagnateurs spécialisés connaissent les besoins spécifiques de ces animaux."
   },
   {
     question: "Combien de visites par jour pour mon animal ?",
     answer: "Cela dépend de l'espèce et de ses besoins. Pour un chat adulte, 1 à 2 visites suffisent. Pour un chien, 2 à 3 visites sont recommandées. Pour un chiot ou un animal malade, des visites plus fréquentes peuvent être organisées. Nous adaptons la fréquence à chaque situation pour garantir le bien-être de votre compagnon."
   },
   {
-    question: "Le pet sitter peut-il arroser mes plantes et relever mon courrier ?",
-    answer: "Oui ! En plus des soins aux animaux, le pet sitter peut effectuer des petits services pour votre domicile : arrosage des plantes, relevé du courrier, ouverture/fermeture des volets. Ces services supplémentaires sont généralement inclus ou facturés à un tarif modique. C'est aussi une surveillance rassurante pour votre maison."
+    question: "Le Accompagnateur peut-il arroser mes plantes et relever mon courrier ?",
+    answer: "Oui ! En plus des soins aux animaux, le Accompagnateur peut effectuer des petits services pour votre domicile : arrosage des plantes, relevé du courrier, ouverture/fermeture des volets. Ces services supplémentaires sont généralement inclus ou facturés à un tarif modique. C'est aussi une surveillance rassurante pour votre maison."
   }
 ];
 
@@ -69,8 +69,8 @@ const ServicePetSitting = () => {
   const serviceJsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Pet Sitting Multi-Animaux en France",
-    "description": "Service de pet sitting pour tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés, preuves photo, protection incluse.",
+    "name": "Garde Multi-Animaux Multi-Animaux en France",
+    "description": "Service de garde multi-animaux pour tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Accompagnateurs vérifiés, preuves photo, protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -82,17 +82,17 @@ const ServicePetSitting = () => {
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Options de pet sitting",
+      "name": "Options de garde multi-animaux",
       "itemListElement": [
         {
           "@type": "Offer",
-          "name": "Visite pet sitting 30 min",
+          "name": "Visite garde multi-animaux 30 min",
           "price": "10",
           "priceCurrency": "EUR"
         },
         {
           "@type": "Offer",
-          "name": "Visite pet sitting 1h",
+          "name": "Visite garde multi-animaux 1h",
           "price": "18",
           "priceCurrency": "EUR"
         },
@@ -131,8 +131,8 @@ const ServicePetSitting = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tout Animal | Garde Multi-Animaux | Chiens, Chats, Oiseaux, NAC | DogWalking"
-        description="Garde de tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Pet sitters vérifiés partout en France. Preuves photo, protection incluse."
-        keywords="garde animaux, cat sitting, garde chat, garde rongeur, garde oiseau, garde multi-animaux, NAC, pet sitter france"
+        description="Garde de tous vos animaux : chiens, chats, oiseaux, rongeurs, reptiles. Accompagnateurs vérifiés partout en France. Preuves photo, protection incluse."
+        keywords="garde animaux, cat sitting, garde chat, garde rongeur, garde oiseau, garde multi-animaux, NAC, Accompagnateur france"
         canonicalUrl="https://dogwalking.fr/services/pet-sitting"
         structuredData={serviceJsonLd}
         ogImage={petSittingHero}
@@ -159,13 +159,13 @@ const ServicePetSitting = () => {
                   Tout Animal <span className="text-primary">Multi-Animaux</span> : Tous Vos Compagnons Gardés
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Que vous ayez un chien, un chat, des oiseaux, des rongeurs ou même des reptiles, nos pet sitters 
+                  Que vous ayez un chien, un chat, des oiseaux, des rongeurs ou même des reptiles, nos Accompagnateurs 
                   polyvalents s'occupent de tous vos animaux avec le même soin et la même attention. Une seule 
                   réservation pour toute votre ménagerie.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button size="lg" onClick={() => navigate("/walkers?service=pet_sitting")}>
-                    Trouver un pet sitter
+                    Trouver un Accompagnateur
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                   <Button size="lg" variant="outline" onClick={() => navigate("/tarifs")}>
@@ -195,7 +195,7 @@ const ServicePetSitting = () => {
               >
                 <img 
                   src={petSittingHero} 
-                  alt="Pet sitter avec chien, chat et lapin dans un intérieur chaleureux" 
+                  alt="Accompagnateur avec chien, chat et lapin dans un intérieur chaleureux" 
                   className="rounded-2xl shadow-2xl w-full object-cover aspect-video"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border">
@@ -227,7 +227,7 @@ const ServicePetSitting = () => {
                 Tous Vos Animaux Sont les Bienvenus
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Du plus grand au plus petit, nos pet sitters prennent soin de toutes les espèces 
+                Du plus grand au plus petit, nos Accompagnateurs prennent soin de toutes les espèces 
                 avec expertise et bienveillance. Chaque animal reçoit une attention adaptée à ses besoins.
               </p>
             </motion.div>
@@ -260,7 +260,7 @@ const ServicePetSitting = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <motion.img
                 src={petSittingMulti}
-                alt="Pet sitter avec chiens et chat ensemble dans un salon"
+                alt="Accompagnateur avec chiens et chat ensemble dans un salon"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -276,7 +276,7 @@ const ServicePetSitting = () => {
                   Une Seule Réservation pour Toute Votre Ménagerie
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Vous avez un chien, deux chats et un aquarium ? Pas de problème. Nos pet sitters 
+                  Vous avez un chien, deux chats et un aquarium ? Pas de problème. Nos Accompagnateurs 
                   polyvalents s'occupent de tous vos compagnons en une seule visite. Plus besoin de 
                   multiplier les réservations ou de chercher différents prestataires.
                 </p>
@@ -317,7 +317,7 @@ const ServicePetSitting = () => {
                   Organisation Rigoureuse des Visites
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Chaque pet sitter établit un planning précis pour s'assurer que tous vos animaux 
+                  Chaque Accompagnateur établit un planning précis pour s'assurer que tous vos animaux 
                   reçoivent les soins dont ils ont besoin, aux bons horaires. Nourrissage, entretien, 
                   jeux : rien n'est laissé au hasard.
                 </p>
@@ -350,7 +350,7 @@ const ServicePetSitting = () => {
               </motion.div>
               <motion.img
                 src={petSittingOrganisation}
-                alt="Pet sitter organisant les soins des animaux avec un planning"
+                alt="Accompagnateur organisant les soins des animaux avec un planning"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video order-1 lg:order-2"
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -371,7 +371,7 @@ const ServicePetSitting = () => {
               className="text-center mb-12"
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Les Avantages du Pet Sitting pour Vous
+                Les Avantages du Garde Multi-Animaux pour Vous
               </h2>
             </motion.div>
 
@@ -411,7 +411,7 @@ const ServicePetSitting = () => {
                       <Shield className="h-8 w-8 text-primary mb-4" />
                       <h3 className="font-bold mb-2">Confiance totale</h3>
                       <p className="text-sm text-muted-foreground">
-                        Pet sitters vérifiés avec preuves photo obligatoires
+                        Accompagnateurs vérifiés avec preuves photo obligatoires
                       </p>
                     </CardContent>
                   </Card>
@@ -430,7 +430,7 @@ const ServicePetSitting = () => {
               </motion.div>
               <motion.img
                 src={petSittingSerenite}
-                alt="Propriétaire serein avec ses animaux gardés par un pet sitter"
+                alt="Propriétaire serein avec ses animaux gardés par un Accompagnateur"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -447,7 +447,7 @@ const ServicePetSitting = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <motion.img
                 src={petSittingPetitsAnimaux}
-                alt="Pet sitter prenant soin de hamsters et petits animaux"
+                alt="Accompagnateur prenant soin de hamsters et petits animaux"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -463,7 +463,7 @@ const ServicePetSitting = () => {
                   Expertise avec les Petits Animaux et NAC
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Nos pet sitters spécialisés maîtrisent les soins des petits animaux : rongeurs, 
+                  Nos Accompagnateurs spécialisés maîtrisent les soins des petits animaux : rongeurs, 
                   oiseaux, reptiles et autres NAC. Ils connaissent les besoins spécifiques de 
                   chaque espèce et adaptent leurs soins en conséquence.
                 </p>
@@ -504,10 +504,10 @@ const ServicePetSitting = () => {
                 Tous Vos Animaux Méritent les Meilleurs Soins
               </h2>
               <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-                Confiez toute votre ménagerie à un pet sitter de confiance.
+                Confiez toute votre ménagerie à un Accompagnateur de confiance.
               </p>
               <Button size="lg" variant="secondary" onClick={() => navigate("/walkers?service=pet_sitting")}>
-                Trouver un pet sitter maintenant
+                Trouver un Accompagnateur maintenant
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </motion.div>
@@ -540,7 +540,7 @@ const ServicePetSitting = () => {
               className="text-center mb-12"
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Questions Fréquentes sur le Pet Sitting
+                Questions Fréquentes sur le Garde Multi-Animaux
               </h2>
             </motion.div>
             <div className="max-w-3xl mx-auto">

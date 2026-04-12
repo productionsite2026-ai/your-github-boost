@@ -84,7 +84,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">3. Activité</h2>
                 <p className="text-muted-foreground">
                   DogWalking est une plateforme de mise en relation entre Propriétaires de chiens 
-                  et promeneurs professionnels. Notre service permet de réserver des prestations 
+                  et Accompagnateurs professionnels. Notre service permet de réserver des prestations 
                   de promenade, garde, et autres services animaliers en toute confiance.
                 </p>
                 <p className="text-muted-foreground mt-4"><strong>Code APE :</strong> 9609Z - Autres services personnels n.c.a.</p>
@@ -149,7 +149,7 @@ const RessourcesLegales = () => {
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li><strong>"Plateforme"</strong> : le site internet DogWalking et ses fonctionnalités</li>
                   <li><strong>"Propriétaire"</strong> : utilisateur inscrit en qualité de Propriétaire de chien</li>
-                  <li><strong>"Promeneur"</strong> : utilisateur inscrit en qualité de prestataire de services</li>
+                  <li><strong>"Accompagnateur"</strong> : utilisateur inscrit en qualité de Prestataire de services</li>
                   <li><strong>"Prestation"</strong> : tout service réservé via la Plateforme</li>
                 </ul>
               </section>
@@ -157,7 +157,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 2 - Objet de la Plateforme</h2>
                 <p className="text-muted-foreground">
-                  DogWalking est une plateforme de mise en relation permettant la recherche de promeneurs, 
+                  DogWalking est une plateforme de mise en relation permettant la recherche d'Accompagnateurs, 
                   la réservation et le paiement de prestations, la communication et le suivi avec preuves.
                 </p>
               </section>
@@ -174,7 +174,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 4 - Tarifs et Paiement</h2>
                 <p className="text-muted-foreground mb-4">
-                  Les tarifs sont librement fixés par les promeneurs. Le paiement est bloqué lors de la réservation et libéré après validation de la prestation. Le support est inclus dans le service.
+                  Les tarifs sont librement fixés par les Accompagnateurs. Le paiement est bloqué lors de la réservation et libéré après validation de la prestation. Le support est inclus dans le service.
                 </p>
                 <h3 className="text-xl font-medium mb-2">Annulation</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -197,7 +197,7 @@ const RessourcesLegales = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-lg font-medium mb-2">Promeneur</h3>
+                    <h3 className="text-lg font-medium mb-2">Accompagnateur</h3>
                     <ul className="list-disc list-inside text-muted-foreground space-y-1 text-sm">
                       <li>Qualifications nécessaires</li>
                       <li>Protection professionnelle</li>

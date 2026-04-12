@@ -23,23 +23,23 @@ const caseStudies = getCaseStudiesByService("garde");
 const gardeFAQs = [
   {
     question: "Quelle est la différence entre garde à domicile et hébergement ?",
-    answer: "La garde à domicile signifie que le pet-sitter vient chez vous et dort dans votre maison avec votre chien. L'hébergement implique que votre chien séjourne chez le pet-sitter, dans son environnement familial. Les deux options incluent les mêmes garanties de sécurité et preuves photo."
+    answer: "La garde à domicile signifie que le Accompagnateur vient chez vous et dort dans votre maison avec votre chien. L'hébergement implique que votre chien séjourne chez le Accompagnateur, dans son environnement familial. Les deux options incluent les mêmes garanties de sécurité et preuves photo."
   },
   {
-    question: "Comment se passe la première rencontre avec le pet-sitter ?",
-    answer: "Nous recommandons fortement une rencontre préalable gratuite entre le pet-sitter, vous et votre chien. Cela permet de vérifier la compatibilité, de partager les habitudes de votre animal et de visiter le lieu d'hébergement si applicable. Cette rencontre peut être organisée via la messagerie de la plateforme."
+    question: "Comment se passe la première rencontre avec le Accompagnateur ?",
+    answer: "Nous recommandons fortement une rencontre préalable gratuite entre le Accompagnateur, vous et votre chien. Cela permet de vérifier la compatibilité, de partager les habitudes de votre animal et de visiter le lieu d'hébergement si applicable. Cette rencontre peut être organisée via la messagerie de la plateforme."
   },
   {
     question: "Mon chien peut-il être gardé avec d'autres animaux ?",
-    answer: "Chaque pet-sitter indique sur son profil s'il accueille d'autres animaux simultanément. Si votre chien n'est pas sociable avec ses congénères, privilégiez les gardiens qui proposent des séjours exclusifs. Vous pouvez filtrer les profils selon ce critère."
+    answer: "Chaque Accompagnateur indique sur son profil s'il accueille d'autres animaux simultanément. Si votre chien n'est pas sociable avec ses congénères, privilégiez les gardiens qui proposent des séjours exclusifs. Vous pouvez filtrer les profils selon ce critère."
   },
   {
     question: "Que se passe-t-il en cas d'urgence médicale pendant la garde ?",
-    answer: "Chaque pet-sitter dispose de vos coordonnées et celles de votre vétérinaire. En cas d'urgence, il contacte immédiatement les services vétérinaires et vous prévient. Les frais d'urgence sont à votre charge, mais notre équipe intervient immédiatement pour vous accompagner."
+    answer: "Chaque Accompagnateur dispose de vos coordonnées et celles de votre vétérinaire. En cas d'urgence, il contacte immédiatement les services vétérinaires et vous prévient. Les frais d'urgence sont à votre charge, mais notre équipe intervient immédiatement pour vous accompagner."
   },
   {
     question: "Puis-je avoir des nouvelles de mon chien pendant la garde ?",
-    answer: "Absolument ! Les pet-sitters envoient obligatoirement des photos et vidéos quotidiennes via notre plateforme. Vous pouvez également échanger avec eux via la messagerie sécurisée pour prendre des nouvelles ou donner des instructions."
+    answer: "Absolument ! Les Accompagnateurs envoient obligatoirement des photos et vidéos quotidiennes via notre plateforme. Vous pouvez également échanger avec eux via la messagerie sécurisée pour prendre des nouvelles ou donner des instructions."
   },
   {
     question: "Quels objets dois-je fournir pour la garde ?",
@@ -54,7 +54,7 @@ const ServiceGarde = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Garde de Chien à Domicile et Hébergement",
-    "description": "Service de garde de chien par des pet-sitters professionnels vérifiés. Garde à domicile, hébergement de jour et de nuit. Preuves photo quotidiennes et protection incluse.",
+    "description": "Service de garde de chien par des Accompagnateurs professionnels vérifiés. Garde à domicile, hébergement de jour et de nuit. Preuves photo quotidiennes et protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -93,9 +93,9 @@ const ServiceGarde = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Garde de Chien | Pet-Sitters Vérifiés | Hébergement & Domicile | DogWalking"
-        description="Faites garder votre chien par des pet-sitters vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, protection incluse. Dès 10€/nuit."
-        keywords="garde chien, pet sitting, hébergement chien, pension chien, dog sitting, gardien chien, pension canine france"
+        title="Garde de Chien | Accompagnateurs Vérifiés | Hébergement & Domicile | DogWalking"
+        description="Faites garder votre chien par des Accompagnateurs vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, protection incluse. Dès 10€/nuit."
+        keywords="garde chien, garde multi-animaux, hébergement chien, pension chien, garde à domicile, gardien chien, pension canine france"
         canonicalUrl="https://dogwalking.fr/services/garde"
         structuredData={serviceJsonLd}
         ogImage={serviceGardeImg}
@@ -114,7 +114,7 @@ const ServiceGarde = () => {
                   Alternative aux pensions classiques
                 </Badge>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  Garde de Chien par des <span className="text-primary">Pet-Sitters Vérifiés</span>
+                  Garde de Chien par des <span className="text-primary">Accompagnateurs Vérifiés</span>
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   Confiez votre compagnon à des gardiens passionnés et certifiés. Garde à domicile ou hébergement 
@@ -288,7 +288,7 @@ const ServiceGarde = () => {
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 Les pensions classiques peuvent être stressantes pour votre chien : environnement impersonnel, 
-                nombreux animaux, box individuel. Nos pet-sitters offrent une alternative humaine et chaleureuse.
+                nombreux animaux, box individuel. Nos Accompagnateurs offrent une alternative humaine et chaleureuse.
               </p>
             </div>
 
@@ -501,7 +501,7 @@ const ServiceGarde = () => {
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 onClick={() => navigate("/walker/register")}
               >
-                Devenir pet-sitter
+                Devenir Accompagnateur
               </Button>
             </div>
           </div>

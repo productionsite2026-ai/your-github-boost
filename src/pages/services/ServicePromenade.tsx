@@ -29,23 +29,23 @@ const promenadeFAQs = [
   },
   {
     question: "Mon chien peut-il être promené avec d'autres chiens ?",
-    answer: "Cela dépend du promeneur choisi. Certains proposent des promenades individuelles exclusives, d'autres des balades en petit groupe (2-3 chiens maximum). Cette information est clairement visible sur chaque profil. Pour les chiens réactifs ou avec des besoins spécifiques, privilégiez les promenades individuelles."
+    answer: "Cela dépend de l'Accompagnateur choisi. Certains proposent des promenades individuelles exclusives, d'autres des balades en petit groupe (2-3 chiens maximum). Cette information est clairement visible sur chaque profil. Pour les chiens réactifs ou avec des besoins spécifiques, privilégiez les promenades individuelles."
   },
   {
-    question: "Comment le promeneur récupère-t-il mon chien ?",
-    answer: "Vous convenez d'un point de rendez-vous avec le promeneur, généralement à votre domicile. Vous pouvez confier les clés si vous êtes absent, ou remettre votre compagnon en main propre. La laisse et le collier restent avec votre chien pendant toute la promenade."
+    question: "Comment l'Accompagnateur récupère-t-il mon chien ?",
+    answer: "Vous convenez d'un point de rendez-vous avec l'Accompagnateur, généralement à votre domicile. Vous pouvez confier les clés si vous êtes absent, ou remettre votre compagnon en main propre. La laisse et le collier restent avec votre chien pendant toute la promenade."
   },
   {
     question: "Que se passe-t-il en cas de mauvais temps ?",
-    answer: "Les promenades ont lieu par tous les temps, sauf conditions extrêmes (canicule au-delà de 35°C, tempête, verglas dangereux). En cas de météo défavorable, le promeneur peut proposer un report ou une adaptation. La sécurité de votre chien reste toujours la priorité absolue."
+    answer: "Les promenades ont lieu par tous les temps, sauf conditions extrêmes (canicule au-delà de 35°C, tempête, verglas dangereux). En cas de météo défavorable, l'Accompagnateur peut proposer un report ou une adaptation. La sécurité de votre chien reste toujours la priorité absolue."
   },
   {
     question: "Puis-je suivre la promenade de mon chien en temps réel ?",
-    answer: "Chaque promeneur envoie obligatoirement des preuves photo et vidéo pendant et après la promenade via notre plateforme sécurisée. Vous recevez une notification à chaque envoi. La plupart des promeneurs partagent plusieurs photos tout au long de la balade pour votre tranquillité."
+    answer: "Chaque promeneur envoie obligatoirement des preuves photo et vidéo pendant et après la promenade via notre plateforme sécurisée. Vous recevez une notification à chaque envoi. La plupart des Accompagnateurs partagent plusieurs photos tout au long de la balade pour votre tranquillité."
   },
   {
     question: "Mon chien a des besoins médicaux, est-ce possible ?",
-    answer: "Absolument. Lors de la réservation, vous pouvez indiquer tous les besoins spécifiques : médicaments à administrer, restrictions alimentaires, problèmes de mobilité. Le promeneur confirme qu'il peut gérer ces besoins avant d'accepter. Utilisez la messagerie pour discuter des détails."
+    answer: "Absolument. Lors de la réservation, vous pouvez indiquer tous les besoins spécifiques : médicaments à administrer, restrictions alimentaires, problèmes de mobilité. L'Accompagnateur confirme qu'il peut gérer ces besoins avant d'accepter. Utilisez la messagerie pour discuter des détails."
   }
 ];
 
@@ -56,7 +56,7 @@ const ServicePromenade = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Promenade de Chien Professionnelle",
-    "description": "Service de promenade de chien par des promeneurs professionnels vérifiés. Promenades individuelles ou en petit groupe, avec preuves photo obligatoires et protection incluse.",
+    "description": "Service de promenade de chien par des Accompagnateurs professionnels vérifiés. Promenades individuelles ou en petit groupe, avec preuves photo obligatoires et protection incluse.",
     "provider": {
       "@type": "Organization",
       "name": "DogWalking",
@@ -119,12 +119,12 @@ const ServicePromenade = () => {
                   Promenade de Chien par des <span className="text-primary">Professionnels Vérifiés</span>
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Offrez à votre compagnon des promenades enrichissantes avec des promeneurs passionnés et certifiés. 
+                  Offrez à votre compagnon des promenades enrichissantes avec des Accompagnateurs passionnés et vérifiés. 
                   Exercice quotidien, socialisation et bien-être garantis partout en France.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button size="lg" onClick={() => navigate("/walkers?service=promenade")}>
-                    Trouver un promeneur
+                    Trouver un Accompagnateur
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                   <Button size="lg" variant="outline" onClick={() => navigate("/tarifs")}>
@@ -159,7 +159,7 @@ const ServicePromenade = () => {
                     </div>
                     <div>
                       <p className="font-bold text-2xl">2 500+</p>
-                      <p className="text-sm text-muted-foreground">Promeneurs actifs</p>
+                      <p className="text-sm text-muted-foreground">Accompagnateurs actifs</p>
                     </div>
                   </div>
                 </div>
@@ -187,9 +187,9 @@ const ServicePromenade = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                     <Shield className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Promeneurs 100% Vérifiés</h3>
+                  <h3 className="text-xl font-bold mb-2">Accompagnateurs 100% Vérifiés</h3>
                   <p className="text-muted-foreground">
-                    Chaque promeneur fournit une pièce d'identité, une vérification approfondie et une protection professionnelle. 
+                    Chaque Accompagnateur fournit une pièce d'identité, une vérification approfondie et une protection professionnelle. 
                     Notre équipe vérifie manuellement chaque candidature avant validation.
                   </p>
                 </CardContent>
@@ -202,7 +202,7 @@ const ServicePromenade = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Preuves Photo Obligatoires</h3>
                   <p className="text-muted-foreground">
-                    À chaque promenade, le promeneur envoie des photos et vidéos de votre chien via notre application sécurisée. 
+                    À chaque promenade, l'Accompagnateur envoie des photos et vidéos de votre chien via notre application sécurisée. 
                     Vous suivez les aventures de votre compagnon en temps réel.
                   </p>
                 </CardContent>
@@ -228,7 +228,7 @@ const ServicePromenade = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Promenades Personnalisées</h3>
                   <p className="text-muted-foreground">
-                    Chaque chien est unique. Nos promeneurs adaptent l'intensité, la durée et le parcours aux besoins spécifiques 
+                    Chaque chien est unique. Nos Accompagnateurs adaptent l'intensité, la durée et le parcours aux besoins spécifiques 
                     de votre animal : chiot, senior, athlétique ou calme.
                   </p>
                 </CardContent>
@@ -239,9 +239,9 @@ const ServicePromenade = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Promeneurs de Proximité</h3>
+                  <h3 className="text-xl font-bold mb-2">Accompagnateurs de Proximité</h3>
                   <p className="text-muted-foreground">
-                    Trouvez un promeneur qualifié dans votre quartier. Notre algorithme géolocalise les professionnels 
+                    Trouvez un Accompagnateur qualifié dans votre quartier. Notre algorithme géolocalise les professionnels 
                     les plus proches pour un service rapide et pratique.
                   </p>
                 </CardContent>
@@ -281,7 +281,7 @@ const ServicePromenade = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Trouvez Votre Promeneur</h3>
                 <p className="text-muted-foreground">
-                  Recherchez parmi nos promeneurs vérifiés près de chez vous. Consultez les avis, tarifs et disponibilités 
+                  Recherchez parmi nos Accompagnateurs vérifiés près de chez vous. Consultez les avis, tarifs et disponibilités 
                   de chaque professionnel avant de faire votre choix.
                 </p>
               </div>
@@ -304,7 +304,7 @@ const ServicePromenade = () => {
                 <h3 className="text-xl font-bold mb-2">Recevez les Preuves</h3>
                 <p className="text-muted-foreground">
                   Le jour de la promenade, recevez des photos et vidéos de votre compagnon en balade. 
-                  Le paiement est libéré automatiquement après validation.
+                  Le paiement est libéré après communication du code unique par le Propriétaire.
                 </p>
               </div>
             </div>
@@ -393,7 +393,7 @@ const ServicePromenade = () => {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
                   Une promenade quotidienne n'est pas un luxe, c'est un besoin fondamental pour l'équilibre physique 
-                  et mental de votre compagnon. Nos promeneurs professionnels offrent bien plus qu'une simple sortie.
+                  et mental de votre compagnon. Nos Accompagnateurs professionnels offrent bien plus qu'une simple sortie.
                 </p>
                 
                 <div className="space-y-4">
@@ -471,7 +471,7 @@ const ServicePromenade = () => {
                       {[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />)}
                     </div>
                     <p className="text-sm italic mb-2">
-                      "Enfin une plateforme sérieuse ! Le paiement sécurisé et la vérification des promeneurs m'ont convaincue."
+                      "Enfin une plateforme sérieuse ! Le paiement sécurisé et la vérification des Accompagnateurs m'ont convaincue."
                     </p>
                     <p className="text-xs text-muted-foreground">— Nathalie R., Bordeaux</p>
                   </div>
@@ -519,7 +519,7 @@ const ServicePromenade = () => {
                 variant="secondary"
                 onClick={() => navigate("/walkers?service=promenade")}
               >
-                Trouver un promeneur
+                Trouver un Accompagnateur
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button 

@@ -86,7 +86,7 @@ const Confidentialite = () => {
               <li>Photos du chien</li>
             </ul>
 
-            <h3 className="text-xl font-medium mb-2 mt-4">2.3 Données des promeneurs</h3>
+            <h3 className="text-xl font-medium mb-2 mt-4">2.3 Données des Accompagnateurs</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Pièce d'identité</li>
               <li>Vérification d'identité approfondie</li>
@@ -113,7 +113,7 @@ const Confidentialite = () => {
             <p className="text-muted-foreground mb-4">Vos données sont collectées pour :</p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>Gestion de votre compte</strong> : création, authentification, modification</li>
-              <li><strong>Mise en relation</strong> : entre Propriétaires et promeneurs</li>
+              <li><strong>Mise en relation</strong> : entre Propriétaires et Accompagnateurs</li>
               <li><strong>Réservation et paiement</strong> : traitement des transactions</li>
               <li><strong>Communication</strong> : notifications, messages, assistance</li>
               <li><strong>Sécurité</strong> : vérification des promeneurs, prévention de la fraude</li>
@@ -139,7 +139,7 @@ const Confidentialite = () => {
                     <td className="p-3">Exécution du contrat</td>
                   </tr>
                   <tr className="border-b">
-                    <td className="p-3">Vérification des promeneurs</td>
+                    <td className="p-3">Vérification des Accompagnateurs</td>
                     <td className="p-3">Intérêt légitime (sécurité)</td>
                   </tr>
                   <tr className="border-b">

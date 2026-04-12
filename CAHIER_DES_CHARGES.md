@@ -234,7 +234,7 @@ Les tarifs sont fixés par le propriétaire selon la durée :
 - Historique des paiements
 - Téléchargement des factures
 - Réception des pourboires/dons
-- **Commission plateforme : 13%**
+- **Commission plateforme : 15%**
 
 ---
 
@@ -255,7 +255,7 @@ Les tarifs sont fixés par le propriétaire selon la durée :
 | `bookings` | Réservations |
 | `walker_profiles` | Profils promeneurs |
 | `walker_documents` | Documents vérification (CNI, casier, assurance) |
-| `walker_earnings` | Revenus (commission 13%) |
+| `walker_earnings` | Revenus (commission 15%) |
 | `walk_proofs` | Preuves photo/vidéo missions |
 | `reviews` | Avis (1-5 étoiles + commentaire) |
 | `favorites` | Promeneurs favoris |

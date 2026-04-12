@@ -21,7 +21,7 @@ const Tarifs = () => {
       name: "Promenade",
       minPrice: "8€",
       description: "Durée libre",
-      features: ["Exercice adapté au rythme de votre chien", "Preuves photo/vidéo obligatoires", "Message du promeneur après chaque sortie", "Tarif libre défini par le promeneur"],
+      features: ["Exercice adapté au rythme de votre chien", "Preuves photo/vidéo + message obligatoires", "Tarif librement fixé par l'Accompagnateur", "Durée définie d'un commun accord"],
       icon: "🚶"
     },
     {
@@ -34,7 +34,7 @@ const Tarifs = () => {
     {
       name: "Hébergement nuit",
       minPrice: "10€",
-      description: "Chez le promeneur",
+      description: "Chez l'Accompagnateur",
       features: ["Nuit complète en sécurité", "Environnement familial et chaleureux", "Suivi régulier et attention", "Photos et messages quotidiens"],
       popular: true,
       icon: "🌙"
@@ -50,7 +50,7 @@ const Tarifs = () => {
       name: "Garde à domicile",
       minPrice: "12€",
       description: "Chez vous - Nuit",
-      features: ["Promeneur présent chez vous", "Routine de votre chien préservée", "Sécurité maximale garantie", "Suivi complet de la mission"],
+      features: ["L'Accompagnateur présent chez vous", "Routine de votre chien préservée", "Sécurité maximale garantie", "Suivi complet de la mission"],
       icon: "🏡"
     },
     {
@@ -70,32 +70,32 @@ const Tarifs = () => {
   ];
 
   const guarantees = [
-    { icon: Shield, title: "Promeneurs 100% vérifiés", description: "identité vérifiée et protection vérifiés manuellement", variant: "primary" as const },
-    { icon: Lock, title: "Paiement sécurisé", description: "Argent bloqué jusqu'à validation de la preuve", variant: "accent" as const },
+    { icon: Shield, title: "Accompagnateurs 100% vérifiés", description: "Identité et documents vérifiés manuellement", variant: "primary" as const },
+    { icon: Lock, title: "Paiement sécurisé", description: "Argent bloqué, libéré uniquement via code unique", variant: "accent" as const },
     { icon: Camera, title: "Preuves obligatoires", description: "Photo/vidéo + message pendant chaque mission", variant: "success" as const },
-    { icon: CreditCard, title: "Tarifs transparents", description: "Tout inclus : protection, support, plateforme", variant: "warning" as const }
+    { icon: CreditCard, title: "Tarifs transparents", description: "Prix libres fixés par les Accompagnateurs", variant: "warning" as const }
   ];
 
   const faqItems = [
     {
       question: "Comment sont calculés les tarifs sur DogWalking ?",
-      answer: "Nous fixons des tarifs minimums garantis pour chaque type de service (à partir de 8€). Chaque promeneur est ensuite libre de fixer ses propres tarifs au-dessus de ces minimums, en fonction de son expérience, de sa zone géographique et de ses services spécifiques. Cette flexibilité permet de trouver le meilleur rapport qualité-prix adapté à vos besoins."
+      answer: "DogWalking affiche des tarifs indicatifs (« à partir de… »). Chaque Accompagnateur est libre de fixer ses propres tarifs lors de son inscription et peut les modifier à tout moment via son tableau de bord. La durée des prestations est également totalement libre et définie d'un commun accord entre le Propriétaire et l'Accompagnateur (minutes, heures, jours, nuits, prix…)."
     },
     {
       question: "Que comprennent les tarifs affichés ?",
-      answer: "Les tarifs DogWalking incluent la protection jusqu'à 2M€ pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé qui protège votre argent, et la gestion automatisée des preuves photo/vidéo. C'est un service complet sans frais cachés."
+      answer: "Les tarifs incluent la protection pour chaque prestation, le support client disponible 7j/7, la plateforme sécurisée avec messagerie intégrée, le système de paiement sécurisé avec code unique de validation, et la gestion automatisée des preuves photo/vidéo. Une commission de 15 % est prélevée au moment du paiement pour couvrir les frais de gestion de la plateforme."
     },
     {
-      question: "Puis-je donner un pourboire au promeneur ?",
-      answer: "Oui, vous pouvez donner un pourboire à votre promeneur après chaque prestation réussie. Les pourboires sont 100% reversés au promeneur sans aucune commission prélevée par DogWalking. C'est une excellente façon de remercier un service exceptionnel et de fidéliser votre promeneur préféré."
+      question: "Puis-je donner un pourboire à l'Accompagnateur ?",
+      answer: "Oui, vous pouvez donner un pourboire à votre Accompagnateur après chaque prestation réussie. Les pourboires sont 100 % reversés à l'Accompagnateur sans aucune commission prélevée par DogWalking."
     },
     {
       question: "Quand suis-je débité pour une réservation ?",
-      answer: "Le paiement est effectué au moment de la réservation mais reste bloqué (compte séquestre sécurisé). Il n'est libéré au promeneur qu'après réception et validation de la preuve de prestation (photo/vidéo obligatoire). Si aucune preuve n'est envoyée, vous êtes automatiquement remboursé."
+      answer: "Le paiement est effectué au moment de la réservation mais reste bloqué. Il n'est jamais versé directement à l'Accompagnateur avant validation. Seul le Propriétaire détient un code à usage unique, qu'il communique à l'Accompagnateur à la fin de la prestation pour débloquer le paiement. Sans ce code, aucun paiement n'est libéré."
     },
     {
       question: "Puis-je annuler une réservation et être remboursé ?",
-      answer: "Oui, vous pouvez annuler gratuitement jusqu'à 24h avant la prestation prévue avec remboursement intégral. Passé ce délai, des frais d'annulation peuvent s'appliquer selon les conditions du promeneur. En cas d'urgence médicale justifiée, contactez notre support pour un traitement au cas par cas."
+      answer: "Oui, vous pouvez annuler selon les conditions définies. En cas de problème, si les preuves ne sont pas envoyées ou si la prestation ne correspond pas à vos attentes, vous pouvez contester. Le paiement restant bloqué, une demande de remboursement peut être effectuée. L'équipe support intervient sous 48 h pour gérer tout litige."
     }
   ];
 
@@ -103,7 +103,7 @@ const Tarifs = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tarifs DogWalking | Prix Promenade Chien, Garde, Visite à Domicile"
-        description="Découvrez nos tarifs transparents : promenade dès 8€, garde dès 10€, visite à domicile dès 8€. Tout inclus avec protection complète et paiement sécurisé."
+        description="Découvrez nos tarifs indicatifs : promenade dès 8€, garde dès 10€, visite à domicile dès 8€. Prix librement fixés par les Accompagnateurs. Paiement sécurisé avec code unique."
         canonical="https://dogwalking.fr/tarifs"
       />
       <Header />
@@ -147,7 +147,7 @@ const Tarifs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Tarifs minimums garantis. Tout inclus (protection + support).
+              Tarifs indicatifs (« à partir de… »). Prix librement fixés par les Accompagnateurs.
             </motion.p>
           </div>
         </motion.div>
@@ -176,10 +176,12 @@ const Tarifs = () => {
             Des tarifs adaptés à chaque besoin
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Chez DogWalking, nous croyons que chaque chien mérite des soins de qualité à un prix juste. 
-            Nos tarifs minimums garantissent une rémunération équitable pour nos promeneurs professionnels 
-            tout en restant accessibles pour les Propriétaires. Chaque prestation inclut la protection complète,             responsabilité civile jusqu'à 2 millions d'euros, les preuves photo/vidéo obligatoires 
-            et un support client disponible 7 jours sur 7.
+            Chez DogWalking, les prix sont librement fixés par les Accompagnateurs lors de leur inscription 
+            et peuvent être modifiés à tout moment via leur tableau de bord de gestion. Les montants affichés sont 
+            indicatifs (« à partir de… »). La durée des prestations est également totalement libre et définie 
+            d'un commun accord entre le Propriétaire et l'Accompagnateur. Chaque prestation inclut les preuves 
+            photo/vidéo obligatoires, le paiement sécurisé avec code unique de validation, et un support 
+            client disponible 7 jours sur 7.
           </p>
         </motion.div>
 
@@ -238,7 +240,7 @@ const Tarifs = () => {
         <div className="max-w-4xl mx-auto space-y-6">
           <SectionHeader
             title="Comment fonctionne le paiement ?"
-            subtitle="Un système sécurisé qui protège à la fois les Propriétaires et les promeneurs"
+            subtitle="Un système sécurisé avec code unique qui protège à la fois les Propriétaires et les Accompagnateurs"
             icon={Lock}
             iconVariant="accent"
             badge="Paiement sécurisé"
@@ -249,14 +251,14 @@ const Tarifs = () => {
               <div className="p-8 bg-gradient-to-br from-primary to-accent text-primary-foreground">
                 <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
                   <Lock className="h-6 w-6" />
-                  Paiement bloqué
+                  Paiement bloqué + Code unique
                 </h3>
                 <div className="space-y-4">
                   {[
-                    { step: "1", title: "Réservation", desc: "Votre paiement est bloqué en sécurité. Le promeneur ne reçoit rien immédiatement." },
-                    { step: "2", title: "Mission + Preuve", desc: "Le promeneur effectue la mission et envoie obligatoirement une preuve photo/vidéo." },
-                    { step: "3", title: "Validation", desc: "Vous recevez la preuve. Le paiement est débloqué après validation." },
-                    { step: "4", title: "Paiement", desc: "Le promeneur reçoit son paiement intégralement." }
+                    { step: "1", title: "Réservation", desc: "Votre paiement est bloqué en sécurité. L'Accompagnateur ne reçoit rien immédiatement. Commission de 15 % prélevée." },
+                    { step: "2", title: "Mission + Preuves", desc: "L'Accompagnateur effectue la mission et envoie obligatoirement des preuves photo/vidéo accompagnées d'un message." },
+                    { step: "3", title: "Code unique", desc: "Seul le Propriétaire détient un code à usage unique, qu'il communique à l'Accompagnateur à la fin de la prestation." },
+                    { step: "4", title: "Paiement libéré", desc: "L'Accompagnateur saisit le code et valide la fin du service. Le paiement lui est alors versé (jusqu'à 85 % des revenus)." }
                   ].map((item, index) => (
                     <motion.div 
                       key={index} 
@@ -284,11 +286,11 @@ const Tarifs = () => {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Remboursement intégral si prestation non effectuée",
+                    "Remboursement si prestation non effectuée",
                     "Médiation gratuite en cas de litige",
-                    "Historique des preuves conservé 90 jours",
-                    "Support disponible 7j/7 par chat et email",
-                    "Protection 2M€ incluse"
+                    "Support intervient sous 48 h",
+                    "Historique des preuves conservé",
+                    "Code unique : innovation unique en France"
                   ].map((item, i) => (
                     <motion.li 
                       key={i} 
