@@ -64,8 +64,8 @@ const WalkerRegister = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Devenir Promeneur Vérifié | DogWalking"
-        description="Rejoignez notre réseau de promeneurs professionnels vérifiés. Fixez vos tarifs, gérez vos horaires et gagnez un revenu attractif en prenant soin des chiens."
+        title="Devenir Accompagnateur Vérifié | DogWalking"
+        description="Rejoignez notre réseau d'Accompagnateurs professionnels vérifiés. Fixez vos tarifs, gérez vos horaires et gagnez un revenu attractif en prenant soin des chiens."
         canonical="https://dogwalking.fr/walker/register"
       />
       
@@ -93,9 +93,9 @@ const WalkerRegister = () => {
           >
             <Briefcase className="h-10 w-10 text-primary" />
           </motion.div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Devenez promeneur professionnel vérifié</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Devenez Accompagnateur professionnel vérifié</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Rejoignez notre réseau de promeneurs professionnels. Fixez vos tarifs, 
+            Rejoignez notre réseau d'Accompagnateurs professionnels. Fixez vos tarifs, 
             gérez vos horaires et gagnez un revenu attractif en prenant soin des chiens de votre quartier.
           </p>
         </motion.div>
@@ -189,7 +189,7 @@ const WalkerRegister = () => {
             <motion.div variants={itemVariants}>
               <Card className="shadow-card">
                 <CardHeader>
-                  <CardTitle>Candidature promeneur vérifié</CardTitle>
+                  <CardTitle>Candidature Accompagnateur vérifié</CardTitle>
                   <CardDescription>
                     Remplissez ce formulaire pour commencer le processus de vérification. 
                     Nous vous recontacterons sous 48h.
@@ -235,7 +235,7 @@ const WalkerRegister = () => {
                     </div>
 
                     <div>
-                      <Label htmlFor="motivation">Pourquoi voulez-vous devenir promeneur ? *</Label>
+                      <Label htmlFor="motivation">Pourquoi voulez-vous devenir Accompagnateur ? *</Label>
                       <Textarea 
                         id="motivation" 
                         placeholder="Quelle est votre motivation ? Quel est votre objectif ? Combien d'heures par semaine souhaitez-vous travailler ?"

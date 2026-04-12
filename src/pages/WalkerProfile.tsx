@@ -238,7 +238,7 @@ const WalkerProfilePage = () => {
       <div className="min-h-screen bg-background">
         <Header />
         <main className="container mx-auto px-4 py-24">
-          <h1 className="text-4xl font-bold mb-8">Promeneur introuvable</h1>
+          <h1 className="text-4xl font-bold mb-8">Accompagnateur introuvable</h1>
         </main>
         <Footer />
       </div>
@@ -252,8 +252,8 @@ const WalkerProfilePage = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `${walker.first_name} - Promeneur de chiens`,
-    "description": walker.bio || "Promeneur de chiens professionnel vérifié",
+    "name": `${walker.first_name} - Accompagnateur`,
+    "description": walker.bio || "Accompagnateur professionnel vérifié",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": walker.city || "France"
@@ -269,8 +269,8 @@ const WalkerProfilePage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{walker.first_name} - Promeneur de Chien à {walker.city || 'France'} | DogWalking</title>
-        <meta name="description" content={`${walker.first_name}, promeneur de chiens vérifié à ${walker.city || 'France'}. Note: ${walker.rating?.toFixed(1) || '5.0'}/5. Tarif: ${walker.hourly_rate || 15}€/30min.`} />
+        <title>{walker.first_name} - Accompagnateur à {walker.city || 'France'} | DogWalking</title>
+        <meta name="description" content={`${walker.first_name}, Accompagnateur vérifié à ${walker.city || 'France'}. Note: ${walker.rating?.toFixed(1) || '5.0'}/5. Tarif: ${walker.hourly_rate || 15}€/30min.`} />
         <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
       <Header />

@@ -31,19 +31,19 @@ const faqCategories = {
     title: "Propriétaires",
     icon: Dog,
     faqs: [
-      { question: "Comment fonctionne DogWalking pour trouver un promeneur ?", answer: "Entrez votre adresse, choisissez le type de service, et découvrez les promeneurs vérifiés disponibles. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé jusqu'à réception des preuves photo." },
-      { question: "Les promeneurs sont-ils vraiment vérifiés ?", answer: "Absolument. Chaque promeneur fournit identité vérifiée vierge et attestation d'protection. Seuls 35% des candidats sont acceptés." },
-      { question: "Que se passe-t-il si je ne suis pas satisfait ?", answer: "Grâce au paiement sécurisé, votre argent reste bloqué jusqu'à validation. Vous pouvez contester et être remboursé. Notre support intervient sous 24h." },
+      { question: "Comment fonctionne DogWalking pour trouver un promeneur ?", answer: "Entrez votre adresse, choisissez le type de service, et découvrez les Accompagnateurs vérifiés disponibles. Consultez leurs profils, avis, tarifs, puis réservez en ligne. Le paiement est sécurisé jusqu'à réception des preuves photo." },
+      { question: "Les promeneurs sont-ils vraiment vérifiés ?", answer: "Absolument. Chaque Accompagnateur fournit identité vérifiée vierge et attestation d'protection. Seuls 35% des candidats sont acceptés." },
+      { question: "Que se passe-t-il si je ne suis pas satisfait ?", answer: "Grâce au paiement sécurisé, votre argent reste bloqué jusqu'à validation. Vous pouvez contester et être remboursé. Notre support intervient sous 48 h." },
       { question: "Puis-je annuler une réservation ?", answer: "Annulation gratuite jusqu'à 24h avant avec remboursement intégral. Des frais peuvent s'appliquer après ce délai." },
       { question: "Comment ajouter mon chien ?", answer: "Depuis votre tableau de bord, cliquez 'Ajouter un chien'. Remplissez nom, race, âge, poids, tempérament et ajoutez une photo." },
       { question: "Puis-je garder le même promeneur ?", answer: "Oui, ajoutez-le en favori et réservez-le directement. Les promeneurs réguliers connaissent mieux votre chien." },
     ],
   },
   promeneurs: {
-    title: "Promeneurs",
+    title: "Accompagnateurs",
     icon: Briefcase,
     faqs: [
-      { question: "Comment devenir promeneur ?", answer: "Inscrivez-vous, complétez votre profil, soumettez vos documents (CNI, vérification approfondie). Vérification sous 48h." },
+      { question: "Comment devenir Accompagnateur ?", answer: "Inscrivez-vous, complétez votre profil, soumettez vos documents (CNI, vérification approfondie). Vérification sous 48h." },
       { question: "Quels documents sont nécessaires ?", answer: "CNI ou passeport, vérification approfondie (bulletin n°3), attestation d'protection et photo professionnelle." },
       { question: "Comment fixer mes tarifs ?", answer: "Vous êtes libre au-dessus des minimums (8€ promenade, 10€ garde). Adaptez selon votre expérience et zone." },
       { question: "Comment suis-je payé ?", answer: "Le paiement est libéré après envoi des preuves et validation. Vous recevez l'intégralité du montant de la prestation. Le support est inclus." },
@@ -54,7 +54,7 @@ const faqCategories = {
     title: "Paiement",
     icon: CreditCard,
     faqs: [
-      { question: "Comment fonctionne le paiement sécurisé ?", answer: "Le paiement est bloqué à la réservation. Il est libéré au promeneur après validation des preuves photo/vidéo." },
+      { question: "Comment fonctionne le paiement sécurisé ?", answer: "Le paiement est bloqué à la réservation. Il est libéré à l'Accompagnateur après validation des preuves photo/vidéo." },
       { question: "Que comprennent les frais de service ?", answer: "Protection jusqu'à 2M€, support 7j/7, messagerie sécurisée et système de paiement sécurisé." },
       { question: "Puis-je donner un pourboire ?", answer: "Oui, 100% reversé au promeneur." },
       { question: "Et si la prestation n'est pas effectuée ?", answer: "Remboursement automatique si aucune preuve n'est envoyée." },
@@ -127,8 +127,8 @@ const Support = () => {
   ];
 
   const stats = [
-    { value: "50 000+", label: "Promenades réalisées", icon: CheckCircle },
-    { value: "2 500+", label: "Promeneurs actifs", icon: Users },
+    { value: "50 000+", label: "Prestations réalisées", icon: CheckCircle },
+    { value: "2 500+", label: "Accompagnateurs actifs", icon: Users },
     { value: "4.9/5", label: "Note moyenne", icon: Award },
     { value: "50+", label: "Villes couvertes", icon: MapPin },
   ];
@@ -258,7 +258,7 @@ const Support = () => {
                   {/* CTA si pas de réponse */}
                   <div className="mt-12 text-center p-8 bg-muted/30 rounded-2xl">
                     <h3 className="text-xl font-bold mb-2">Vous n'avez pas trouvé votre réponse ?</h3>
-                    <p className="text-muted-foreground mb-4">Contactez-nous directement, notre équipe répond sous 24h.</p>
+                    <p className="text-muted-foreground mb-4">Contactez-nous directement, notre équipe répond sous 48 h.</p>
                     <Button onClick={() => setMainTab("contact")}>
                       <MessageSquare className="h-4 w-4 mr-2" />
                       Nous contacter
@@ -282,7 +282,7 @@ const Support = () => {
                         <p className="text-lg text-muted-foreground leading-relaxed">
                           Nous sommes une équipe de passionnés d'animaux et de technologie, unis par une mission : 
                           offrir aux chiens de France les meilleures promenades, en toute sécurité. Depuis 2023, 
-                          nous révolutionnons le pet-sitting avec transparence, innovation et bienveillance.
+                          nous révolutionnons l'accompagnement animal avec transparence, innovation et bienveillance.
                         </p>
                       </div>
                       <img src={teamImage} alt="L'équipe DogWalking" className="rounded-2xl shadow-2xl w-full object-cover aspect-video" />
@@ -309,9 +309,9 @@ const Support = () => {
                           <Target className="w-3 h-3 mr-1" />
                           Notre Mission
                         </Badge>
-                        <h2 className="text-3xl font-bold mb-6">Révolutionner le Pet-Sitting en France</h2>
+                        <h2 className="text-3xl font-bold mb-6">Révolutionner l'Accompagnement Animal en France</h2>
                         <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                          Chaque promeneur est soigneusement sélectionné, chaque prestation documentée, 
+                          Chaque Accompagnateur est soigneusement sélectionné, chaque prestation documentée, 
                           chaque paiement sécurisé. Zéro inquiétude.
                         </p>
                         <div className="space-y-3">

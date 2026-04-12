@@ -160,7 +160,7 @@ const BookWalk = () => {
 
       toast({
         title: "Réservation effectuée !",
-        description: "Votre demande a été envoyée. Le promeneur va confirmer.",
+        description: "Votre demande a été envoyée. L'Accompagnateur va confirmer.",
       });
       navigate('/dashboard?tab=reservations');
     } catch (error: any) {
@@ -195,7 +195,7 @@ const BookWalk = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/30">
       <SEOHead
         title="Réserver une Promenade | DogWalking"
-        description="Réservez une promenade ou un service pour votre chien avec un promeneur vérifié. Paiement sécurisé."
+        description="Réservez une promenade ou un service pour votre chien avec un Accompagnateur vérifié. Paiement sécurisé."
       />
       <Header />
       <main className="container mx-auto px-4 py-24 max-w-5xl">
@@ -263,7 +263,7 @@ const BookWalk = () => {
                       {walker.verified && (
                         <Badge className="mt-3 gap-1">
                           <Shield className="h-3 w-3" />
-                          Promeneur vérifié
+                          Accompagnateur vérifié
                         </Badge>
                       )}
                     </div>

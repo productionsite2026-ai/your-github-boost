@@ -91,9 +91,9 @@ const CGU = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>Promenade</strong> : balade du chien en extérieur</li>
               <li><strong>Visite à domicile</strong> : passage au domicile du Propriétaire</li>
-              <li><strong>Hébergement de nuit</strong> : garde du chien la nuit chez le Accompagnateur</li>
-              <li><strong>Garderie de jour</strong> : garde du chien la journée chez le Accompagnateur</li>
-              <li><strong>Garde à domicile</strong> : le Accompagnateur reste au domicile du Propriétaire</li>
+              <li><strong>Hébergement de nuit</strong> : garde du chien la nuit chez l'Accompagnateur</li>
+              <li><strong>Garderie de jour</strong> : garde du chien la journée chez l'Accompagnateur</li>
+              <li><strong>Garde à domicile</strong> : l'Accompagnateur reste au domicile du Propriétaire</li>
               <li><strong>Visite sanitaire</strong> : soins et hygiène du chien</li>
               <li><strong>Accompagnement vétérinaire</strong> : transport et assistance aux rendez-vous</li>
             </ul>
@@ -116,7 +116,7 @@ const CGU = () => {
             
             <h3 className="text-xl font-medium mb-2 mt-4">5.2 Paiement sécurisé</h3>
             <p className="text-muted-foreground">
-              Le paiement est bloqué lors de la réservation et n'est débloqué au Accompagnateur 
+              Le paiement est bloqué lors de la réservation et n'est débloqué à l'Accompagnateur 
               qu'après validation de la Prestation par le Propriétaire ou automatiquement 
               48h après réception des preuves en l'absence de contestation.
             </p>
@@ -136,12 +136,12 @@ const CGU = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Fournir des informations exactes sur son chien (santé, comportement, besoins)</li>
               <li>S'assurer que le chien est à jour de ses vaccinations</li>
-              <li>Informer le Accompagnateur de tout problème de santé ou comportemental</li>
+              <li>Informer l'Accompagnateur de tout problème de santé ou comportemental</li>
               <li>Respecter les horaires convenus</li>
               <li>Payer les Prestations réservées</li>
             </ul>
             
-            <h3 className="text-xl font-medium mb-2 mt-4">6.2 Obligations du Accompagnateur</h3>
+            <h3 className="text-xl font-medium mb-2 mt-4">6.2 Obligations de l'Accompagnateur</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li>Disposer des qualifications et de l'expérience nécessaires</li>
               <li>Être titulaire d'une protection professionnelle</li>
@@ -172,7 +172,7 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 8 - Responsabilité</h2>
             <p className="text-muted-foreground">
               DogWalking agit en qualité d'intermédiaire technique et n'est pas partie au 
-              contrat conclu entre le Propriétaire et le Accompagnateur. À ce titre, DogWalking 
+              contrat conclu entre le Propriétaire et l'Accompagnateur. À ce titre, DogWalking 
               ne saurait être tenue responsable :
             </p>
             <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-2">
