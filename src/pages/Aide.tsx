@@ -23,12 +23,12 @@ const faqCategories = {
     description: "Tout savoir sur la réservation et les services",
     faqs: [
       {
-        question: "Comment fonctionne DogWalking pour trouver un promeneur ?",
+        question: "Comment fonctionne DogWalking pour trouver un Accompagnateur ?",
         answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs disponibles près de chez vous. Le paiement est sécurisé et bloqué jusqu’à la fin de la prestation, après validation via un code à usage unique. Choisissez ensuite le type de service (Promenade, Garde, Visite, ...), entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget et vos conditions ; vous recevrez plusieurs propositions de prestataires et pourrez choisir le profil le plus adapté."
       },
       {
-        question: "Les promeneurs sont-ils vraiment vérifiés ?",
-        answer: "Absolument. Chaque promeneur fournit une pièce d'identité valide, une vérification approfondie, et une vérification complète. Notre équipe vérifie manuellement chaque document. Seuls 35% des candidats sont acceptés après ce processus rigoureux."
+        question: "Les Accompagnateurs sont-ils vraiment vérifiés ?",
+        answer: "Absolument. Chaque Accompagnateur fournit une pièce d'identité valide, une vérification approfondie, et une vérification complète. Notre équipe vérifie manuellement chaque document. Seuls 35% des candidats sont acceptés après ce processus rigoureux."
       },
       {
         question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
@@ -36,26 +36,26 @@ const faqCategories = {
       },
       {
         question: "Puis-je annuler une réservation et être remboursé ?",
-        answer: "Oui, vous pouvez annuler gratuitement jusqu'à 24h avant la prestation prévue avec remboursement intégral. Passé ce délai, des frais d'annulation peuvent s'appliquer selon les conditions du promeneur. En cas d'urgence médicale justifiée, contactez notre support."
+        answer: "Oui, vous pouvez annuler gratuitement jusqu'à 24h avant la prestation prévue avec remboursement intégral. Passé ce délai, des frais d'annulation peuvent s'appliquer selon les conditions de l'Accompagnateur. En cas d'urgence médicale justifiée, contactez notre support."
       },
       {
         question: "Comment ajouter mon chien sur la plateforme ?",
-        answer: "Depuis votre tableau de bord, cliquez sur 'Ajouter un chien'. Remplissez les informations essentielles : nom, race, âge, poids, tempérament et besoins spéciaux. Ajoutez une photo pour aider le promeneur à reconnaître votre compagnon."
+        answer: "Depuis votre tableau de bord, cliquez sur 'Ajouter un chien'. Remplissez les informations essentielles : nom, race, âge, poids, tempérament et besoins spéciaux. Ajoutez une photo pour aider l'Accompagnateur à reconnaître votre compagnon."
       },
       {
-        question: "Puis-je demander le même promeneur à chaque fois ?",
-        answer: "Oui, vous pouvez ajouter un promeneur à vos favoris et le réserver directement depuis votre tableau de bord. Les promeneurs réguliers connaissent mieux votre chien et ses habitudes, ce qui améliore l'expérience."
+        question: "Puis-je demander le même Accompagnateur à chaque fois ?",
+        answer: "Oui, vous pouvez ajouter un Accompagnateur à vos favoris et le réserver directement depuis votre tableau de bord. Les Accompagnateurs réguliers connaissent mieux votre chien et ses habitudes, ce qui améliore l'expérience."
       }
     ]
   },
   promeneurs: {
-    title: "Promeneurs",
+    title: "Accompagnateurs",
     icon: Briefcase,
-    description: "Devenir promeneur et gérer son activité",
+    description: "Devenir Accompagnateur et gérer son activité",
     faqs: [
       {
-        question: "Comment devenir promeneur DogWalking ?",
-        answer: "Inscrivez-vous via la page 'Devenir promeneur', complétez votre profil avec vos informations personnelles et votre expérience avec les chiens. Soumettez ensuite vos documents (identité vérifiée, attestation RC). Notre équipe les vérifie manuellement sous 48h."
+        question: "Comment devenir Accompagnateur DogWalking ?",
+        answer: "Inscrivez-vous via la page 'Devenir Accompagnateur', complétez votre profil avec vos informations personnelles et votre expérience avec les chiens. Soumettez ensuite vos documents (identité vérifiée, attestation RC). Notre équipe les vérifie manuellement sous 48h."
       },
       {
         question: "Quels documents sont nécessaires pour s'inscrire ?",
@@ -74,8 +74,8 @@ const faqCategories = {
         answer: "Non, l'abonnement PRO (6-12€/mois) est totalement optionnel. Il offre des avantages : mise en avant prioritaire, badges premium, statistiques avancées et support prioritaire. Vous pouvez exercer sans abonnement."
       },
       {
-        question: "Combien puis-je gagner comme promeneur ?",
-        answer: "Les revenus varient selon votre disponibilité et votre zone. En moyenne, un promeneur actif gagne entre 500€ et 1500€/mois. Les promeneurs à temps plein dans les grandes villes peuvent dépasser 2000€/mois."
+        question: "Combien puis-je gagner comme Accompagnateur ?",
+        answer: "Les revenus varient selon votre disponibilité et votre zone. En moyenne, un Accompagnateur actif gagne entre 500€ et 1500€/mois. Les Accompagnateurs à temps plein dans les grandes villes peuvent dépasser 2000€/mois."
       }
     ]
   },
@@ -86,7 +86,7 @@ const faqCategories = {
     faqs: [
       {
         question: "Comment sont calculés les tarifs sur DogWalking ?",
-        answer: "Nous fixons des tarifs minimums garantis pour chaque type de service (à partir de 8€). Chaque promeneur est ensuite libre de fixer ses propres tarifs au-dessus de ces minimums."
+        answer: "Nous fixons des tarifs minimums garantis pour chaque type de service (à partir de 8€). Chaque Accompagnateur est ensuite libre de fixer ses propres tarifs au-dessus de ces minimums."
       },
       {
         question: "Que comprennent les frais de service ?",
@@ -94,11 +94,11 @@ const faqCategories = {
       },
       {
         question: "Comment fonctionne le paiement sécurisé ?",
-        answer: "Le paiement est effectué au moment de la réservation mais reste bloqué en compte séquestre sécurisé. Il n'est libéré au promeneur qu'après réception et validation de la preuve de prestation (photo/vidéo obligatoire)."
+        answer: "Le paiement est effectué au moment de la réservation mais reste bloqué en compte séquestre sécurisé. Il n'est libéré à l'Accompagnateur qu'après réception et validation de la preuve de prestation (photo/vidéo obligatoire)."
       },
       {
-        question: "Puis-je donner un pourboire au promeneur ?",
-        answer: "Oui, vous pouvez donner un pourboire après chaque prestation réussie. Les pourboires sont 100% reversés au promeneur."
+        question: "Puis-je donner un pourboire à l'Accompagnateur ?",
+        answer: "Oui, vous pouvez donner un pourboire après chaque prestation réussie. Les pourboires sont 100% reversés à l'Accompagnateur."
       },
       {
         question: "Que se passe-t-il si la prestation n'est pas effectuée ?",
@@ -116,7 +116,7 @@ const faqCategories = {
     description: "Nos garanties et processus de vérification",
     faqs: [
       {
-        question: "Comment DogWalking vérifie-t-il les promeneurs ?",
+        question: "Comment DogWalking vérifie-t-il les Accompagnateurs ?",
         answer: "Chaque candidat passe par un processus rigoureux : vérification d'identité (CNI), contrôle du vérification approfondie, validation de la protection, et entretien de motivation. Seuls 35% des candidats sont acceptés."
       },
       {
@@ -129,7 +129,7 @@ const faqCategories = {
       },
       {
         question: "Les preuves photo sont-elles obligatoires ?",
-        answer: "Oui, chaque promeneur doit envoyer au minimum une preuve photo ou vidéo pendant la prestation. Sans preuve, le paiement n'est pas libéré et le Propriétaire peut demander un remboursement."
+        answer: "Oui, chaque Accompagnateur doit envoyer au minimum une preuve photo ou vidéo pendant la prestation. Sans preuve, le paiement n'est pas libéré et le Propriétaire peut demander un remboursement."
       },
       {
         question: "Comment DogWalking protège-t-il mes données ?",
@@ -148,31 +148,31 @@ const faqCategories = {
     faqs: [
       {
         question: "DogWalking est-il disponible dans ma ville ?",
-        answer: "DogWalking couvre l'ensemble du territoire français avec une présence renforcée en Île-de-France et dans les grandes métropoles (Lyon, Marseille, Bordeaux, Toulouse, Nantes, Lille). Entrez votre adresse pour découvrir les promeneurs disponibles."
+        answer: "DogWalking couvre l'ensemble du territoire français avec une présence renforcée en Île-de-France et dans les grandes métropoles (Lyon, Marseille, Bordeaux, Toulouse, Nantes, Lille). Entrez votre adresse pour découvrir les Accompagnateurs disponibles."
       },
       {
-        question: "Comment trouver un promeneur dans ma zone ?",
-        answer: "Utilisez le formulaire de recherche sur la page d'accueil ou la page 'Trouver un promeneur'. Entrez votre adresse et découvrez les promeneurs vérifiés disponibles dans un rayon de 5 à 15 km selon leur zone d'intervention."
+        question: "Comment trouver un Accompagnateur dans ma zone ?",
+        answer: "Utilisez le formulaire de recherche sur la page d'accueil ou la page 'Trouver un Accompagnateur'. Entrez votre adresse et découvrez les Accompagnateurs vérifiés disponibles dans un rayon de 5 à 15 km selon leur zone d'intervention."
       },
       {
-        question: "Les promeneurs se déplacent-ils chez moi ?",
-        answer: "Oui, pour les services de promenade et visite à domicile, le promeneur vient chercher votre chien chez vous. Pour l'hébergement ou la garderie, vous déposez votre chien chez le promeneur."
+        question: "Les Accompagnateurs se déplacent-ils chez moi ?",
+        answer: "Oui, pour les services de promenade et visite à domicile, l'Accompagnateur vient chercher votre chien chez vous. Pour l'hébergement ou la garderie, vous déposez votre chien chez l'Accompagnateur."
       },
       {
         question: "DogWalking s'étend-il aux zones rurales ?",
-        answer: "Notre réseau s'étend chaque jour. Si aucun promeneur n'est disponible dans votre zone, vous pouvez créer une alerte pour être notifié dès qu'un promeneur s'inscrit près de chez vous."
+        answer: "Notre réseau s'étend chaque jour. Si aucun Accompagnateur n'est disponible dans votre zone, vous pouvez créer une alerte pour être notifié dès qu'un Accompagnateur s'inscrit près de chez vous."
       },
       {
         question: "Puis-je changer de zone de recherche ?",
-        answer: "Oui, vous pouvez rechercher des promeneurs dans n'importe quelle zone en France. Utile si vous voyagez avec votre chien ou si vous déménagez."
+        answer: "Oui, vous pouvez rechercher des Accompagnateurs dans n'importe quelle zone en France. Utile si vous voyagez avec votre chien ou si vous déménagez."
       }
     ]
   }
 };
 
 const quickLinks = [
-  { title: "Trouver un promeneur", href: "/walkers", icon: Search, variant: "default" as const },
-  { title: "Devenir promeneur", href: "/walker/register", icon: Briefcase, variant: "secondary" as const },
+  { title: "Trouver un Accompagnateur", href: "/walkers", icon: Search, variant: "default" as const },
+  { title: "Devenir Accompagnateur", href: "/walker/register", icon: Briefcase, variant: "secondary" as const },
   { title: "Nos tarifs", href: "/tarifs", icon: CreditCard, variant: "outline" as const },
   { title: "Nous contacter", href: "/contact", icon: MessageSquare, variant: "outline" as const }
 ];
@@ -217,7 +217,7 @@ const Aide = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Centre d'Aide | FAQ DogWalking | Questions Fréquentes"
-        description="Trouvez toutes les réponses à vos questions sur DogWalking : réservation, paiement, sécurité, devenir promeneur. Centre d'aide complet avec FAQ structurée."
+        description="Trouvez toutes les réponses à vos questions sur DogWalking : réservation, paiement, sécurité, devenir Accompagnateur. Centre d'aide complet avec FAQ structurée."
         canonical="https://dogwalking.fr/aide"
       />
       <Header />
