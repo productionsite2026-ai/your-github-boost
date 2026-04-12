@@ -13,8 +13,8 @@ export const Footer = () => {
               <span className="text-xl font-bold">DogWalking</span>
             </Link>
             <p className="text-white/70 text-sm mb-4">
-              La plateforme #1 en France pour les promenades de chiens. 
-              Promeneurs vérifiés, paiement sécurisé, preuves obligatoires.
+              La plateforme de mise en relation pour les Propriétaires d'animaux et les Accompagnateurs de confiance en France. 
+              Paiement sécurisé, preuves obligatoires.
             </p>
             <div className="flex gap-3">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -33,11 +33,11 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-3 text-sm uppercase tracking-wider">Nos Services</h3>
             <ul className="space-y-2 text-sm text-white/70">
-              <li><Link to="/services/promenade" className="hover:text-white transition-colors">Promenade de chien</Link></li>
-              <li><Link to="/services/garde" className="hover:text-white transition-colors">Garde de chien</Link></li>
+              <li><Link to="/services/promenade" className="hover:text-white transition-colors">Promenade</Link></li>
+              <li><Link to="/services/garde" className="hover:text-white transition-colors">Garde</Link></li>
               <li><Link to="/services/visite" className="hover:text-white transition-colors">Visite à domicile</Link></li>
-              <li><Link to="/services/dog-sitting" className="hover:text-white transition-colors">Dog sitting</Link></li>
-              <li><Link to="/services/pet-sitting" className="hover:text-white transition-colors">Pet sitting</Link></li>
+              <li><Link to="/services/dog-sitting" className="hover:text-white transition-colors">Garde à domicile</Link></li>
+              <li><Link to="/services/pet-sitting" className="hover:text-white transition-colors">Tout animal</Link></li>
               <li><Link to="/tarifs" className="hover:text-white transition-colors">Nos tarifs</Link></li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-3 text-sm uppercase tracking-wider">Propriétaires</h3>
             <ul className="space-y-2 text-sm text-white/70">
-              <li><Link to="/find-walkers" className="hover:text-white transition-colors">Trouver un promeneur</Link></li>
+              <li><Link to="/find-walkers" className="hover:text-white transition-colors">Trouver un Accompagnateur</Link></li>
               <li><Link to="/nous-sommes-presents" className="hover:text-white transition-colors">Zones d'intervention</Link></li>
               <li><Link to="/dashboard" className="hover:text-white transition-colors">Mon espace</Link></li>
               <li><Link to="/dashboard?tab=parrainage" className="hover:text-white transition-colors">Parrainage</Link></li>
@@ -60,7 +60,7 @@ export const Footer = () => {
               <li><Link to="/support?tab=a-propos" className="hover:text-white transition-colors">Qui sommes-nous</Link></li>
               <li><Link to="/support" className="hover:text-white transition-colors">Centre d'aide</Link></li>
               <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link to="/walker/register" className="hover:text-white transition-colors">Devenir promeneur</Link></li>
+              <li><Link to="/walker/register" className="hover:text-white transition-colors">Devenir Accompagnateur</Link></li>
               <li><Link to="/support?tab=contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
